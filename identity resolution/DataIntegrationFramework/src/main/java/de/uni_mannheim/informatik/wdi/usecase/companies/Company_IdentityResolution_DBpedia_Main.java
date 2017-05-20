@@ -57,6 +57,8 @@ public class Company_IdentityResolution_DBpedia_Main {
 		LinearCombinationMatchingRule<Company> matchingRule = new LinearCombinationMatchingRule<Company>(0.05);
 		matchingRule.addComparator(new CompanyIndustryComparatorJaccard(), 0.9);
 		matchingRule.addComparator(new CompanyNameComparatorJaccard(), 0.1);
+		matchingRule.addComparator(new CompanyRevenueComparatorRelative(), 0.05);
+		matchingRule.addComparator(new CompanyAssetsComparatorRelative(), 0.05);
 
 
 		//BlockingKeyGenerator<Company> blockingKeyGenerator = new CompanyBlockingKeyByCountryGenerator();
