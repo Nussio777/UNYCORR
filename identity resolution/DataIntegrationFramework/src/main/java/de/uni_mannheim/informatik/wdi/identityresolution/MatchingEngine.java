@@ -53,6 +53,7 @@ public class MatchingEngine<RecordType extends Matchable> {
 
 	protected MatchingRule<RecordType> rule;
 	protected Blocker<RecordType> blocker;
+	private List<Pair<RecordType, RecordType>> allPairs = null;
 
 	/**
 	 * Creates a matching engine with the specified rule and blocker
@@ -63,6 +64,10 @@ public class MatchingEngine<RecordType extends Matchable> {
 	public MatchingEngine(MatchingRule<RecordType> rule, Blocker<RecordType> blocker) {
 		this.rule = rule;
 		this.blocker = blocker;
+	}
+
+	public List<Pair<RecordType, RecordType>> getAllPairs() {
+		return allPairs;
 	}
 
 	/**
@@ -91,7 +96,7 @@ public class MatchingEngine<RecordType extends Matchable> {
 		List<Correspondence<RecordType>> result = new LinkedList<>();
 
 		// use the blocker to generate pairs
-		List<Pair<RecordType, RecordType>> allPairs = blocker.generatePairs(dataset, symmetric);
+		allPairs = blocker.generatePairs(dataset, symmetric);
 
 		System.out.println(
 				String.format("Duplicate Detection %,d x %,d elements; %,d blocked pairs (reduction ratio: %.2f)",
@@ -145,7 +150,7 @@ public class MatchingEngine<RecordType extends Matchable> {
 		List<Correspondence<RecordType>> result = new LinkedList<>();
 
 		// use the blocker to generate pairs
-		List<Pair<RecordType, RecordType>> allPairs = blocker.generatePairs(dataset1, dataset2);
+		allPairs = blocker.generatePairs(dataset1, dataset2);
 
 		System.out.println(String.format("Matching %,d x %,d elements; %,d blocked pairs (reduction ratio: %s)",
 				dataset1.getSize(), dataset2.getSize(), allPairs.size(), Double.toString(blocker.getReductionRatio())));

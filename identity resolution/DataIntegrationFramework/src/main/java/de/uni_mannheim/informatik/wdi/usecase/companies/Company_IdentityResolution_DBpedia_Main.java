@@ -21,17 +21,16 @@ import de.uni_mannheim.informatik.wdi.identityresolution.Correspondence;
 import de.uni_mannheim.informatik.wdi.identityresolution.LinearCombinationMatchingRule;
 import de.uni_mannheim.informatik.wdi.identityresolution.MatchingEngine;
 import de.uni_mannheim.informatik.wdi.identityresolution.MatchingEvaluator;
-import de.uni_mannheim.informatik.wdi.identityresolution.blocking.Blocker;
-import de.uni_mannheim.informatik.wdi.identityresolution.blocking.StandardBlocker;
+import de.uni_mannheim.informatik.wdi.identityresolution.blocking.*;
 import de.uni_mannheim.informatik.wdi.model.DataSet;
 import de.uni_mannheim.informatik.wdi.model.MatchingEvaluationResult;
 import de.uni_mannheim.informatik.wdi.model.MatchingGoldStandard;
 import de.uni_mannheim.informatik.wdi.model.Performance;
-import de.uni_mannheim.informatik.wdi.usecase.companies.identityresolution.CompanyBlockingKeyByDecadeGenerator;
-import de.uni_mannheim.informatik.wdi.usecase.companies.identityresolution.CompanyNameComparatorLevenshtein;
+import de.uni_mannheim.informatik.wdi.usecase.companies.identityresolution.*;
 import de.uni_mannheim.informatik.wdi.usecase.companies.model.Company;
 import de.uni_mannheim.informatik.wdi.usecase.companies.model.CompanyCSVFormatter;
 import de.uni_mannheim.informatik.wdi.usecase.companies.model.CompanyFactory;
+import de.uni_mannheim.informatik.wdi.usecase.movies.model.Movie;
 
 import java.io.File;
 import java.util.List;
@@ -51,14 +50,24 @@ public class Company_IdentityResolution_DBpedia_Main {
 
 		// Load Dataset2
 		DataSet<Company> dataset2 = new DataSet<>();
-		dataset2.loadFromXML(new File("src/main/resources/DBpedia/DBpedia_SM_Results_01.xml"), new CompanyFactory(),
+		dataset2.loadFromXML(new File("src/main/resources/DBpedia/DBpedia_SM_Results_02.xml"), new CompanyFactory(),
 				"/companies/company");
 
 		// Matching Rule
 		LinearCombinationMatchingRule<Company> matchingRule = new LinearCombinationMatchingRule<Company>(0.1);
-		matchingRule.addComparator(new CompanyNameComparatorLevenshtein(), 1.0);
+		matchingRule.addComparator(new CompanyIndustryComparatorLevenshtein(), 0.7);
+		matchingRule.addComparator(new CompanyNameComparatorLevenshtein(), 0.3);
 
-		Blocker<Company> blocker = new StandardBlocker<Company>(new CompanyBlockingKeyByDecadeGenerator());
+
+		BlockingKeyGenerator<Company> blockingKeyGenerator = new CompanyBlockingKeyByCountryGenerator();
+		//BlockingKeyGenerator<Company> blockingKeyGenerator = new BlockingKeyGenerator<Company>() {
+		//	@Override
+		//	public String getBlockingKey(Company instance) {
+		//		return "";
+		//	}
+		//};
+
+		Blocker<Company> blocker = new StandardBlocker<Company>(blockingKeyGenerator);
 
 		// Initialize Matching Engine
 		MatchingEngine<Company> engine = new MatchingEngine<Company>(matchingRule, blocker);
@@ -76,17 +85,26 @@ public class Company_IdentityResolution_DBpedia_Main {
 		// evaluate your result
 		MatchingEvaluator<Company> evaluator = new MatchingEvaluator<Company>();
 
-		// // evaluate your result
+		// evaluate your result
 		MatchingEvaluationResult<Company> mResult = evaluator.calculateMatchingResult(correspondences_Forbes_dataset2,
 				forbes_dataset2);
 		Performance perfTest2 = mResult.getPerformance();
 		mResult.writeToCSV(new File("src/main/resources/output/matching_result_Forbes_DBpedia.csv"),
 				new CompanyCSVFormatter());
 
+		// Evaluate blocking
+		BlockingEvaluator<Company> blockingEvaluator = new BlockingEvaluator<>(blockingKeyGenerator, true);
+		BlockingPerformance blockingPerformance = blockingEvaluator.evaluateBlocking(engine.getAllPairs(), forbes_dataset2);
+
 		// print the evaluation result
 		System.out.println("Forbes <-> DBpedia");
-		System.out.println(String.format("Precision: %.4f\nRecall: %.4f\nF1:  %.4f", perfTest2.getPrecision(),
-				perfTest2.getRecall(), perfTest2.getF1()));
+		System.out.println(String.format(
+				"Precision: %.4f\nRecall: %.4f\nF1: %.4f\nReductionRatio: %.4f\nPairCompleteness: %.4f",
+				perfTest2.getPrecision(),
+				perfTest2.getRecall(),
+				perfTest2.getF1(),
+				blocker.getReductionRatio(),
+				blockingPerformance.getPairCompleteness()));
 
 	}
 
