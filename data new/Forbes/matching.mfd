@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Edited with Altova MapForce 2017r3 -->
+<mapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="30">
+	<resources/>
+	<component name="defaultmap" uid="1" editable="1">
+		<properties SelectedLanguage="builtin"/>
+		<structure>
+			<children>
+				<component name="target_schema" library="xml" uid="25" kind="14">
+					<properties XSLTDefaultOutput="1"/>
+					<view ltx="850" rbx="1104" rby="328"/>
+					<data>
+						<root scrollposition="1">
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="FileInstance" ns="1" expanded="1">
+								<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
+									<entry name="companies" expanded="1">
+										<entry name="company" inpkey="24" expanded="1">
+											<entry name="id" inpkey="25"/>
+											<entry name="name" inpkey="26"/>
+											<entry name="country" inpkey="27"/>
+											<entry name="industry" inpkey="28"/>
+											<entry name="assets" inpkey="18"/>
+											<entry name="revenue" inpkey="29"/>
+											<entry name="keypeople" expanded="1"/>
+										</entry>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<document schema="..\..\data original\target_schema.xsd" inputinstance="..\..\data original\target_schema.xml" outputinstance="..\..\data original\target_schema.xml" instanceroot="{}companies"/>
+					</data>
+				</component>
+				<component name="CountryCodes" library="text" uid="14" kind="16">
+					<properties/>
+					<view lty="309" rbx="175" rby="497"/>
+					<data>
+						<root>
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="FileInstance" ns="1" expanded="1">
+								<entry name="document" ns="1" expanded="1">
+									<entry name="Rows" outkey="30" expanded="1"/>
+								</entry>
+							</entry>
+						</root>
+						<text type="csv" inputinstance="C:\Users\simon\OneDrive\Dokumente\Studium\Master\Vorlesungen\20200_Web_Data_Integration\Windows\UNYCORR\data original\country_code3_mapping.tsv" encoding="1" byteorder="1" byteordermark="0">
+							<settings separator="	" quote="&quot;" firstrownames="false" removeempty="true">
+								<names root="country_code3_mapping" block="Rows">
+									<field0 name="Country" type="string"/>
+									<field1 name="Code" type="string"/>
+								</names>
+							</settings>
+						</text>
+					</data>
+				</component>
+				<component name="join" library="core" uid="30" kind="32">
+					<properties/>
+					<view ltx="354" lty="296" rbx="516" rby="603"/>
+					<data>
+						<root scrollposition="1">
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="document" ns="1" expanded="1">
+								<entry name="tuple" ns="1" expanded="1">
+									<entry name="dynamic_tree_node0" ns="1" expanded="1">
+										<entry name="Rows" inpkey="31" expanded="1"/>
+									</entry>
+									<entry name="dynamic_tree_node1" ns="1" expanded="1">
+										<entry name="Rows" inpkey="32" expanded="1">
+											<entry name="Country" outkey="33"/>
+										</entry>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<join>
+							<joinkeys>
+								<keypair>
+									<first-key path-id="1"/>
+									<second-key path-id="2"/>
+								</keypair>
+							</joinkeys>
+							<keypaths>
+								<header>
+									<namespaces>
+										<namespace/>
+									</namespaces>
+								</header>
+								<entry>
+									<condition/>
+									<entry name="Code" outkey="2">
+										<condition/>
+									</entry>
+									<entry name="Country" outkey="1">
+										<condition/>
+									</entry>
+								</entry>
+							</keypaths>
+						</join>
+					</data>
+				</component>
+				<component name="Forbes" library="text" uid="2" kind="16">
+					<properties/>
+					<view rbx="175" rby="220"/>
+					<data>
+						<root>
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="FileInstance" ns="1" expanded="1">
+								<entry name="document" ns="1" expanded="1">
+									<entry name="Rows" outkey="34" expanded="1">
+										<entry name="Company" outkey="35"/>
+										<entry name="Industry" outkey="36"/>
+										<entry name="Sales" outkey="5"/>
+										<entry name="Assets" outkey="19"/>
+										<entry name="Identifier" outkey="37"/>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<text type="csv" inputinstance="C:\Users\simon\OneDrive\Dokumente\Studium\Master\Vorlesungen\20200_Web_Data_Integration\Windows\UNYCORR\data original\forbes.csv" encoding="1000" byteorder="1" byteordermark="0">
+							<settings separator="	" quote="&quot;" firstrownames="true" removeempty="true">
+								<names root="forbes" block="Rows">
+									<field0 name="Company" type="string"/>
+									<field1 name="Sector" type="string"/>
+									<field2 name="Industry" type="string"/>
+									<field3 name="Continent" type="string"/>
+									<field4 name="Country" type="string"/>
+									<field5 name="Market Value" type="decimal"/>
+									<field6 name="Sales" type="decimal"/>
+									<field7 name="Profits" type="decimal"/>
+									<field8 name="Assets" type="decimal"/>
+									<field9 name="Rank" type="string"/>
+									<field10 name="Identifier" type="string"/>
+								</names>
+							</settings>
+						</text>
+					</data>
+				</component>
+				<component name="to-billions" library="user" uid="37" kind="19" visible="0">
+					<view ltx="418" lty="206" rbx="527" rby="223"/>
+					<data>
+						<root>
+							<header>
+								<namespaces>
+									<namespace/>
+								</namespaces>
+							</header>
+							<entry name="value1" inpkey="23" componentid="34"/>
+						</root>
+						<root>
+							<header>
+								<namespaces>
+									<namespace/>
+								</namespaces>
+							</header>
+							<entry name="assets" outkey="22" componentid="35"/>
+						</root>
+					</data>
+				</component>
+				<component name="to-billions" library="user" uid="36" kind="19" visible="0">
+					<view ltx="418" lty="168" rbx="527" rby="185"/>
+					<data>
+						<root>
+							<header>
+								<namespaces>
+									<namespace/>
+								</namespaces>
+							</header>
+							<entry name="value1" inpkey="20" componentid="34"/>
+						</root>
+						<root>
+							<header>
+								<namespaces>
+									<namespace/>
+								</namespaces>
+							</header>
+							<entry name="assets" outkey="21" componentid="35"/>
+						</root>
+					</data>
+				</component>
+			</children>
+			<graph directed="1">
+				<edges>
+					<edge edgekey="38">
+						<data>
+							<dataconnection type="2"/>
+						</data>
+					</edge>
+					<edge edgekey="39">
+						<data>
+							<dataconnection type="2"/>
+						</data>
+					</edge>
+				</edges>
+				<vertices>
+					<vertex vertexkey="5">
+						<edges>
+							<edge vertexkey="23" edgekey="40"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="19">
+						<edges>
+							<edge vertexkey="20" edgekey="41"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="21">
+						<edges>
+							<edge vertexkey="18" edgekey="42"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="22">
+						<edges>
+							<edge vertexkey="29" edgekey="43"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="30">
+						<edges>
+							<edge vertexkey="32" edgekey="39"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="33">
+						<edges>
+							<edge vertexkey="27" edgekey="44"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="34">
+						<edges>
+							<edge vertexkey="24" edgekey="45"/>
+							<edge vertexkey="31" edgekey="38"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="35">
+						<edges>
+							<edge vertexkey="26" edgekey="46"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="36">
+						<edges>
+							<edge vertexkey="28" edgekey="47"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="37">
+						<edges>
+							<edge vertexkey="25" edgekey="48"/>
+						</edges>
+					</vertex>
+				</vertices>
+			</graph>
+		</structure>
+	</component>
+	<component name="to-billions" library="user" uid="31" editable="1" inline="1">
+		<properties/>
+		<description/>
+		<structure>
+			<children>
+				<component name="constant" library="core" uid="32" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="2"/>
+					</targets>
+					<view ltx="250" lty="39" rbx="342" rby="56"/>
+					<data>
+						<constant value="1000000000" datatype="decimal"/>
+					</data>
+				</component>
+				<component name="multiply" library="core" uid="33" kind="5" growable="1" growablebasename="value">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="4"/>
+						<datapoint pos="1" key="3"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="1"/>
+					</targets>
+					<view ltx="379" rbx="457" rby="56"/>
+				</component>
+				<component name="value1" library="core" uid="34" kind="6">
+					<properties/>
+					<sources>
+						<datapoint/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="5"/>
+					</targets>
+					<view rbx="86" rby="38"/>
+					<data>
+						<input datatype="decimal"/>
+						<parameter usageKind="input" name="value1"/>
+					</data>
+				</component>
+				<component name="assets" library="core" uid="35" kind="7">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="6"/>
+					</sources>
+					<view ltx="707" rbx="766" rby="38"/>
+					<data>
+						<output datatype="decimal"/>
+						<parameter usageKind="output" name="assets"/>
+					</data>
+				</component>
+			</children>
+			<graph directed="1">
+				<edges/>
+				<vertices>
+					<vertex vertexkey="1">
+						<edges>
+							<edge vertexkey="6" edgekey="7"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2">
+						<edges>
+							<edge vertexkey="3" edgekey="8"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="5">
+						<edges>
+							<edge vertexkey="4" edgekey="9"/>
+						</edges>
+					</vertex>
+				</vertices>
+			</graph>
+		</structure>
+	</component>
+</mapping>
