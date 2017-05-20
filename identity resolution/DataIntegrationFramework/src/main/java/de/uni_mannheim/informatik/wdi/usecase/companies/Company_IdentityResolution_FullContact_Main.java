@@ -40,18 +40,18 @@ import java.util.List;
  * @author Robert
  *
  */
-public class Company_IdentityResolution_Main {
+public class Company_IdentityResolution_FullContact_Main {
 
 	// before running this class, replace the TODOs with the correct files
 	public static void main(String[] args) throws Exception {
 		// Load Forbes
 		System.out.println("Loading Forbes");
 		DataSet<Company> forbes = new DataSet<>();
-		forbes.loadFromXML(new File("TODO Forbes file"), new CompanyFactory(), "/companies/company");
+		forbes.loadFromXML(new File("src/main/resources/Forbes/Forbes_SM_Results_01.xml"), new CompanyFactory(), "/companies/company");
 
 		// Load Dataset2
 		DataSet<Company> dataset2 = new DataSet<>();
-		dataset2.loadFromXML(new File("TODO Dataset2 file, either DBpedia or Fullcontact"), new CompanyFactory(),
+		dataset2.loadFromXML(new File("src/main/resources/FullContact/FullContact_SM_Result_01.xml"), new CompanyFactory(),
 				"/companies/company");
 
 		// Matching Rule
@@ -67,11 +67,11 @@ public class Company_IdentityResolution_Main {
 		List<Correspondence<Company>> correspondences_Forbes_dataset2 = engine.runMatching(forbes, dataset2);
 
 		// write the correspondences to the output file
-		engine.writeCorrespondences(correspondences_Forbes_dataset2, new File("TODO correspondence file"));
+		engine.writeCorrespondences(correspondences_Forbes_dataset2, new File("src/main/resources/output/correspondences_Forbes_FullContact.csv"));
 
 		// load the gold standard (test set)
 		MatchingGoldStandard forbes_dataset2 = new MatchingGoldStandard();
-		forbes_dataset2.loadFromCSVFile(new File("TODO goldstandard between dataset2 and forbes"));
+		forbes_dataset2.loadFromCSVFile(new File("src/main/resources/goldstandard/forbes_fullcontact_mapping.csv"));
 
 		// evaluate your result
 		MatchingEvaluator<Company> evaluator = new MatchingEvaluator<Company>();
@@ -80,11 +80,11 @@ public class Company_IdentityResolution_Main {
 		MatchingEvaluationResult<Company> mResult = evaluator.calculateMatchingResult(correspondences_Forbes_dataset2,
 				forbes_dataset2);
 		Performance perfTest2 = mResult.getPerformance();
-		mResult.writeToCSV(new File("TODO file for the matches (correct, incorrect, missing)"),
+		mResult.writeToCSV(new File("src/main/resources/output/matching_result_Forbes_FullContact.csv"),
 				new CompanyCSVFormatter());
 
 		// print the evaluation result
-		System.out.println("Forbes <-> Dataset2");
+		System.out.println("Forbes <-> FullContact");
 		System.out.println(String.format("Precision: %.4f\nRecall: %.4f\nF1:  %.4f", perfTest2.getPrecision(),
 				perfTest2.getRecall(), perfTest2.getF1()));
 

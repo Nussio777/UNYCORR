@@ -17,10 +17,6 @@
 */
 package de.uni_mannheim.informatik.wdi.usecase.companies;
 
-import java.io.File;
-
-import org.joda.time.DateTime;
-
 import de.uni_mannheim.informatik.wdi.datafusion.CorrespondenceSet;
 import de.uni_mannheim.informatik.wdi.datafusion.DataFusionEngine;
 import de.uni_mannheim.informatik.wdi.datafusion.DataFusionEvaluator;
@@ -28,17 +24,14 @@ import de.uni_mannheim.informatik.wdi.datafusion.DataFusionStrategy;
 import de.uni_mannheim.informatik.wdi.model.DataSet;
 import de.uni_mannheim.informatik.wdi.model.FusableDataSet;
 import de.uni_mannheim.informatik.wdi.model.FusionEvaluationResult;
-import de.uni_mannheim.informatik.wdi.usecase.companies.datafusion.evaluation.AssetsEvaluationRule;
-import de.uni_mannheim.informatik.wdi.usecase.companies.datafusion.evaluation.CityEvaluationRule;
-import de.uni_mannheim.informatik.wdi.usecase.companies.datafusion.evaluation.CountryEvaluationRule;
-import de.uni_mannheim.informatik.wdi.usecase.companies.datafusion.evaluation.FoundedEvaluationRule;
-import de.uni_mannheim.informatik.wdi.usecase.companies.datafusion.evaluation.KeyPersonEvaluationRule;
-import de.uni_mannheim.informatik.wdi.usecase.companies.datafusion.evaluation.NameEvaluationRule;
-import de.uni_mannheim.informatik.wdi.usecase.companies.datafusion.evaluation.RevenueEvaluationRule;
+import de.uni_mannheim.informatik.wdi.usecase.companies.datafusion.evaluation.*;
 import de.uni_mannheim.informatik.wdi.usecase.companies.model.Company;
 import de.uni_mannheim.informatik.wdi.usecase.companies.model.CompanyCSVFormatter;
 import de.uni_mannheim.informatik.wdi.usecase.companies.model.CompanyFactory;
 import de.uni_mannheim.informatik.wdi.usecase.companies.model.CompanyXMLFormatter;
+import org.joda.time.DateTime;
+
+import java.io.File;
 
 /**
  * @author Robert Meusel (robert@dwslab.de)
@@ -51,19 +44,19 @@ public class Company_DataFusion_Main {
 		// Forbes
 		System.out.println("FORBES");
 		FusableDataSet<Company> forbes = new FusableDataSet<>();
-		forbes.loadFromXML(new File("TODO forbes file"), new CompanyFactory(), "/companies/company");
+		forbes.loadFromXML(new File("src/main/resources/Forbes/Forbes_SM_Results_01.xml"), new CompanyFactory(), "/companies/company");
 		forbes.printDataSetDensityReport();
 
 		// DBpedia
 		System.out.println("DBPEDIA");
 		FusableDataSet<Company> dbpedia = new FusableDataSet<>();
-		dbpedia.loadFromXML(new File("TODO dbpedia file"), new CompanyFactory(), "/companies/company");
+		dbpedia.loadFromXML(new File("src/main/resources/DBpedia/DBpedia_SM_Results_01.xml"), new CompanyFactory(), "/companies/company");
 		dbpedia.printDataSetDensityReport();
 
 		// Fullcontact
 		System.out.println("FULLCONTACT");
 		FusableDataSet<Company> fullcontact = new FusableDataSet<>();
-		fullcontact.loadFromXML(new File("TODO fullcontact file"), new CompanyFactory(), "/companies/company");
+		fullcontact.loadFromXML(new File("src/main/resources/FullContact/FullContact_SM_Result_01.xml"), new CompanyFactory(), "/companies/company");
 		fullcontact.printDataSetDensityReport();
 
 		// Maintain Provenance
@@ -78,10 +71,10 @@ public class Company_DataFusion_Main {
 
 		// load correspondences
 		CorrespondenceSet<Company> correspondences = new CorrespondenceSet<>();
-		correspondences.loadCorrespondences(new File("TODO correspondence files between forbes and dbpedia from IR"),
+		correspondences.loadCorrespondences(new File("src/main/resources/output/correspondences_Forbes_DBpedia.csv"),
 				forbes, dbpedia);
 		correspondences.loadCorrespondences(
-				new File("TODO correspondence filse between forbes and fullcontact from IR"), forbes, fullcontact);
+				new File("src/main/resources/output/correspondences_Forbes_FullContact.csv"), forbes, fullcontact);
 		correspondences.printGroupSizeDistribution();
 
 		// Define data fusion strategy
@@ -106,11 +99,11 @@ public class Company_DataFusion_Main {
 		FusableDataSet<Company> fusedDataSet = engine.run(correspondences);
 
 		// write the result
-		fusedDataSet.writeXML(new File("TODO fused output file"), new CompanyXMLFormatter());
+		fusedDataSet.writeXML(new File("src/main/resources/outputDataFusion_result_01.xml"), new CompanyXMLFormatter());
 
 		// load the gold standard
 		DataSet<Company> gs = new FusableDataSet<>();
-		gs.loadFromXML(new File("TODO goldstandard with fused data"), new CompanyFactory(), "/companies/company");
+		gs.loadFromXML(new File("src/main/resources/goldstandard/gs_fusion.xml"), new CompanyFactory(), "/companies/company");
 
 		// evaluate
 		DataFusionEvaluator<Company> evaluator = new DataFusionEvaluator<>(strategy);
@@ -118,7 +111,7 @@ public class Company_DataFusion_Main {
 		FusionEvaluationResult<Company> result = evaluator.calculateFusionResult(fusedDataSet, gs);
 		result.printPerformance();
 
-		result.writeToCSV(new File("TODO error file"), new CompanyCSVFormatter());
+		result.writeToCSV(new File("src/main/resources/output/DataFusion_error_01.csv"), new CompanyCSVFormatter());
 
 	}
 
