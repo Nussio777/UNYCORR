@@ -61,15 +61,16 @@ public class Company_IdentityResolution_DBpedia_Main {
 
 
 
-		//BlockingKeyGenerator<Company> blockingKeyGenerator = new CompanyBlockingKeyByCountryGenerator();
-		BlockingKeyGenerator<Company> blockingKeyGenerator = new BlockingKeyGenerator<Company>() {
+		BlockingKeyGenerator<Company> blockingKeyGenerator = new CompanyBlockingKeyByFirstCharGenerator();
+		/*BlockingKeyGenerator<Company> blockingKeyGenerator = new BlockingKeyGenerator<Company>() {
 			@Override
 			public String getBlockingKey(Company instance) {
 				return "";
 			}
-		};
+		};*/
 
-		Blocker<Company> blocker = new StandardBlocker<Company>(blockingKeyGenerator);
+
+		Blocker<Company> blocker = new SortedNeighbourhoodBlocker<>(blockingKeyGenerator, 1000);
 
 		// Initialize Matching Engine
 		MatchingEngine<Company> engine = new MatchingEngine<Company>(matchingRule, blocker);

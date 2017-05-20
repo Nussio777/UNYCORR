@@ -32,14 +32,13 @@ public class CompanyBlockingKeyByFirstCharGenerator extends BlockingKeyGenerator
 
 	@Override
 	public String getBlockingKey(Company instance) {
-		try {
-			if (instance.getName() != null) {
+		if (instance.getName() != null) {
+			if(instance.getName().length() > 0) {
 				return instance.getName().substring(0, 1);
-			} else {
-				return null;
+			} else{
+				return "";
 			}
-		} catch (Exception e) {
-			int f = 0;
+		} else {
 			return null;
 		}
 	}
