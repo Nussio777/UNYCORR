@@ -54,23 +54,23 @@ public class Company_IdentityResolution_DBpedia_Main {
 				"/companies/company");
 
 		// Matching Rule
-		LinearCombinationMatchingRule<Company> matchingRule = new LinearCombinationMatchingRule<Company>(0.045);
-		matchingRule.addComparator(new CompanyIndustryComparatorJaccard(), 0.9);
-		matchingRule.addComparator(new CompanyNameComparatorJaccard(), 0.1);
+		LinearCombinationMatchingRule<Company> matchingRule = new LinearCombinationMatchingRule<Company>(0.6);
+		matchingRule.addComparator(new CompanyIndustryComparatorJaccard(), 0.1);
+		matchingRule.addComparator(new CompanyNameComparatorJaccard(), 0.9);
 		matchingRule.addComparator(new CompanyRevenueComparatorRelative(), 0.1);
 
 
 
-		BlockingKeyGenerator<Company> blockingKeyGenerator = new CompanyBlockingKeyByFirstCharGenerator();
-		/*BlockingKeyGenerator<Company> blockingKeyGenerator = new BlockingKeyGenerator<Company>() {
+		//BlockingKeyGenerator<Company> blockingKeyGenerator = new CompanyBlockingKeyByFirstCharGenerator();
+		BlockingKeyGenerator<Company> blockingKeyGenerator = new BlockingKeyGenerator<Company>() {
 			@Override
 			public String getBlockingKey(Company instance) {
 				return "";
 			}
-		};*/
+		};
 
 
-		Blocker<Company> blocker = new SortedNeighbourhoodBlocker<>(blockingKeyGenerator, 1000);
+		Blocker<Company> blocker = new StandardBlocker<>(blockingKeyGenerator);
 
 		// Initialize Matching Engine
 		MatchingEngine<Company> engine = new MatchingEngine<Company>(matchingRule, blocker);
