@@ -22,12 +22,14 @@ import de.uni_mannheim.informatik.wdi.identityresolution.LinearCombinationMatchi
 import de.uni_mannheim.informatik.wdi.identityresolution.MatchingEngine;
 import de.uni_mannheim.informatik.wdi.identityresolution.MatchingEvaluator;
 import de.uni_mannheim.informatik.wdi.identityresolution.blocking.Blocker;
+import de.uni_mannheim.informatik.wdi.identityresolution.blocking.NoBlocker;
 import de.uni_mannheim.informatik.wdi.identityresolution.blocking.SortedNeighbourhoodBlocker;
 import de.uni_mannheim.informatik.wdi.model.DataSet;
 import de.uni_mannheim.informatik.wdi.model.MatchingEvaluationResult;
 import de.uni_mannheim.informatik.wdi.model.MatchingGoldStandard;
 import de.uni_mannheim.informatik.wdi.model.Performance;
 import de.uni_mannheim.informatik.wdi.usecase.companies.identityresolution.CompanyBlockingKeyByFirstCharGenerator;
+import de.uni_mannheim.informatik.wdi.usecase.companies.identityresolution.CompanyNameComparatorJaccard;
 import de.uni_mannheim.informatik.wdi.usecase.companies.identityresolution.CompanyNameComparatorLevenshtein;
 import de.uni_mannheim.informatik.wdi.usecase.companies.model.Company;
 import de.uni_mannheim.informatik.wdi.usecase.companies.model.CompanyCSVFormatter;
@@ -55,10 +57,10 @@ public class Company_IdentityResolution_FullContact_Main {
 				"/companies/company");
 
 		// Matching Rule
-		LinearCombinationMatchingRule<Company> matchingRule = new LinearCombinationMatchingRule<Company>(0.1);
-		matchingRule.addComparator(new CompanyNameComparatorLevenshtein(), 1.0);
+		LinearCombinationMatchingRule<Company> matchingRule = new LinearCombinationMatchingRule<Company>(0.75);
+		matchingRule.addComparator(new CompanyNameComparatorJaccard(), 1.0);
 
-		Blocker<Company> blocker = new SortedNeighbourhoodBlocker<Company>(new CompanyBlockingKeyByFirstCharGenerator(), 20);
+		Blocker<Company> blocker = new NoBlocker<Company>();
 
 		// Initialize Matching Engine
 		MatchingEngine<Company> engine = new MatchingEngine<Company>(matchingRule, blocker);

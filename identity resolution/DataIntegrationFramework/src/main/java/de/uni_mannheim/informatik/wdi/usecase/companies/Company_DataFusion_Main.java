@@ -25,6 +25,7 @@ import de.uni_mannheim.informatik.wdi.model.DataSet;
 import de.uni_mannheim.informatik.wdi.model.FusableDataSet;
 import de.uni_mannheim.informatik.wdi.model.FusionEvaluationResult;
 import de.uni_mannheim.informatik.wdi.usecase.companies.datafusion.evaluation.*;
+import de.uni_mannheim.informatik.wdi.usecase.companies.datafusion.fusers.*;
 import de.uni_mannheim.informatik.wdi.usecase.companies.model.Company;
 import de.uni_mannheim.informatik.wdi.usecase.companies.model.CompanyCSVFormatter;
 import de.uni_mannheim.informatik.wdi.usecase.companies.model.CompanyFactory;
@@ -50,7 +51,7 @@ public class Company_DataFusion_Main {
 		// DBpedia
 		System.out.println("DBPEDIA");
 		FusableDataSet<Company> dbpedia = new FusableDataSet<>();
-		dbpedia.loadFromXML(new File("src/main/resources/DBpedia/DBpedia_SM_Results_01.xml"), new CompanyFactory(), "/companies/company");
+		dbpedia.loadFromXML(new File("src/main/resources/DBpedia/DBpedia_SM_Results_02.xml"), new CompanyFactory(), "/companies/company");
 		dbpedia.printDataSetDensityReport();
 
 		// Fullcontact
@@ -81,13 +82,15 @@ public class Company_DataFusion_Main {
 		// TODO replace NULL with fusion strategies
 		DataFusionStrategy<Company> strategy = new DataFusionStrategy<>(new CompanyFactory());
 
-		strategy.addAttributeFuser("name", null, new NameEvaluationRule());
-		strategy.addAttributeFuser("assets", null, new AssetsEvaluationRule());
-		strategy.addAttributeFuser("revenue", null, new RevenueEvaluationRule());
-		strategy.addAttributeFuser("founder", null, new KeyPersonEvaluationRule());
-		strategy.addAttributeFuser("founded", null, new FoundedEvaluationRule());
-		strategy.addAttributeFuser("country", null, new CountryEvaluationRule());
-		strategy.addAttributeFuser("city", null, new CityEvaluationRule());
+		strategy.addAttributeFuser("name", new NameFuserLongestString(), new NameEvaluationRule());
+		strategy.addAttributeFuser("assets", new AssetsFuserMax(), new AssetsEvaluationRule());
+		strategy.addAttributeFuser("revenue", new RevenueFuserMostRecent(), new RevenueEvaluationRule());
+                               /*strategy.addAttributeFuser("founder", new , new KeyPersonEvaluationRule());
+                               */
+		strategy.addAttributeFuser("founded", new FoundedFuserNewest(), new FoundedEvaluationRule());
+		strategy.addAttributeFuser("country", new CountryFuserVoting(), new CountryEvaluationRule());
+		strategy.addAttributeFuser("city", new CityFuserVoting(), new CityEvaluationRule());
+		// create the fusion engine
 
 		// create the fusion engine
 		DataFusionEngine<Company> engine = new DataFusionEngine<>(strategy);
