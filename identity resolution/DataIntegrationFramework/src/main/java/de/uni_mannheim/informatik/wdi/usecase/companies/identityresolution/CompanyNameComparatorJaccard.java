@@ -35,6 +35,9 @@ public class CompanyNameComparatorJaccard extends Comparator<Company> {
 
 	@Override
 	public double compare(Company entity1, Company entity2) {
+		if (entity1.getName().startsWith("Bank of") && (entity2.getName().startsWith("Bank of"))){
+			return sim.calculate(entity1.getName().substring(7), entity2.getName().substring(7));
+		}
 		double similarity = sim.calculate(entity1.getName(), entity2.getName());
 
 		return similarity;

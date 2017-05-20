@@ -54,11 +54,11 @@ public class Company_IdentityResolution_DBpedia_Main {
 				"/companies/company");
 
 		// Matching Rule
-		LinearCombinationMatchingRule<Company> matchingRule = new LinearCombinationMatchingRule<Company>(0.05);
+		LinearCombinationMatchingRule<Company> matchingRule = new LinearCombinationMatchingRule<Company>(0.045);
 		matchingRule.addComparator(new CompanyIndustryComparatorJaccard(), 0.9);
 		matchingRule.addComparator(new CompanyNameComparatorJaccard(), 0.1);
-		matchingRule.addComparator(new CompanyRevenueComparatorRelative(), 0.05);
-		matchingRule.addComparator(new CompanyAssetsComparatorRelative(), 0.05);
+		matchingRule.addComparator(new CompanyRevenueComparatorRelative(), 0.1);
+
 
 
 		//BlockingKeyGenerator<Company> blockingKeyGenerator = new CompanyBlockingKeyByCountryGenerator();
