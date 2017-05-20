@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="companies">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="company" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="identifier" type="xs:string"/>
+							<xs:element name="name" type="xs:string"/>
+							<xs:element name="countryName" type="xs:string"/>
+							<xs:element name="fyear" type="xs:string"/>
+							<xs:element name="cityName" type="xs:string"/>
+							<xs:element name="revenue" type="xs:string"/>
+							<xs:element name="assets" type="xs:string"/>
+							<xs:element name="industryName" type="xs:string"/>
+							<xs:element name="homepage">
+								<xs:complexType/>
+							</xs:element>
+							<xs:element name="founders">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="name" minOccurs="0" maxOccurs="unbounded" type="xs:string"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
