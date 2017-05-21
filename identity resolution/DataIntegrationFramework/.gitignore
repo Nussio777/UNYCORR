@@ -16,4 +16,4 @@ build
 uploads/*
 vendor
 target
-/src/main/resources/output/*
+src/main/resources/output/*
