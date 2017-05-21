@@ -2,7 +2,7 @@
   <company>
     <id>http://dbpedia.org/resource/Abu_Dhabi_Commercial_Bank+http://www.forbes.com/companies/abu-dhabi-commercial/</id>
     <name provenance="http://www.forbes.com/companies/abu-dhabi-commercial/">Abu Dhabi Commercial Bank</name>
-    <country provenance="http://dbpedia.org/resource/Abu_Dhabi_Commercial_Bank+http://www.forbes.com/companies/abu-dhabi-commercial/">United Arab Emirates</country>
+    <country provenance="http://www.forbes.com/companies/abu-dhabi-commercial/+http://dbpedia.org/resource/Abu_Dhabi_Commercial_Bank">United Arab Emirates</country>
     <city provenance="http://dbpedia.org/resource/Abu_Dhabi_Commercial_Bank">Abu Dhabi</city>
     <industry provenance=""/>
     <assets provenance="">4.99E10</assets>
@@ -46,7 +46,7 @@
   <company>
     <id>http://dbpedia.org/resource/Ecopetrol+http://www.forbes.com/companies/ecopetrol/</id>
     <name provenance="http://www.forbes.com/companies/ecopetrol/">Ecopetrol</name>
-    <country provenance="http://www.forbes.com/companies/ecopetrol/+http://dbpedia.org/resource/Ecopetrol">Colombia</country>
+    <country provenance="http://dbpedia.org/resource/Ecopetrol+http://www.forbes.com/companies/ecopetrol/">Colombia</country>
     <city provenance="http://dbpedia.org/resource/Ecopetrol">Bogotá</city>
     <industry provenance=""/>
     <assets provenance="">6.85E10</assets>
@@ -68,7 +68,7 @@
   <company>
     <id>http://dbpedia.org/resource/China_Oilfield_Services+http://www.forbes.com/companies/china-oilfield-service/</id>
     <name provenance="http://dbpedia.org/resource/China_Oilfield_Services">China Oilfield Services</name>
-    <country provenance="http://dbpedia.org/resource/China_Oilfield_Services+http://www.forbes.com/companies/china-oilfield-service/">China</country>
+    <country provenance="http://www.forbes.com/companies/china-oilfield-service/+http://dbpedia.org/resource/China_Oilfield_Services">China</country>
     <city provenance="http://dbpedia.org/resource/China_Oilfield_Services">Beijing</city>
     <industry provenance=""/>
     <assets provenance="">1.31E10</assets>
@@ -133,7 +133,7 @@
   <company>
     <id>http://dbpedia.org/resource/Abu_Dhabi_Islamic_Bank+http://www.forbes.com/companies/abu-dhabi-islamic-bank/</id>
     <name provenance="http://www.forbes.com/companies/abu-dhabi-islamic-bank/">Abu Dhabi Islamic Bank</name>
-    <country provenance="http://dbpedia.org/resource/Abu_Dhabi_Islamic_Bank+http://www.forbes.com/companies/abu-dhabi-islamic-bank/">United Arab Emirates</country>
+    <country provenance="http://www.forbes.com/companies/abu-dhabi-islamic-bank/+http://dbpedia.org/resource/Abu_Dhabi_Islamic_Bank">United Arab Emirates</country>
     <city provenance="http://dbpedia.org/resource/Abu_Dhabi_Islamic_Bank">Abu Dhabi</city>
     <industry provenance=""/>
     <assets provenance="">2.81E10</assets>
@@ -144,7 +144,7 @@
   <company>
     <id>http://dbpedia.org/resource/Cheung_Kong_Infrastructure_Holdings+http://www.forbes.com/companies/cheung-kong-holdings/</id>
     <name provenance="http://dbpedia.org/resource/Cheung_Kong_Infrastructure_Holdings">Cheung Kong Infrastructure Holdings</name>
-    <country provenance="http://www.forbes.com/companies/cheung-kong-holdings/+http://dbpedia.org/resource/Cheung_Kong_Infrastructure_Holdings">Hong Kong</country>
+    <country provenance="http://dbpedia.org/resource/Cheung_Kong_Infrastructure_Holdings+http://www.forbes.com/companies/cheung-kong-holdings/">Hong Kong</country>
     <city provenance="http://dbpedia.org/resource/Cheung_Kong_Infrastructure_Holdings">Hong Kong</city>
     <industry provenance=""/>
     <assets provenance="">5.53E10</assets>
@@ -165,7 +165,7 @@
   <company>
     <id>fullcontact_1446+fullcontact_33+http://dbpedia.org/resource/Nordstrom+http://www.forbes.com/companies/nordstrom/</id>
     <name provenance="http://www.forbes.com/companies/nordstrom/">Nordstrom</name>
-    <country provenance="fullcontact_33+fullcontact_1446+http://dbpedia.org/resource/Nordstrom">United States</country>
+    <country provenance="http://dbpedia.org/resource/Nordstrom+fullcontact_1446+fullcontact_33">United States</country>
     <city provenance="fullcontact_33">null</city>
     <industry provenance=""/>
     <assets provenance="">8.6E9</assets>
@@ -197,7 +197,7 @@
   <company>
     <id>http://dbpedia.org/resource/Bank_Leumi+http://www.forbes.com/companies/bank-leumi/</id>
     <name provenance="http://www.forbes.com/companies/bank-leumi/">Bank Leumi</name>
-    <country provenance="http://www.forbes.com/companies/bank-leumi/+http://dbpedia.org/resource/Bank_Leumi">Israel</country>
+    <country provenance="http://dbpedia.org/resource/Bank_Leumi+http://www.forbes.com/companies/bank-leumi/">Israel</country>
     <city provenance="http://dbpedia.org/resource/Bank_Leumi">Tel Aviv</city>
     <industry provenance=""/>
     <assets provenance="">1.036E11</assets>
@@ -229,11 +229,22 @@
   <company>
     <id>fullcontact_95+http://www.forbes.com/companies/anadolu-efes/</id>
     <name provenance="fullcontact_95">Anadolu Efes</name>
-    <country provenance="http://www.forbes.com/companies/anadolu-efes/+fullcontact_95">Turkey</country>
+    <country provenance="fullcontact_95+http://www.forbes.com/companies/anadolu-efes/">Turkey</country>
     <city provenance="fullcontact_95">İstanbul</city>
     <industry provenance=""/>
     <assets provenance="">1.04E10</assets>
     <revenue provenance="http://www.forbes.com/companies/anadolu-efes/">4.8E9</revenue>
+    <keypeople/>
+  </company>
+  <company>
+    <id>http://dbpedia.org/resource/CP_ALL+http://www.forbes.com/companies/cp-all/</id>
+    <name provenance="http://dbpedia.org/resource/CP_ALL">CP ALL</name>
+    <country provenance="http://dbpedia.org/resource/CP_ALL+http://www.forbes.com/companies/cp-all/">Thailand</country>
+    <city provenance="http://dbpedia.org/resource/CP_ALL">Si LomBangkokBang Rak District</city>
+    <industry provenance=""/>
+    <assets provenance="">8.8E9</assets>
+    <revenue provenance="http://www.forbes.com/companies/cp-all/">8.9E9</revenue>
+    <founded provenance="">1988-01-01T00:00:00.000+01:00</founded>
     <keypeople/>
   </company>
   <company>
@@ -245,17 +256,6 @@
     <assets provenance="">1.05676E11</assets>
     <revenue provenance="http://www.forbes.com/companies/hewlett-packard/">1.121E11</revenue>
     <founded provenance="">1939-01-01T00:00:00.000+01:00</founded>
-    <keypeople/>
-  </company>
-  <company>
-    <id>http://dbpedia.org/resource/CP_ALL+http://www.forbes.com/companies/cp-all/</id>
-    <name provenance="http://dbpedia.org/resource/CP_ALL">CP ALL</name>
-    <country provenance="http://www.forbes.com/companies/cp-all/+http://dbpedia.org/resource/CP_ALL">Thailand</country>
-    <city provenance="http://dbpedia.org/resource/CP_ALL">Si LomBangkokBang Rak District</city>
-    <industry provenance=""/>
-    <assets provenance="">8.8E9</assets>
-    <revenue provenance="http://www.forbes.com/companies/cp-all/">8.9E9</revenue>
-    <founded provenance="">1988-01-01T00:00:00.000+01:00</founded>
     <keypeople/>
   </company>
   <company>
@@ -314,17 +314,6 @@
     <keypeople/>
   </company>
   <company>
-    <id>http://dbpedia.org/resource/Sumitomo_Chemical+http://www.forbes.com/companies/sumitomo-chemical/</id>
-    <name provenance="http://dbpedia.org/resource/Sumitomo_Chemical">Sumitomo Chemical</name>
-    <country provenance="http://www.forbes.com/companies/sumitomo-chemical/+http://dbpedia.org/resource/Sumitomo_Chemical">Japan</country>
-    <city provenance="http://dbpedia.org/resource/Sumitomo_Chemical">TokyoChū�?, Tokyo</city>
-    <industry provenance=""/>
-    <assets provenance="">2.69E10</assets>
-    <revenue provenance="http://dbpedia.org/resource/Sumitomo_Chemical">1.6209E12</revenue>
-    <founded provenance="">1913-01-01T00:00:00.000+01:00</founded>
-    <keypeople/>
-  </company>
-  <company>
     <id>http://dbpedia.org/resource/Pioneer_Natural_Resources+http://www.forbes.com/companies/pioneer-natural-resources/</id>
     <name provenance="http://www.forbes.com/companies/pioneer-natural-resources/">Pioneer Natural Resources</name>
     <country provenance="http://dbpedia.org/resource/Pioneer_Natural_Resources">United States</country>
@@ -333,6 +322,17 @@
     <assets provenance="">1.23E10</assets>
     <revenue provenance="http://dbpedia.org/resource/Pioneer_Natural_Resources">3.23E9</revenue>
     <founded provenance="">1997-01-01T00:00:00.000+01:00</founded>
+    <keypeople/>
+  </company>
+  <company>
+    <id>http://dbpedia.org/resource/Sumitomo_Chemical+http://www.forbes.com/companies/sumitomo-chemical/</id>
+    <name provenance="http://dbpedia.org/resource/Sumitomo_Chemical">Sumitomo Chemical</name>
+    <country provenance="http://dbpedia.org/resource/Sumitomo_Chemical+http://www.forbes.com/companies/sumitomo-chemical/">Japan</country>
+    <city provenance="http://dbpedia.org/resource/Sumitomo_Chemical">TokyoChū�?, Tokyo</city>
+    <industry provenance=""/>
+    <assets provenance="">2.69E10</assets>
+    <revenue provenance="http://dbpedia.org/resource/Sumitomo_Chemical">1.6209E12</revenue>
+    <founded provenance="">1913-01-01T00:00:00.000+01:00</founded>
     <keypeople/>
   </company>
   <company>
@@ -357,17 +357,6 @@
     <keypeople/>
   </company>
   <company>
-    <id>fullcontact_678+http://dbpedia.org/resource/Sistema+http://www.forbes.com/companies/sistema/</id>
-    <name provenance="http://www.forbes.com/companies/sistema/">Sistema</name>
-    <country provenance="http://dbpedia.org/resource/Sistema+fullcontact_678">Russia</country>
-    <city provenance="http://dbpedia.org/resource/Sistema">Moscow</city>
-    <industry provenance=""/>
-    <assets provenance="">4.44E10</assets>
-    <revenue provenance="http://dbpedia.org/resource/Sistema">3.42E10</revenue>
-    <founded provenance="">1993-01-01T00:00:00.000+01:00</founded>
-    <keypeople/>
-  </company>
-  <company>
     <id>http://dbpedia.org/resource/Norilsk_Nickel+http://www.forbes.com/companies/norilsk-nickel/</id>
     <name provenance="http://dbpedia.org/resource/Norilsk_Nickel">Norilsk Nickel</name>
     <country provenance="http://www.forbes.com/companies/norilsk-nickel/">Russian Federation</country>
@@ -376,6 +365,27 @@
     <assets provenance="">2.02E10</assets>
     <revenue provenance="http://dbpedia.org/resource/Norilsk_Nickel">1.2E10</revenue>
     <founded provenance="">1993-01-01T00:00:00.000+01:00</founded>
+    <keypeople/>
+  </company>
+  <company>
+    <id>fullcontact_678+http://dbpedia.org/resource/Sistema+http://www.forbes.com/companies/sistema/</id>
+    <name provenance="http://www.forbes.com/companies/sistema/">Sistema</name>
+    <country provenance="fullcontact_678+http://dbpedia.org/resource/Sistema">Russia</country>
+    <city provenance="http://dbpedia.org/resource/Sistema">Moscow</city>
+    <industry provenance=""/>
+    <assets provenance="">4.44E10</assets>
+    <revenue provenance="http://dbpedia.org/resource/Sistema">3.42E10</revenue>
+    <founded provenance="">1993-01-01T00:00:00.000+01:00</founded>
+    <keypeople/>
+  </company>
+  <company>
+    <id>fullcontact_159+http://www.forbes.com/companies/bnp-paribas/</id>
+    <name provenance="fullcontact_159">BNP Paribas</name>
+    <country provenance="http://www.forbes.com/companies/bnp-paribas/">France</country>
+    <city provenance=""/>
+    <industry provenance=""/>
+    <assets provenance="">2.4805E12</assets>
+    <revenue provenance="http://www.forbes.com/companies/bnp-paribas/">1.232E11</revenue>
     <keypeople/>
   </company>
   <company>
@@ -390,16 +400,6 @@
     <keypeople/>
   </company>
   <company>
-    <id>fullcontact_159+http://www.forbes.com/companies/bnp-paribas/</id>
-    <name provenance="fullcontact_159">BNP Paribas</name>
-    <country provenance="http://www.forbes.com/companies/bnp-paribas/">France</country>
-    <city provenance=""/>
-    <industry provenance=""/>
-    <assets provenance="">2.4805E12</assets>
-    <revenue provenance="http://www.forbes.com/companies/bnp-paribas/">1.232E11</revenue>
-    <keypeople/>
-  </company>
-  <company>
     <id>http://dbpedia.org/resource/L'Or%C3%A9al+http://www.forbes.com/companies/loreal-group/</id>
     <name provenance="http://www.forbes.com/companies/loreal-group/">L'Oréal Group</name>
     <country provenance="http://www.forbes.com/companies/loreal-group/+http://dbpedia.org/resource/L'Or%C3%A9al">France</country>
@@ -411,17 +411,6 @@
     <keypeople/>
   </company>
   <company>
-    <id>fullcontact_502+fullcontact_503+http://www.forbes.com/companies/medtronic/</id>
-    <name provenance="http://www.forbes.com/companies/medtronic/">Medtronic</name>
-    <country provenance="fullcontact_502+fullcontact_503">United States</country>
-    <city provenance="fullcontact_503">Minneapolis</city>
-    <industry provenance=""/>
-    <assets provenance="">3.72E10</assets>
-    <revenue provenance="http://www.forbes.com/companies/medtronic/">1.69E10</revenue>
-    <founded provenance="">1949-01-01T00:00:00.000+01:00</founded>
-    <keypeople/>
-  </company>
-  <company>
     <id>fullcontact_175+http://www.forbes.com/companies/bunge/</id>
     <name provenance="fullcontact_175">Bunge</name>
     <country provenance="fullcontact_175">United States</country>
@@ -430,6 +419,17 @@
     <assets provenance="">2.68E10</assets>
     <revenue provenance="http://www.forbes.com/companies/bunge/">6.14E10</revenue>
     <founded provenance="">1818-01-01T00:00:00.000+00:53:28</founded>
+    <keypeople/>
+  </company>
+  <company>
+    <id>fullcontact_502+fullcontact_503+http://www.forbes.com/companies/medtronic/</id>
+    <name provenance="http://www.forbes.com/companies/medtronic/">Medtronic</name>
+    <country provenance="fullcontact_503+fullcontact_502">United States</country>
+    <city provenance="fullcontact_503">Minneapolis</city>
+    <industry provenance=""/>
+    <assets provenance="">3.72E10</assets>
+    <revenue provenance="http://www.forbes.com/companies/medtronic/">1.69E10</revenue>
+    <founded provenance="">1949-01-01T00:00:00.000+01:00</founded>
     <keypeople/>
   </company>
   <company>
@@ -455,6 +455,17 @@
     <keypeople/>
   </company>
   <company>
+    <id>http://dbpedia.org/resource/Greentown_China+http://www.forbes.com/companies/greentown-china-holdings/</id>
+    <name provenance="http://www.forbes.com/companies/greentown-china-holdings/">Greentown China Holdings</name>
+    <country provenance="http://www.forbes.com/companies/greentown-china-holdings/+http://dbpedia.org/resource/Greentown_China">China</country>
+    <city provenance="http://dbpedia.org/resource/Greentown_China">ZhejiangHangzhou</city>
+    <industry provenance=""/>
+    <assets provenance="">2.02E10</assets>
+    <revenue provenance="http://www.forbes.com/companies/greentown-china-holdings/">4.7E9</revenue>
+    <founded provenance="">1995-01-01T00:00:00.000+01:00</founded>
+    <keypeople/>
+  </company>
+  <company>
     <id>http://dbpedia.org/resource/Integrys_Energy_Group+http://www.forbes.com/companies/integrys-energy/</id>
     <name provenance="http://www.forbes.com/companies/integrys-energy/">Integrys Energy Group</name>
     <country provenance="http://dbpedia.org/resource/Integrys_Energy_Group">United States</country>
@@ -463,17 +474,6 @@
     <assets provenance="">1.12E10</assets>
     <revenue provenance="http://www.forbes.com/companies/integrys-energy/">5.5E9</revenue>
     <founded provenance="">2007-01-01T00:00:00.000+01:00</founded>
-    <keypeople/>
-  </company>
-  <company>
-    <id>http://dbpedia.org/resource/Greentown_China+http://www.forbes.com/companies/greentown-china-holdings/</id>
-    <name provenance="http://www.forbes.com/companies/greentown-china-holdings/">Greentown China Holdings</name>
-    <country provenance="http://dbpedia.org/resource/Greentown_China+http://www.forbes.com/companies/greentown-china-holdings/">China</country>
-    <city provenance="http://dbpedia.org/resource/Greentown_China">ZhejiangHangzhou</city>
-    <industry provenance=""/>
-    <assets provenance="">2.02E10</assets>
-    <revenue provenance="http://www.forbes.com/companies/greentown-china-holdings/">4.7E9</revenue>
-    <founded provenance="">1995-01-01T00:00:00.000+01:00</founded>
     <keypeople/>
   </company>
   <company>
@@ -522,7 +522,7 @@
   <company>
     <id>fullcontact_45+http://www.forbes.com/companies/abengoa/</id>
     <name provenance="http://www.forbes.com/companies/abengoa/">Abengoa</name>
-    <country provenance="fullcontact_45+http://www.forbes.com/companies/abengoa/">Spain</country>
+    <country provenance="http://www.forbes.com/companies/abengoa/+fullcontact_45">Spain</country>
     <city provenance="fullcontact_45">Seville</city>
     <industry provenance=""/>
     <assets provenance="">2.91E10</assets>
@@ -543,7 +543,7 @@
   <company>
     <id>fullcontact_731+http://www.forbes.com/companies/telus/</id>
     <name provenance="fullcontact_731">TELUS</name>
-    <country provenance="http://www.forbes.com/companies/telus/+fullcontact_731">Canada</country>
+    <country provenance="fullcontact_731+http://www.forbes.com/companies/telus/">Canada</country>
     <city provenance="fullcontact_731">Vancouver</city>
     <industry provenance=""/>
     <assets provenance="">2.03E10</assets>
@@ -553,7 +553,7 @@
   <company>
     <id>fullcontact_248+http://www.forbes.com/companies/danone/</id>
     <name provenance="http://www.forbes.com/companies/danone/">Danone</name>
-    <country provenance="http://www.forbes.com/companies/danone/+fullcontact_248">France</country>
+    <country provenance="fullcontact_248+http://www.forbes.com/companies/danone/">France</country>
     <city provenance="fullcontact_248">Paris</city>
     <industry provenance=""/>
     <assets provenance="">4.26E10</assets>
@@ -630,7 +630,7 @@
   <company>
     <id>http://dbpedia.org/resource/Reliance_Industries+http://www.forbes.com/companies/reliance-industries/</id>
     <name provenance="http://dbpedia.org/resource/Reliance_Industries">Reliance Industries</name>
-    <country provenance="http://dbpedia.org/resource/Reliance_Industries+http://www.forbes.com/companies/reliance-industries/">India</country>
+    <country provenance="http://www.forbes.com/companies/reliance-industries/+http://dbpedia.org/resource/Reliance_Industries">India</country>
     <city provenance="http://dbpedia.org/resource/Reliance_Industries">MumbaiMaharashtra</city>
     <industry provenance=""/>
     <assets provenance="">6.72E10</assets>
@@ -641,7 +641,7 @@
   <company>
     <id>fullcontact_852+http://dbpedia.org/resource/Bank_of_China+http://www.forbes.com/companies/agricultural-bank-of-china/+http://www.forbes.com/companies/bank-of-china/</id>
     <name provenance="http://www.forbes.com/companies/agricultural-bank-of-china/">Agricultural Bank of China</name>
-    <country provenance="http://www.forbes.com/companies/agricultural-bank-of-china/+http://www.forbes.com/companies/bank-of-china/+fullcontact_852">China</country>
+    <country provenance="http://www.forbes.com/companies/bank-of-china/+fullcontact_852+http://www.forbes.com/companies/agricultural-bank-of-china/">China</country>
     <city provenance="fullcontact_852">Beijing</city>
     <industry provenance=""/>
     <assets provenance="">2.4054E12</assets>
@@ -674,7 +674,7 @@
   <company>
     <id>fullcontact_560+http://www.forbes.com/companies/onex/</id>
     <name provenance="fullcontact_560">Onex</name>
-    <country provenance="http://www.forbes.com/companies/onex/+fullcontact_560">Canada</country>
+    <country provenance="fullcontact_560+http://www.forbes.com/companies/onex/">Canada</country>
     <city provenance="fullcontact_560">Toronto</city>
     <industry provenance=""/>
     <assets provenance="">3.69E10</assets>
@@ -685,7 +685,7 @@
   <company>
     <id>fullcontact_424+http://dbpedia.org/resource/Inter_RAO+http://www.forbes.com/companies/inter-rao/</id>
     <name provenance="http://dbpedia.org/resource/Inter_RAO">Inter RAO</name>
-    <country provenance="http://dbpedia.org/resource/Inter_RAO+fullcontact_424">Russia</country>
+    <country provenance="fullcontact_424+http://dbpedia.org/resource/Inter_RAO">Russia</country>
     <city provenance="http://dbpedia.org/resource/Inter_RAO">Moscow</city>
     <industry provenance=""/>
     <assets provenance="">1.56E10</assets>
@@ -715,9 +715,20 @@
     <keypeople/>
   </company>
   <company>
+    <id>fullcontact_464+http://dbpedia.org/resource/Kotak_Mahindra_Bank+http://www.forbes.com/companies/kotak-mahindra-bank/</id>
+    <name provenance="fullcontact_464">Kotak Mahindra Bank Ltd.</name>
+    <country provenance="http://dbpedia.org/resource/Kotak_Mahindra_Bank+http://www.forbes.com/companies/kotak-mahindra-bank/+fullcontact_464">India</country>
+    <city provenance="fullcontact_464">Mumbai</city>
+    <industry provenance=""/>
+    <assets provenance="">1.83E10</assets>
+    <revenue provenance="http://www.forbes.com/companies/kotak-mahindra-bank/">2.9E9</revenue>
+    <founded provenance="">1985-01-01T00:00:00.000+01:00</founded>
+    <keypeople/>
+  </company>
+  <company>
     <id>http://dbpedia.org/resource/Tokyo_Electron+http://www.forbes.com/companies/tokyo-electron/</id>
     <name provenance="http://dbpedia.org/resource/Tokyo_Electron">Tokyo Electron</name>
-    <country provenance="http://www.forbes.com/companies/tokyo-electron/+http://dbpedia.org/resource/Tokyo_Electron">Japan</country>
+    <country provenance="http://dbpedia.org/resource/Tokyo_Electron+http://www.forbes.com/companies/tokyo-electron/">Japan</country>
     <city provenance="http://dbpedia.org/resource/Tokyo_Electron">Minato, TokyoAkasaka, Minato, Tokyo</city>
     <industry provenance=""/>
     <assets provenance="">7.6E9</assets>
@@ -734,6 +745,16 @@
     <assets provenance="">8.9E9</assets>
     <revenue provenance="http://dbpedia.org/resource/Quest_Diagnostics">10.4</revenue>
     <founded provenance="">1967-01-01T00:00:00.000+01:00</founded>
+    <keypeople/>
+  </company>
+  <company>
+    <id>fullcontact_440+http://www.forbes.com/companies/jindal-steel-power/</id>
+    <name provenance="fullcontact_440">JINDAL STEEL &amp; POWER LIMITED</name>
+    <country provenance="http://www.forbes.com/companies/jindal-steel-power/+fullcontact_440">India</country>
+    <city provenance="fullcontact_440">New Delhi</city>
+    <industry provenance=""/>
+    <assets provenance="">1.04E10</assets>
+    <revenue provenance="http://www.forbes.com/companies/jindal-steel-power/">3.5E9</revenue>
     <keypeople/>
   </company>
   <company>
@@ -771,7 +792,7 @@
   <company>
     <id>fullcontact_511+http://dbpedia.org/resource/Micron_Technology+http://www.forbes.com/companies/micron-technology/</id>
     <name provenance="fullcontact_511">Micron Technology</name>
-    <country provenance="fullcontact_511+http://dbpedia.org/resource/Micron_Technology">United States</country>
+    <country provenance="http://dbpedia.org/resource/Micron_Technology+fullcontact_511">United States</country>
     <city provenance="fullcontact_511">Salt Lake City</city>
     <industry provenance=""/>
     <assets provenance="">1.98E10</assets>
@@ -804,7 +825,7 @@
   <company>
     <id>fullcontact_112+http://www.forbes.com/companies/assa-abloy/</id>
     <name provenance="fullcontact_112">ASSA ABLOY</name>
-    <country provenance="http://www.forbes.com/companies/assa-abloy/+fullcontact_112">Sweden</country>
+    <country provenance="fullcontact_112+http://www.forbes.com/companies/assa-abloy/">Sweden</country>
     <city provenance="fullcontact_112">Stockholm</city>
     <industry provenance=""/>
     <assets provenance="">1.02E10</assets>
@@ -825,7 +846,7 @@
   <company>
     <id>fullcontact_528+http://www.forbes.com/companies/natixis/</id>
     <name provenance="fullcontact_528">Natixis</name>
-    <country provenance="fullcontact_528+http://www.forbes.com/companies/natixis/">France</country>
+    <country provenance="http://www.forbes.com/companies/natixis/+fullcontact_528">France</country>
     <city provenance="fullcontact_528">Paris</city>
     <industry provenance=""/>
     <assets provenance="">7.029E11</assets>
@@ -855,25 +876,25 @@
     <keypeople/>
   </company>
   <company>
-    <id>http://dbpedia.org/resource/Wipro+http://www.forbes.com/companies/wipro/</id>
-    <name provenance="http://dbpedia.org/resource/Wipro">Wipro</name>
-    <country provenance="http://dbpedia.org/resource/Wipro+http://www.forbes.com/companies/wipro/">India</country>
-    <city provenance=""/>
-    <industry provenance=""/>
-    <assets provenance="">7.8E9</assets>
-    <revenue provenance="http://www.forbes.com/companies/wipro/">7.1E9</revenue>
-    <founded provenance="">1945-01-01T00:00:00.000+01:00</founded>
-    <keypeople/>
-  </company>
-  <company>
     <id>http://dbpedia.org/resource/GD_Power_Development_Company+http://www.forbes.com/companies/gd-power-development/</id>
     <name provenance="http://dbpedia.org/resource/GD_Power_Development_Company">GD Power Development Company</name>
-    <country provenance="http://dbpedia.org/resource/GD_Power_Development_Company+http://www.forbes.com/companies/gd-power-development/">China</country>
+    <country provenance="http://www.forbes.com/companies/gd-power-development/+http://dbpedia.org/resource/GD_Power_Development_Company">China</country>
     <city provenance="http://dbpedia.org/resource/GD_Power_Development_Company">Beijing</city>
     <industry provenance=""/>
     <assets provenance="">4.04E10</assets>
     <revenue provenance="http://www.forbes.com/companies/gd-power-development/">1.08E10</revenue>
     <founded provenance="">1992-01-01T00:00:00.000+01:00</founded>
+    <keypeople/>
+  </company>
+  <company>
+    <id>http://dbpedia.org/resource/Wipro+http://www.forbes.com/companies/wipro/</id>
+    <name provenance="http://dbpedia.org/resource/Wipro">Wipro</name>
+    <country provenance="http://www.forbes.com/companies/wipro/+http://dbpedia.org/resource/Wipro">India</country>
+    <city provenance=""/>
+    <industry provenance=""/>
+    <assets provenance="">7.8E9</assets>
+    <revenue provenance="http://www.forbes.com/companies/wipro/">7.1E9</revenue>
+    <founded provenance="">1945-01-01T00:00:00.000+01:00</founded>
     <keypeople/>
   </company>
   <company>
@@ -953,17 +974,6 @@
     <keypeople/>
   </company>
   <company>
-    <id>fullcontact_709+http://dbpedia.org/resource/The_Swatch_Group+http://www.forbes.com/companies/swatch-group/</id>
-    <name provenance="http://dbpedia.org/resource/The_Swatch_Group">The Swatch Group</name>
-    <country provenance="http://www.forbes.com/companies/swatch-group/+http://dbpedia.org/resource/The_Swatch_Group+fullcontact_709">Switzerland</country>
-    <city provenance="fullcontact_709">Biel</city>
-    <industry provenance=""/>
-    <assets provenance="">1.1633E10</assets>
-    <revenue provenance="http://dbpedia.org/resource/The_Swatch_Group">8.817E9</revenue>
-    <founded provenance="">1983-01-01T00:00:00.000+01:00</founded>
-    <keypeople/>
-  </company>
-  <company>
     <id>fullcontact_550+http://www.forbes.com/companies/novozymes/</id>
     <name provenance="fullcontact_550">Novozymes</name>
     <country provenance="fullcontact_550+http://www.forbes.com/companies/novozymes/">Denmark</country>
@@ -998,7 +1008,7 @@
   <company>
     <id>fullcontact_663+http://dbpedia.org/resource/Sherwin-Williams+http://www.forbes.com/companies/sherwin-williams/</id>
     <name provenance="fullcontact_663">Sherwin-Williams</name>
-    <country provenance="fullcontact_663+http://dbpedia.org/resource/Sherwin-Williams">United States</country>
+    <country provenance="http://dbpedia.org/resource/Sherwin-Williams+fullcontact_663">United States</country>
     <city provenance="fullcontact_663">Cleveland</city>
     <industry provenance=""/>
     <assets provenance="">6.4E9</assets>
@@ -1052,7 +1062,7 @@
   <company>
     <id>http://dbpedia.org/resource/Telef%C3%B3nica+http://www.forbes.com/companies/telefonica/</id>
     <name provenance="http://dbpedia.org/resource/Telef%C3%B3nica">Telefónica</name>
-    <country provenance="http://www.forbes.com/companies/telefonica/+http://dbpedia.org/resource/Telef%C3%B3nica">Spain</country>
+    <country provenance="http://dbpedia.org/resource/Telef%C3%B3nica+http://www.forbes.com/companies/telefonica/">Spain</country>
     <city provenance=""/>
     <industry provenance=""/>
     <assets provenance="">1.638E11</assets>
@@ -1063,7 +1073,7 @@
   <company>
     <id>fullcontact_255+http://www.forbes.com/companies/delek-group/</id>
     <name provenance="fullcontact_255">Delek Group</name>
-    <country provenance="fullcontact_255+http://www.forbes.com/companies/delek-group/">Israel</country>
+    <country provenance="http://www.forbes.com/companies/delek-group/+fullcontact_255">Israel</country>
     <city provenance="fullcontact_255">Netanya</city>
     <industry provenance=""/>
     <assets provenance="">3.56E10</assets>
@@ -1094,7 +1104,7 @@
   <company>
     <id>http://dbpedia.org/resource/Anhui_Conch_Cement_Company+http://www.forbes.com/companies/anhui-conch-cement/</id>
     <name provenance="http://dbpedia.org/resource/Anhui_Conch_Cement_Company">Anhui Conch Cement Company</name>
-    <country provenance="http://www.forbes.com/companies/anhui-conch-cement/+http://dbpedia.org/resource/Anhui_Conch_Cement_Company">China</country>
+    <country provenance="http://dbpedia.org/resource/Anhui_Conch_Cement_Company+http://www.forbes.com/companies/anhui-conch-cement/">China</country>
     <city provenance="http://dbpedia.org/resource/Anhui_Conch_Cement_Company">AnhuiWuhu</city>
     <industry provenance=""/>
     <assets provenance="">1.54E10</assets>
@@ -1114,17 +1124,6 @@
     <keypeople/>
   </company>
   <company>
-    <id>fullcontact_508+http://dbpedia.org/resource/Metso+http://www.forbes.com/companies/metso/</id>
-    <name provenance="http://www.forbes.com/companies/metso/">Metso</name>
-    <country provenance="http://www.forbes.com/companies/metso/+fullcontact_508+http://dbpedia.org/resource/Metso">Finland</country>
-    <city provenance="http://dbpedia.org/resource/Metso">Helsinki</city>
-    <industry provenance=""/>
-    <assets provenance="">5.1E9</assets>
-    <revenue provenance="http://dbpedia.org/resource/Metso">7.504E9</revenue>
-    <founded provenance="">1999-01-01T00:00:00.000+01:00</founded>
-    <keypeople/>
-  </company>
-  <company>
     <id>http://dbpedia.org/resource/Jabil_Circuit+http://www.forbes.com/companies/jabil-circuit/</id>
     <name provenance="http://www.forbes.com/companies/jabil-circuit/">Jabil Circuit</name>
     <country provenance="http://dbpedia.org/resource/Jabil_Circuit">United States</country>
@@ -1133,6 +1132,17 @@
     <assets provenance="">8.1E9</assets>
     <revenue provenance="http://dbpedia.org/resource/Jabil_Circuit">16.5</revenue>
     <founded provenance="">1966-01-01T00:00:00.000+01:00</founded>
+    <keypeople/>
+  </company>
+  <company>
+    <id>fullcontact_508+http://dbpedia.org/resource/Metso+http://www.forbes.com/companies/metso/</id>
+    <name provenance="http://www.forbes.com/companies/metso/">Metso</name>
+    <country provenance="http://dbpedia.org/resource/Metso+fullcontact_508+http://www.forbes.com/companies/metso/">Finland</country>
+    <city provenance="http://dbpedia.org/resource/Metso">Helsinki</city>
+    <industry provenance=""/>
+    <assets provenance="">5.1E9</assets>
+    <revenue provenance="http://dbpedia.org/resource/Metso">7.504E9</revenue>
+    <founded provenance="">1999-01-01T00:00:00.000+01:00</founded>
     <keypeople/>
   </company>
   <company>
@@ -1149,7 +1159,7 @@
   <company>
     <id>fullcontact_24+http://www.forbes.com/companies/liberbank/</id>
     <name provenance="http://www.forbes.com/companies/liberbank/">Liberbank</name>
-    <country provenance="http://www.forbes.com/companies/liberbank/+fullcontact_24">Spain</country>
+    <country provenance="fullcontact_24+http://www.forbes.com/companies/liberbank/">Spain</country>
     <city provenance="fullcontact_24">Madrid</city>
     <industry provenance=""/>
     <assets provenance="">6.14E10</assets>
@@ -1168,9 +1178,19 @@
     <keypeople/>
   </company>
   <company>
+    <id>fullcontact_341+http://www.forbes.com/companies/gas-natural-fenosa/</id>
+    <name provenance="fullcontact_341">Gas Natural Fenosa Telecomunicaciones</name>
+    <country provenance="http://www.forbes.com/companies/gas-natural-fenosa/+fullcontact_341">Spain</country>
+    <city provenance="fullcontact_341">Barcelona</city>
+    <industry provenance=""/>
+    <assets provenance="">6.19E10</assets>
+    <revenue provenance="http://www.forbes.com/companies/gas-natural-fenosa/">3.31E10</revenue>
+    <keypeople/>
+  </company>
+  <company>
     <id>http://dbpedia.org/resource/Sino-Ocean_Land+http://dbpedia.org/resource/Sino_Land+http://www.forbes.com/companies/sino-land/+http://www.forbes.com/companies/sino-ocean-land-holdings/</id>
     <name provenance="http://www.forbes.com/companies/sino-ocean-land-holdings/">Sino-Ocean Land Holdings</name>
-    <country provenance="http://dbpedia.org/resource/Sino_Land+http://www.forbes.com/companies/sino-land/">Hong Kong</country>
+    <country provenance="http://www.forbes.com/companies/sino-land/+http://dbpedia.org/resource/Sino_Land">Hong Kong</country>
     <city provenance="http://dbpedia.org/resource/Sino-Ocean_Land">Beijing</city>
     <industry provenance=""/>
     <assets provenance="">2.28E10</assets>
@@ -1181,7 +1201,7 @@
   <company>
     <id>fullcontact_143+fullcontact_845+http://www.forbes.com/companies/becton-dickinson/</id>
     <name provenance="http://www.forbes.com/companies/becton-dickinson/">Becton, Dickinson</name>
-    <country provenance="fullcontact_143+fullcontact_845">United States</country>
+    <country provenance="fullcontact_845+fullcontact_143">United States</country>
     <city provenance="fullcontact_143">Franklin Lakes</city>
     <industry provenance=""/>
     <assets provenance="">1.2E10</assets>
@@ -1191,7 +1211,7 @@
   <company>
     <id>fullcontact_214+http://dbpedia.org/resource/CITIC_Pacific+http://www.forbes.com/companies/citic-pacific/</id>
     <name provenance="fullcontact_214">CITIC Pacific</name>
-    <country provenance="http://dbpedia.org/resource/CITIC_Pacific+fullcontact_214+http://www.forbes.com/companies/citic-pacific/">Hong Kong</country>
+    <country provenance="http://www.forbes.com/companies/citic-pacific/+fullcontact_214+http://dbpedia.org/resource/CITIC_Pacific">Hong Kong</country>
     <city provenance="fullcontact_214">null</city>
     <industry provenance=""/>
     <assets provenance="">3.45E10</assets>
@@ -1202,7 +1222,7 @@
   <company>
     <id>fullcontact_512+fullcontact_523+http://dbpedia.org/resource/Microsoft+http://www.forbes.com/companies/microsoft/</id>
     <name provenance="http://dbpedia.org/resource/Microsoft">Microsoft</name>
-    <country provenance="http://dbpedia.org/resource/Microsoft+fullcontact_512+fullcontact_523">United States</country>
+    <country provenance="fullcontact_512+http://dbpedia.org/resource/Microsoft+fullcontact_523">United States</country>
     <city provenance="fullcontact_523">Redmond</city>
     <industry provenance=""/>
     <assets provenance="">1.535E11</assets>
@@ -1224,7 +1244,7 @@
   <company>
     <id>fullcontact_769+http://dbpedia.org/resource/Unibail-Rodamco+http://www.forbes.com/companies/unibail-rodamco/</id>
     <name provenance="http://www.forbes.com/companies/unibail-rodamco/">Unibail-Rodamco</name>
-    <country provenance="fullcontact_769+http://dbpedia.org/resource/Unibail-Rodamco+http://www.forbes.com/companies/unibail-rodamco/">France</country>
+    <country provenance="http://www.forbes.com/companies/unibail-rodamco/+fullcontact_769+http://dbpedia.org/resource/Unibail-Rodamco">France</country>
     <city provenance="http://dbpedia.org/resource/Unibail-Rodamco">Paris</city>
     <industry provenance=""/>
     <assets provenance="">4.46E10</assets>
@@ -1276,17 +1296,6 @@
     <keypeople/>
   </company>
   <company>
-    <id>http://dbpedia.org/resource/Kotak_Mahindra_Bank+http://www.forbes.com/companies/kotak-mahindra-bank/</id>
-    <name provenance="http://www.forbes.com/companies/kotak-mahindra-bank/">Kotak Mahindra Bank</name>
-    <country provenance="http://www.forbes.com/companies/kotak-mahindra-bank/+http://dbpedia.org/resource/Kotak_Mahindra_Bank">India</country>
-    <city provenance="http://dbpedia.org/resource/Kotak_Mahindra_Bank">Mumbai</city>
-    <industry provenance=""/>
-    <assets provenance="">1.83E10</assets>
-    <revenue provenance="http://www.forbes.com/companies/kotak-mahindra-bank/">2.9E9</revenue>
-    <founded provenance="">1985-01-01T00:00:00.000+01:00</founded>
-    <keypeople/>
-  </company>
-  <company>
     <id>http://dbpedia.org/resource/Ameriprise_Financial+http://www.forbes.com/companies/ameriprise-financial/</id>
     <name provenance="http://dbpedia.org/resource/Ameriprise_Financial">Ameriprise Financial</name>
     <country provenance="http://dbpedia.org/resource/Ameriprise_Financial">United States</country>
@@ -1300,7 +1309,7 @@
   <company>
     <id>http://dbpedia.org/resource/Poly_Real_Estate+http://www.forbes.com/companies/poly-real-estate/</id>
     <name provenance="http://dbpedia.org/resource/Poly_Real_Estate">Poly Real Estate</name>
-    <country provenance="http://www.forbes.com/companies/poly-real-estate/+http://dbpedia.org/resource/Poly_Real_Estate">China</country>
+    <country provenance="http://dbpedia.org/resource/Poly_Real_Estate+http://www.forbes.com/companies/poly-real-estate/">China</country>
     <city provenance="http://dbpedia.org/resource/Poly_Real_Estate">GuangzhouGuangdong</city>
     <industry provenance=""/>
     <assets provenance="">5.15E10</assets>
@@ -1331,9 +1340,19 @@
     <keypeople/>
   </company>
   <company>
+    <id>fullcontact_656+http://www.forbes.com/companies/scripps-networks-interactive/</id>
+    <name provenance="fullcontact_656">Scripps Networks Interactive, Inc</name>
+    <country provenance="http://www.forbes.com/companies/scripps-networks-interactive/">United States of America</country>
+    <city provenance=""/>
+    <industry provenance=""/>
+    <assets provenance="">4.4E9</assets>
+    <revenue provenance="http://www.forbes.com/companies/scripps-networks-interactive/">2.5E9</revenue>
+    <keypeople/>
+  </company>
+  <company>
     <id>http://dbpedia.org/resource/Grasim_Industries+http://www.forbes.com/companies/grasim-industries/</id>
     <name provenance="http://www.forbes.com/companies/grasim-industries/">Grasim Industries</name>
-    <country provenance="http://dbpedia.org/resource/Grasim_Industries+http://www.forbes.com/companies/grasim-industries/">India</country>
+    <country provenance="http://www.forbes.com/companies/grasim-industries/+http://dbpedia.org/resource/Grasim_Industries">India</country>
     <city provenance="http://dbpedia.org/resource/Grasim_Industries">MumbaiMaharashtra</city>
     <industry provenance=""/>
     <assets provenance="">7.4E9</assets>
@@ -1375,9 +1394,19 @@
     <keypeople/>
   </company>
   <company>
+    <id>fullcontact_1447+http://www.forbes.com/companies/east-west-bancorp/</id>
+    <name provenance="fullcontact_1447">East West Bancorp, Inc.</name>
+    <country provenance="fullcontact_1447">United States</country>
+    <city provenance="fullcontact_1447">Pasadena</city>
+    <industry provenance=""/>
+    <assets provenance="">2.47E10</assets>
+    <revenue provenance="http://www.forbes.com/companies/east-west-bancorp/">1.1E9</revenue>
+    <keypeople/>
+  </company>
+  <company>
     <id>fullcontact_384+http://www.forbes.com/companies/holcim/</id>
     <name provenance="http://www.forbes.com/companies/holcim/">Holcim</name>
-    <country provenance="http://www.forbes.com/companies/holcim/+fullcontact_384">Switzerland</country>
+    <country provenance="fullcontact_384+http://www.forbes.com/companies/holcim/">Switzerland</country>
     <city provenance="fullcontact_384">Jona</city>
     <industry provenance=""/>
     <assets provenance="">4.27E10</assets>
@@ -1420,7 +1449,7 @@
   <company>
     <id>fullcontact_131+http://www.forbes.com/companies/bankia/</id>
     <name provenance="fullcontact_131">Bankia</name>
-    <country provenance="http://www.forbes.com/companies/bankia/+fullcontact_131">Spain</country>
+    <country provenance="fullcontact_131+http://www.forbes.com/companies/bankia/">Spain</country>
     <city provenance="fullcontact_131">Madrid</city>
     <industry provenance=""/>
     <assets provenance="">3.465E11</assets>
@@ -1442,7 +1471,7 @@
   <company>
     <id>fullcontact_679+http://www.forbes.com/companies/skanska/</id>
     <name provenance="fullcontact_679">Skanska</name>
-    <country provenance="http://www.forbes.com/companies/skanska/+fullcontact_679">Sweden</country>
+    <country provenance="fullcontact_679+http://www.forbes.com/companies/skanska/">Sweden</country>
     <city provenance="fullcontact_679">Stockholm</city>
     <industry provenance=""/>
     <assets provenance="">1.36E10</assets>
@@ -1453,7 +1482,7 @@
   <company>
     <id>http://dbpedia.org/resource/China_Shenhua_Energy_Company+http://www.forbes.com/companies/china-shenhua-energy/</id>
     <name provenance="http://dbpedia.org/resource/China_Shenhua_Energy_Company">China Shenhua Energy Company</name>
-    <country provenance="http://dbpedia.org/resource/China_Shenhua_Energy_Company+http://www.forbes.com/companies/china-shenhua-energy/">China</country>
+    <country provenance="http://www.forbes.com/companies/china-shenhua-energy/+http://dbpedia.org/resource/China_Shenhua_Energy_Company">China</country>
     <city provenance="http://dbpedia.org/resource/China_Shenhua_Energy_Company">Beijing</city>
     <industry provenance=""/>
     <assets provenance="">8.04E10</assets>
@@ -1497,7 +1526,7 @@
   <company>
     <id>fullcontact_796+http://www.forbes.com/companies/vinci/</id>
     <name provenance="fullcontact_796">VINCI</name>
-    <country provenance="http://www.forbes.com/companies/vinci/+fullcontact_796">France</country>
+    <country provenance="fullcontact_796+http://www.forbes.com/companies/vinci/">France</country>
     <city provenance="fullcontact_796">Rueil-malmaison</city>
     <industry provenance=""/>
     <assets provenance="">8.69E10</assets>
@@ -1508,7 +1537,7 @@
   <company>
     <id>http://dbpedia.org/resource/Nokia+http://www.forbes.com/companies/nokia/</id>
     <name provenance="http://dbpedia.org/resource/Nokia">Nokia</name>
-    <country provenance="http://dbpedia.org/resource/Nokia+http://www.forbes.com/companies/nokia/">Finland</country>
+    <country provenance="http://www.forbes.com/companies/nokia/+http://dbpedia.org/resource/Nokia">Finland</country>
     <city provenance="http://dbpedia.org/resource/Nokia">Espoo</city>
     <industry provenance=""/>
     <assets provenance="">3.47E10</assets>
@@ -1563,7 +1592,7 @@
   <company>
     <id>fullcontact_642+http://dbpedia.org/resource/SanDisk+http://www.forbes.com/companies/sandisk/</id>
     <name provenance="fullcontact_642">SanDisk</name>
-    <country provenance="fullcontact_642+http://dbpedia.org/resource/SanDisk">United States</country>
+    <country provenance="http://dbpedia.org/resource/SanDisk+fullcontact_642">United States</country>
     <city provenance="fullcontact_642">Milpitas</city>
     <industry provenance=""/>
     <assets provenance="">1.05E10</assets>
@@ -1705,7 +1734,7 @@
   <company>
     <id>fullcontact_291+http://dbpedia.org/resource/Enel+http://www.forbes.com/companies/enel/</id>
     <name provenance="http://www.forbes.com/companies/enel/">Enel</name>
-    <country provenance="fullcontact_291+http://www.forbes.com/companies/enel/+http://dbpedia.org/resource/Enel">Italy</country>
+    <country provenance="http://www.forbes.com/companies/enel/+http://dbpedia.org/resource/Enel+fullcontact_291">Italy</country>
     <city provenance="fullcontact_291">Rome</city>
     <industry provenance=""/>
     <assets provenance="">2.262E11</assets>
@@ -1727,7 +1756,7 @@
   <company>
     <id>http://dbpedia.org/resource/Yamada_Denki+http://www.forbes.com/companies/yamada-denki/</id>
     <name provenance="http://dbpedia.org/resource/Yamada_Denki">Yamada Denki</name>
-    <country provenance="http://dbpedia.org/resource/Yamada_Denki+http://www.forbes.com/companies/yamada-denki/">Japan</country>
+    <country provenance="http://www.forbes.com/companies/yamada-denki/+http://dbpedia.org/resource/Yamada_Denki">Japan</country>
     <city provenance="http://dbpedia.org/resource/Yamada_Denki">Takasaki, Gunma</city>
     <industry provenance=""/>
     <assets provenance="">1.18E10</assets>
@@ -1812,17 +1841,6 @@
     <keypeople/>
   </company>
   <company>
-    <id>fullcontact_1275+http://dbpedia.org/resource/Macy's+http://www.forbes.com/companies/macys/</id>
-    <name provenance="fullcontact_1275">Macy's</name>
-    <country provenance="http://dbpedia.org/resource/Macy's">United States</country>
-    <city provenance="http://dbpedia.org/resource/Macy's">CincinnatiOhio</city>
-    <industry provenance=""/>
-    <assets provenance="">2.16E10</assets>
-    <revenue provenance="http://dbpedia.org/resource/Macy's">9.35E9</revenue>
-    <founded provenance="">1858-01-01T00:00:00.000+00:53:28</founded>
-    <keypeople/>
-  </company>
-  <company>
     <id>http://dbpedia.org/resource/China_Merchants_Bank+http://www.forbes.com/companies/china-merchants-bank/</id>
     <name provenance="http://www.forbes.com/companies/china-merchants-bank/">China Merchants Bank</name>
     <country provenance="http://dbpedia.org/resource/China_Merchants_Bank+http://www.forbes.com/companies/china-merchants-bank/">China</country>
@@ -1831,6 +1849,17 @@
     <assets provenance="">6.347E11</assets>
     <revenue provenance="http://www.forbes.com/companies/china-merchants-bank/">3.22E10</revenue>
     <founded provenance="">1987-01-01T00:00:00.000+01:00</founded>
+    <keypeople/>
+  </company>
+  <company>
+    <id>fullcontact_1275+http://dbpedia.org/resource/Macy's+http://www.forbes.com/companies/macys/</id>
+    <name provenance="fullcontact_1275">Macy's</name>
+    <country provenance="http://dbpedia.org/resource/Macy's">United States</country>
+    <city provenance="http://dbpedia.org/resource/Macy's">CincinnatiOhio</city>
+    <industry provenance=""/>
+    <assets provenance="">2.16E10</assets>
+    <revenue provenance="http://dbpedia.org/resource/Macy's">9.35E9</revenue>
+    <founded provenance="">1858-01-01T00:00:00.000+00:53:28</founded>
     <keypeople/>
   </company>
   <company>
@@ -1856,6 +1885,16 @@
     <keypeople/>
   </company>
   <company>
+    <id>fullcontact_852+http://www.forbes.com/companies/agricultural-bank-of-china/</id>
+    <name provenance="http://www.forbes.com/companies/agricultural-bank-of-china/">Agricultural Bank of China</name>
+    <country provenance="fullcontact_852+http://www.forbes.com/companies/agricultural-bank-of-china/">China</country>
+    <city provenance="fullcontact_852">Beijing</city>
+    <industry provenance=""/>
+    <assets provenance="">2.4054E12</assets>
+    <revenue provenance="http://www.forbes.com/companies/agricultural-bank-of-china/">1.364E11</revenue>
+    <keypeople/>
+  </company>
+  <company>
     <id>fullcontact_655+http://www.forbes.com/companies/scor/</id>
     <name provenance="http://www.forbes.com/companies/scor/">Scor</name>
     <country provenance="http://www.forbes.com/companies/scor/+fullcontact_655">France</country>
@@ -1878,16 +1917,6 @@
     <keypeople/>
   </company>
   <company>
-    <id>fullcontact_381+http://www.forbes.com/companies/hindustan-petroleum/</id>
-    <name provenance="fullcontact_381">Hindustan Petroleum</name>
-    <country provenance="http://www.forbes.com/companies/hindustan-petroleum/">India</country>
-    <city provenance=""/>
-    <industry provenance=""/>
-    <assets provenance="">1.71E10</assets>
-    <revenue provenance="http://www.forbes.com/companies/hindustan-petroleum/">3.5E10</revenue>
-    <keypeople/>
-  </company>
-  <company>
     <id>fullcontact_128+fullcontact_1481+http://www.forbes.com/companies/baidu/</id>
     <name provenance="fullcontact_1481">Baidu</name>
     <country provenance="http://www.forbes.com/companies/baidu/">China</country>
@@ -1895,6 +1924,16 @@
     <industry provenance=""/>
     <assets provenance="">1.17E10</assets>
     <revenue provenance="http://www.forbes.com/companies/baidu/">5.2E9</revenue>
+    <keypeople/>
+  </company>
+  <company>
+    <id>fullcontact_381+http://www.forbes.com/companies/hindustan-petroleum/</id>
+    <name provenance="fullcontact_381">Hindustan Petroleum</name>
+    <country provenance="http://www.forbes.com/companies/hindustan-petroleum/">India</country>
+    <city provenance=""/>
+    <industry provenance=""/>
+    <assets provenance="">1.71E10</assets>
+    <revenue provenance="http://www.forbes.com/companies/hindustan-petroleum/">3.5E10</revenue>
     <keypeople/>
   </company>
   <company>
@@ -1964,7 +2003,7 @@
   <company>
     <id>http://dbpedia.org/resource/Renesas_Electronics+http://www.forbes.com/companies/renesas-electronics/</id>
     <name provenance="http://dbpedia.org/resource/Renesas_Electronics">Renesas Electronics</name>
-    <country provenance="http://www.forbes.com/companies/renesas-electronics/+http://dbpedia.org/resource/Renesas_Electronics">Japan</country>
+    <country provenance="http://dbpedia.org/resource/Renesas_Electronics+http://www.forbes.com/companies/renesas-electronics/">Japan</country>
     <city provenance="http://dbpedia.org/resource/Renesas_Electronics">Tokyo</city>
     <industry provenance=""/>
     <assets provenance="">7.6E9</assets>
@@ -1984,16 +2023,6 @@
     <keypeople/>
   </company>
   <company>
-    <id>fullcontact_474+http://www.forbes.com/companies/legrand/</id>
-    <name provenance="fullcontact_474">Legrand</name>
-    <country provenance="http://www.forbes.com/companies/legrand/">France</country>
-    <city provenance=""/>
-    <industry provenance=""/>
-    <assets provenance="">9.1E9</assets>
-    <revenue provenance="http://www.forbes.com/companies/legrand/">5.9E9</revenue>
-    <keypeople/>
-  </company>
-  <company>
     <id>fullcontact_98+http://www.forbes.com/companies/antero-resources/</id>
     <name provenance="http://www.forbes.com/companies/antero-resources/">Antero Resources</name>
     <country provenance="http://www.forbes.com/companies/antero-resources/">United States of America</country>
@@ -2004,14 +2033,13 @@
     <keypeople/>
   </company>
   <company>
-    <id>http://dbpedia.org/resource/Bank_of_Commerce+http://www.forbes.com/companies/oriental-bank-of-commerce/</id>
-    <name provenance="http://www.forbes.com/companies/oriental-bank-of-commerce/">Oriental Bank of Commerce</name>
-    <country provenance="http://dbpedia.org/resource/Bank_of_Commerce">Philippines</country>
-    <city provenance="http://dbpedia.org/resource/Bank_of_Commerce">Mandaluyong</city>
+    <id>fullcontact_474+http://www.forbes.com/companies/legrand/</id>
+    <name provenance="fullcontact_474">Legrand</name>
+    <country provenance="http://www.forbes.com/companies/legrand/">France</country>
+    <city provenance=""/>
     <industry provenance=""/>
-    <assets provenance="">1.047E11</assets>
-    <revenue provenance="http://www.forbes.com/companies/oriental-bank-of-commerce/">3.5E9</revenue>
-    <founded provenance="">1991-01-01T00:00:00.000+01:00</founded>
+    <assets provenance="">9.1E9</assets>
+    <revenue provenance="http://www.forbes.com/companies/legrand/">5.9E9</revenue>
     <keypeople/>
   </company>
   <company>
@@ -2028,7 +2056,7 @@
   <company>
     <id>http://dbpedia.org/resource/Naspers+http://www.forbes.com/companies/naspers/</id>
     <name provenance="http://www.forbes.com/companies/naspers/">Naspers</name>
-    <country provenance="http://www.forbes.com/companies/naspers/+http://dbpedia.org/resource/Naspers">South Africa</country>
+    <country provenance="http://dbpedia.org/resource/Naspers+http://www.forbes.com/companies/naspers/">South Africa</country>
     <city provenance="http://dbpedia.org/resource/Naspers">Cape Town</city>
     <industry provenance=""/>
     <assets provenance="">1.2E10</assets>
@@ -2039,12 +2067,23 @@
   <company>
     <id>fullcontact_1943+http://dbpedia.org/resource/Shiseido+http://www.forbes.com/companies/shiseido/</id>
     <name provenance="http://www.forbes.com/companies/shiseido/">Shiseido</name>
-    <country provenance="fullcontact_1943+http://www.forbes.com/companies/shiseido/+http://dbpedia.org/resource/Shiseido">Japan</country>
+    <country provenance="http://dbpedia.org/resource/Shiseido+http://www.forbes.com/companies/shiseido/+fullcontact_1943">Japan</country>
     <city provenance="fullcontact_1943">Minato-ku</city>
     <industry provenance=""/>
     <assets provenance="">7.0E9</assets>
     <revenue provenance="http://dbpedia.org/resource/Shiseido">7.23E8</revenue>
     <founded provenance="">1872-01-01T00:00:00.000+00:53:28</founded>
+    <keypeople/>
+  </company>
+  <company>
+    <id>fullcontact_366+http://dbpedia.org/resource/Grupo_Bimbo+http://www.forbes.com/companies/grupo-bimbo/</id>
+    <name provenance="fullcontact_366">Grupo Bimbo</name>
+    <country provenance="http://dbpedia.org/resource/Grupo_Bimbo+http://www.forbes.com/companies/grupo-bimbo/">Mexico</country>
+    <city provenance="fullcontact_366">null</city>
+    <industry provenance=""/>
+    <assets provenance="">1.03E10</assets>
+    <revenue provenance="http://dbpedia.org/resource/Grupo_Bimbo">1.31E10</revenue>
+    <founded provenance="">1945-01-01T00:00:00.000+01:00</founded>
     <keypeople/>
   </company>
   <company>
@@ -2070,17 +2109,6 @@
     <keypeople/>
   </company>
   <company>
-    <id>fullcontact_366+http://dbpedia.org/resource/Grupo_Bimbo+http://www.forbes.com/companies/grupo-bimbo/</id>
-    <name provenance="fullcontact_366">Grupo Bimbo</name>
-    <country provenance="http://www.forbes.com/companies/grupo-bimbo/+http://dbpedia.org/resource/Grupo_Bimbo">Mexico</country>
-    <city provenance="fullcontact_366">null</city>
-    <industry provenance=""/>
-    <assets provenance="">1.03E10</assets>
-    <revenue provenance="http://dbpedia.org/resource/Grupo_Bimbo">1.31E10</revenue>
-    <founded provenance="">1945-01-01T00:00:00.000+01:00</founded>
-    <keypeople/>
-  </company>
-  <company>
     <id>fullcontact_1199+fullcontact_41+http://www.forbes.com/companies/3m/</id>
     <name provenance="http://www.forbes.com/companies/3m/">3M</name>
     <country provenance="fullcontact_1199+fullcontact_41">United States</country>
@@ -2094,7 +2122,7 @@
   <company>
     <id>fullcontact_29+http://www.forbes.com/companies/pernod-ricard/</id>
     <name provenance="fullcontact_29">Pernod Ricard</name>
-    <country provenance="fullcontact_29+http://www.forbes.com/companies/pernod-ricard/">France</country>
+    <country provenance="http://www.forbes.com/companies/pernod-ricard/+fullcontact_29">France</country>
     <city provenance="fullcontact_29">null</city>
     <industry provenance=""/>
     <assets provenance="">3.83E10</assets>
@@ -2136,7 +2164,7 @@
   <company>
     <id>fullcontact_352+fullcontact_921+http://dbpedia.org/resource/General_Growth_Properties+http://www.forbes.com/companies/general-growth-properties/</id>
     <name provenance="http://dbpedia.org/resource/General_Growth_Properties">General Growth Properties</name>
-    <country provenance="fullcontact_921+http://dbpedia.org/resource/General_Growth_Properties+fullcontact_352">United States</country>
+    <country provenance="http://dbpedia.org/resource/General_Growth_Properties+fullcontact_352+fullcontact_921">United States</country>
     <city provenance="fullcontact_352">Chicago</city>
     <industry provenance=""/>
     <assets provenance="">2.58E10</assets>
@@ -2179,7 +2207,7 @@
   <company>
     <id>http://dbpedia.org/resource/Tokyo_Gas+http://www.forbes.com/companies/tokyo-gas/</id>
     <name provenance="http://www.forbes.com/companies/tokyo-gas/">Tokyo Gas</name>
-    <country provenance="http://www.forbes.com/companies/tokyo-gas/+http://dbpedia.org/resource/Tokyo_Gas">Japan</country>
+    <country provenance="http://dbpedia.org/resource/Tokyo_Gas+http://www.forbes.com/companies/tokyo-gas/">Japan</country>
     <city provenance="http://dbpedia.org/resource/Tokyo_Gas">TokyoMinato, Tokyo</city>
     <industry provenance=""/>
     <assets provenance="">1.96E10</assets>
@@ -2190,7 +2218,7 @@
   <company>
     <id>fullcontact_714+http://www.forbes.com/companies/syngenta/</id>
     <name provenance="http://www.forbes.com/companies/syngenta/">Syngenta</name>
-    <country provenance="fullcontact_714+http://www.forbes.com/companies/syngenta/">Switzerland</country>
+    <country provenance="http://www.forbes.com/companies/syngenta/+fullcontact_714">Switzerland</country>
     <city provenance="fullcontact_714">Basel</city>
     <industry provenance=""/>
     <assets provenance="">2.02E10</assets>
@@ -2222,7 +2250,7 @@
   <company>
     <id>fullcontact_363+http://dbpedia.org/resource/Grupo_Argos+http://www.forbes.com/companies/grupo-argos/</id>
     <name provenance="fullcontact_363">Grupo Argos</name>
-    <country provenance="http://www.forbes.com/companies/grupo-argos/+http://dbpedia.org/resource/Grupo_Argos">Colombia</country>
+    <country provenance="http://dbpedia.org/resource/Grupo_Argos+http://www.forbes.com/companies/grupo-argos/">Colombia</country>
     <city provenance="http://dbpedia.org/resource/Grupo_Argos">Medellín</city>
     <industry provenance=""/>
     <assets provenance="">1.43E10</assets>
@@ -2276,7 +2304,7 @@
   <company>
     <id>http://dbpedia.org/resource/Evergrande_Real_Estate_Group+http://www.forbes.com/companies/evergrande-real-estate/</id>
     <name provenance="http://dbpedia.org/resource/Evergrande_Real_Estate_Group">Evergrande Real Estate Group</name>
-    <country provenance="http://www.forbes.com/companies/evergrande-real-estate/+http://dbpedia.org/resource/Evergrande_Real_Estate_Group">China</country>
+    <country provenance="http://dbpedia.org/resource/Evergrande_Real_Estate_Group+http://www.forbes.com/companies/evergrande-real-estate/">China</country>
     <city provenance="http://dbpedia.org/resource/Evergrande_Real_Estate_Group">GuangzhouGuangdong</city>
     <industry provenance=""/>
     <assets provenance="">4.47E10</assets>
@@ -2298,7 +2326,7 @@
   <company>
     <id>http://dbpedia.org/resource/A2A+http://www.forbes.com/companies/a2a/</id>
     <name provenance="http://dbpedia.org/resource/A2A">A2A</name>
-    <country provenance="http://www.forbes.com/companies/a2a/+http://dbpedia.org/resource/A2A">Italy</country>
+    <country provenance="http://dbpedia.org/resource/A2A+http://www.forbes.com/companies/a2a/">Italy</country>
     <city provenance="http://dbpedia.org/resource/A2A">Brescia</city>
     <industry provenance=""/>
     <assets provenance="">1.76E10</assets>
@@ -2317,9 +2345,19 @@
     <keypeople/>
   </company>
   <company>
+    <id>fullcontact_482+fullcontact_890+http://www.forbes.com/companies/lloyds-banking-group/</id>
+    <name provenance="fullcontact_482">Lloyds Banking Group Plc</name>
+    <country provenance="http://www.forbes.com/companies/lloyds-banking-group/">United Kingdom of Great Britain and Northern Ireland</country>
+    <city provenance=""/>
+    <industry provenance=""/>
+    <assets provenance="">1.4029E12</assets>
+    <revenue provenance="http://www.forbes.com/companies/lloyds-banking-group/">5.86E10</revenue>
+    <keypeople/>
+  </company>
+  <company>
     <id>fullcontact_293+http://dbpedia.org/resource/Eni+http://www.forbes.com/companies/eni/</id>
     <name provenance="http://www.forbes.com/companies/eni/">Eni</name>
-    <country provenance="fullcontact_293+http://dbpedia.org/resource/Eni+http://www.forbes.com/companies/eni/">Italy</country>
+    <country provenance="http://www.forbes.com/companies/eni/+fullcontact_293+http://dbpedia.org/resource/Eni">Italy</country>
     <city provenance="http://dbpedia.org/resource/Eni">Rome</city>
     <industry provenance=""/>
     <assets provenance="">1.866E11</assets>
@@ -2330,7 +2368,7 @@
   <company>
     <id>http://dbpedia.org/resource/Dai_Nippon_Printing+http://www.forbes.com/companies/dai-nippon-printing/</id>
     <name provenance="http://www.forbes.com/companies/dai-nippon-printing/">Dai Nippon Printing</name>
-    <country provenance="http://www.forbes.com/companies/dai-nippon-printing/+http://dbpedia.org/resource/Dai_Nippon_Printing">Japan</country>
+    <country provenance="http://dbpedia.org/resource/Dai_Nippon_Printing+http://www.forbes.com/companies/dai-nippon-printing/">Japan</country>
     <city provenance="http://dbpedia.org/resource/Dai_Nippon_Printing">Tokyo</city>
     <industry provenance=""/>
     <assets provenance="">1.47E10</assets>
@@ -2341,7 +2379,7 @@
   <company>
     <id>fullcontact_452+fullcontact_961+http://www.forbes.com/companies/kering/</id>
     <name provenance="fullcontact_961">Kering</name>
-    <country provenance="fullcontact_961+fullcontact_452+http://www.forbes.com/companies/kering/">France</country>
+    <country provenance="fullcontact_961+http://www.forbes.com/companies/kering/+fullcontact_452">France</country>
     <city provenance="fullcontact_961">PARIS</city>
     <industry provenance=""/>
     <assets provenance="">3.14E10</assets>
@@ -2374,7 +2412,7 @@
   <company>
     <id>fullcontact_345+http://www.forbes.com/companies/geberit/</id>
     <name provenance="fullcontact_345">Geberit</name>
-    <country provenance="http://www.forbes.com/companies/geberit/+fullcontact_345">Switzerland</country>
+    <country provenance="fullcontact_345+http://www.forbes.com/companies/geberit/">Switzerland</country>
     <city provenance="fullcontact_345">Jona</city>
     <industry provenance=""/>
     <assets provenance="">2.5E9</assets>
@@ -2418,7 +2456,7 @@
   <company>
     <id>http://dbpedia.org/resource/Weichai_Power+http://www.forbes.com/companies/weichai-power/</id>
     <name provenance="http://dbpedia.org/resource/Weichai_Power">Weichai Power</name>
-    <country provenance="http://dbpedia.org/resource/Weichai_Power+http://www.forbes.com/companies/weichai-power/">China</country>
+    <country provenance="http://www.forbes.com/companies/weichai-power/+http://dbpedia.org/resource/Weichai_Power">China</country>
     <city provenance="http://dbpedia.org/resource/Weichai_Power">WeifangShandong</city>
     <industry provenance=""/>
     <assets provenance="">1.3E10</assets>
@@ -2450,7 +2488,7 @@
   <company>
     <id>fullcontact_802+http://dbpedia.org/resource/Volkswagen_Group+http://www.forbes.com/companies/volkswagen-group/</id>
     <name provenance="http://www.forbes.com/companies/volkswagen-group/">Volkswagen Group</name>
-    <country provenance="fullcontact_802+http://dbpedia.org/resource/Volkswagen_Group">Germany</country>
+    <country provenance="http://dbpedia.org/resource/Volkswagen_Group+fullcontact_802">Germany</country>
     <city provenance="fullcontact_802">Wolfsburg</city>
     <industry provenance=""/>
     <assets provenance="">4.469E11</assets>
@@ -2494,7 +2532,7 @@
   <company>
     <id>fullcontact_712+http://www.forbes.com/companies/swiss-re/</id>
     <name provenance="http://www.forbes.com/companies/swiss-re/">Swiss Re</name>
-    <country provenance="http://www.forbes.com/companies/swiss-re/+fullcontact_712">Switzerland</country>
+    <country provenance="fullcontact_712+http://www.forbes.com/companies/swiss-re/">Switzerland</country>
     <city provenance="fullcontact_712">Zürich</city>
     <industry provenance=""/>
     <assets provenance="">2.052E11</assets>
@@ -2514,20 +2552,9 @@
     <keypeople/>
   </company>
   <company>
-    <id>http://dbpedia.org/resource/Bank_Mizrahi-Tefahot+http://www.forbes.com/companies/mizrahi-tefahot-bank/</id>
-    <name provenance="http://www.forbes.com/companies/mizrahi-tefahot-bank/">Mizrahi Tefahot Bank</name>
-    <country provenance="http://www.forbes.com/companies/mizrahi-tefahot-bank/+http://dbpedia.org/resource/Bank_Mizrahi-Tefahot">Israel</country>
-    <city provenance="http://dbpedia.org/resource/Bank_Mizrahi-Tefahot">Ramat Gan</city>
-    <industry provenance=""/>
-    <assets provenance="">5.17E10</assets>
-    <revenue provenance="http://dbpedia.org/resource/Bank_Mizrahi-Tefahot">4.78E9</revenue>
-    <founded provenance="">1923-01-01T00:00:00.000+01:00</founded>
-    <keypeople/>
-  </company>
-  <company>
     <id>http://dbpedia.org/resource/Sumitomo_Mitsui_Trust_Holdings+http://www.forbes.com/companies/sumitomo-mitsui-trust/</id>
     <name provenance="http://dbpedia.org/resource/Sumitomo_Mitsui_Trust_Holdings">Sumitomo Mitsui Trust Holdings</name>
-    <country provenance="http://www.forbes.com/companies/sumitomo-mitsui-trust/+http://dbpedia.org/resource/Sumitomo_Mitsui_Trust_Holdings">Japan</country>
+    <country provenance="http://dbpedia.org/resource/Sumitomo_Mitsui_Trust_Holdings+http://www.forbes.com/companies/sumitomo-mitsui-trust/">Japan</country>
     <city provenance="http://dbpedia.org/resource/Sumitomo_Mitsui_Trust_Holdings">Tokyo</city>
     <industry provenance=""/>
     <assets provenance="">4.006E11</assets>
@@ -2538,23 +2565,12 @@
   <company>
     <id>http://dbpedia.org/resource/Larsen_&amp;_Toubro+http://www.forbes.com/companies/larsen-toubro/</id>
     <name provenance="http://www.forbes.com/companies/larsen-toubro/">Larsen &amp; Toubro</name>
-    <country provenance="http://www.forbes.com/companies/larsen-toubro/+http://dbpedia.org/resource/Larsen_&amp;_Toubro">India</country>
+    <country provenance="http://dbpedia.org/resource/Larsen_&amp;_Toubro+http://www.forbes.com/companies/larsen-toubro/">India</country>
     <city provenance="http://dbpedia.org/resource/Larsen_&amp;_Toubro">Ballard EstateMumbaiMaharashtra</city>
     <industry provenance=""/>
     <assets provenance="">2.67E10</assets>
     <revenue provenance="http://dbpedia.org/resource/Larsen_&amp;_Toubro">13.6</revenue>
     <founded provenance="">1938-01-01T00:00:00.000+01:00</founded>
-    <keypeople/>
-  </company>
-  <company>
-    <id>fullcontact_672+http://www.forbes.com/companies/signature-bank/</id>
-    <name provenance="http://www.forbes.com/companies/signature-bank/">Signature Bank</name>
-    <country provenance="http://www.forbes.com/companies/signature-bank/">United States of America</country>
-    <city provenance=""/>
-    <industry provenance=""/>
-    <assets provenance="">2.24E10</assets>
-    <revenue provenance="http://www.forbes.com/companies/signature-bank/">8.0E8</revenue>
-    <founded provenance="">2006-01-01T00:00:00.000+01:00</founded>
     <keypeople/>
   </company>
   <company>
@@ -2569,6 +2585,17 @@
     <keypeople/>
   </company>
   <company>
+    <id>fullcontact_672+http://www.forbes.com/companies/signature-bank/</id>
+    <name provenance="http://www.forbes.com/companies/signature-bank/">Signature Bank</name>
+    <country provenance="http://www.forbes.com/companies/signature-bank/">United States of America</country>
+    <city provenance=""/>
+    <industry provenance=""/>
+    <assets provenance="">2.24E10</assets>
+    <revenue provenance="http://www.forbes.com/companies/signature-bank/">8.0E8</revenue>
+    <founded provenance="">2006-01-01T00:00:00.000+01:00</founded>
+    <keypeople/>
+  </company>
+  <company>
     <id>fullcontact_718+http://www.forbes.com/companies/tata-motors/</id>
     <name provenance="http://www.forbes.com/companies/tata-motors/">Tata Motors</name>
     <country provenance="http://www.forbes.com/companies/tata-motors/">India</country>
@@ -2580,14 +2607,14 @@
     <keypeople/>
   </company>
   <company>
-    <id>http://dbpedia.org/resource/United_Continental_Holdings+http://www.forbes.com/companies/united-continental-holdings/</id>
-    <name provenance="http://www.forbes.com/companies/united-continental-holdings/">United Continental Holdings</name>
-    <country provenance="http://dbpedia.org/resource/United_Continental_Holdings">United States</country>
-    <city provenance="http://dbpedia.org/resource/United_Continental_Holdings">Willis TowerChicagoIllinoisChicago Loop</city>
+    <id>http://dbpedia.org/resource/Freeport-McMoRan+http://www.forbes.com/companies/freeport-mcmoran-copper/</id>
+    <name provenance="http://www.forbes.com/companies/freeport-mcmoran-copper/">Freeport-McMoRan Copper</name>
+    <country provenance="http://dbpedia.org/resource/Freeport-McMoRan">United States</country>
+    <city provenance="http://dbpedia.org/resource/Freeport-McMoRan">Phoenix, Arizona</city>
     <industry provenance=""/>
-    <assets provenance="">3.7628E10</assets>
-    <revenue provenance="http://dbpedia.org/resource/United_Continental_Holdings">3.7152E10</revenue>
-    <founded provenance="">2010-01-01T00:00:00.000+01:00</founded>
+    <assets provenance="">6.35E10</assets>
+    <revenue provenance="http://dbpedia.org/resource/Freeport-McMoRan">1.8982E10</revenue>
+    <founded provenance="">1912-01-01T00:00:00.000+01:00</founded>
     <keypeople/>
   </company>
   <company>
@@ -2613,14 +2640,14 @@
     <keypeople/>
   </company>
   <company>
-    <id>http://dbpedia.org/resource/Freeport-McMoRan+http://www.forbes.com/companies/freeport-mcmoran-copper/</id>
-    <name provenance="http://www.forbes.com/companies/freeport-mcmoran-copper/">Freeport-McMoRan Copper</name>
-    <country provenance="http://dbpedia.org/resource/Freeport-McMoRan">United States</country>
-    <city provenance="http://dbpedia.org/resource/Freeport-McMoRan">Phoenix, Arizona</city>
+    <id>http://dbpedia.org/resource/United_Continental_Holdings+http://www.forbes.com/companies/united-continental-holdings/</id>
+    <name provenance="http://www.forbes.com/companies/united-continental-holdings/">United Continental Holdings</name>
+    <country provenance="http://dbpedia.org/resource/United_Continental_Holdings">United States</country>
+    <city provenance="http://dbpedia.org/resource/United_Continental_Holdings">Willis TowerChicagoIllinoisChicago Loop</city>
     <industry provenance=""/>
-    <assets provenance="">6.35E10</assets>
-    <revenue provenance="http://dbpedia.org/resource/Freeport-McMoRan">1.8982E10</revenue>
-    <founded provenance="">1912-01-01T00:00:00.000+01:00</founded>
+    <assets provenance="">3.7628E10</assets>
+    <revenue provenance="http://dbpedia.org/resource/United_Continental_Holdings">3.7152E10</revenue>
+    <founded provenance="">2010-01-01T00:00:00.000+01:00</founded>
     <keypeople/>
   </company>
   <company>
@@ -2632,6 +2659,16 @@
     <assets provenance="">1.48E10</assets>
     <revenue provenance="http://dbpedia.org/resource/Wisconsin_Energy_Corporation">4.43E9</revenue>
     <founded provenance="">1987-01-01T00:00:00.000+01:00</founded>
+    <keypeople/>
+  </company>
+  <company>
+    <id>fullcontact_709+http://www.forbes.com/companies/swatch-group/</id>
+    <name provenance="fullcontact_709">Swatch Group</name>
+    <country provenance="fullcontact_709+http://www.forbes.com/companies/swatch-group/">Switzerland</country>
+    <city provenance="fullcontact_709">Biel</city>
+    <industry provenance=""/>
+    <assets provenance="">1.13E10</assets>
+    <revenue provenance="http://www.forbes.com/companies/swatch-group/">9.1E9</revenue>
     <keypeople/>
   </company>
   <company>
@@ -2778,7 +2815,7 @@
   <company>
     <id>http://dbpedia.org/resource/China_International_Marine_Containers+http://www.forbes.com/companies/china-international-marine/</id>
     <name provenance="http://dbpedia.org/resource/China_International_Marine_Containers">China International Marine Containers</name>
-    <country provenance="http://dbpedia.org/resource/China_International_Marine_Containers+http://www.forbes.com/companies/china-international-marine/">China</country>
+    <country provenance="http://www.forbes.com/companies/china-international-marine/+http://dbpedia.org/resource/China_International_Marine_Containers">China</country>
     <city provenance="http://dbpedia.org/resource/China_International_Marine_Containers">GuangdongShenzhen</city>
     <industry provenance=""/>
     <assets provenance="">1.2E10</assets>
@@ -2810,7 +2847,7 @@
   <company>
     <id>http://dbpedia.org/resource/Huaneng_Power_International+http://www.forbes.com/companies/huaneng-power-international/</id>
     <name provenance="http://dbpedia.org/resource/Huaneng_Power_International">Huaneng Power International</name>
-    <country provenance="http://dbpedia.org/resource/Huaneng_Power_International+http://www.forbes.com/companies/huaneng-power-international/">China</country>
+    <country provenance="http://www.forbes.com/companies/huaneng-power-international/+http://dbpedia.org/resource/Huaneng_Power_International">China</country>
     <city provenance="http://dbpedia.org/resource/Huaneng_Power_International">Beijing</city>
     <industry provenance=""/>
     <assets provenance="">4.31E10</assets>
@@ -2821,7 +2858,7 @@
   <company>
     <id>fullcontact_168+http://www.forbes.com/companies/braskem/</id>
     <name provenance="http://www.forbes.com/companies/braskem/">Braskem</name>
-    <country provenance="fullcontact_168+http://www.forbes.com/companies/braskem/">Brazil</country>
+    <country provenance="http://www.forbes.com/companies/braskem/+fullcontact_168">Brazil</country>
     <city provenance="fullcontact_168">São Paulo</city>
     <industry provenance=""/>
     <assets provenance="">2.05E10</assets>
@@ -2852,7 +2889,7 @@
   <company>
     <id>http://dbpedia.org/resource/Dongfang_Electric+http://www.forbes.com/companies/dongfang-electric/</id>
     <name provenance="http://dbpedia.org/resource/Dongfang_Electric">Dongfang Electric</name>
-    <country provenance="http://www.forbes.com/companies/dongfang-electric/+http://dbpedia.org/resource/Dongfang_Electric">China</country>
+    <country provenance="http://dbpedia.org/resource/Dongfang_Electric+http://www.forbes.com/companies/dongfang-electric/">China</country>
     <city provenance="http://dbpedia.org/resource/Dongfang_Electric">SichuanChengdu</city>
     <industry provenance=""/>
     <assets provenance="">1.29E10</assets>
@@ -2863,7 +2900,7 @@
   <company>
     <id>fullcontact_722+http://www.forbes.com/companies/technip/</id>
     <name provenance="http://www.forbes.com/companies/technip/">Technip</name>
-    <country provenance="http://www.forbes.com/companies/technip/+fullcontact_722">France</country>
+    <country provenance="fullcontact_722+http://www.forbes.com/companies/technip/">France</country>
     <city provenance="fullcontact_722">Paris</city>
     <industry provenance=""/>
     <assets provenance="">1.83E10</assets>
@@ -2874,7 +2911,7 @@
   <company>
     <id>http://dbpedia.org/resource/Suning_Appliance+http://www.forbes.com/companies/suning-appliance/</id>
     <name provenance="http://dbpedia.org/resource/Suning_Appliance">Suning Appliance</name>
-    <country provenance="http://dbpedia.org/resource/Suning_Appliance+http://www.forbes.com/companies/suning-appliance/">China</country>
+    <country provenance="http://www.forbes.com/companies/suning-appliance/+http://dbpedia.org/resource/Suning_Appliance">China</country>
     <city provenance=""/>
     <industry provenance=""/>
     <assets provenance="">1.36E10</assets>
@@ -2894,6 +2931,17 @@
     <keypeople/>
   </company>
   <company>
+    <id>http://dbpedia.org/resource/Kasikornbank+http://www.forbes.com/companies/kasikornbank/</id>
+    <name provenance="http://dbpedia.org/resource/Kasikornbank">Kasikornbank</name>
+    <country provenance="http://www.forbes.com/companies/kasikornbank/+http://dbpedia.org/resource/Kasikornbank">Thailand</country>
+    <city provenance="http://dbpedia.org/resource/Kasikornbank">Bangkok</city>
+    <industry provenance=""/>
+    <assets provenance="">6.97E10</assets>
+    <revenue provenance="http://dbpedia.org/resource/Kasikornbank">203.84</revenue>
+    <founded provenance="">1945-01-01T00:00:00.000+01:00</founded>
+    <keypeople/>
+  </company>
+  <company>
     <id>http://dbpedia.org/resource/Weir_Group+http://www.forbes.com/companies/weir-group/</id>
     <name provenance="http://www.forbes.com/companies/weir-group/">Weir Group</name>
     <country provenance="http://dbpedia.org/resource/Weir_Group">Scotland</country>
@@ -2902,17 +2950,6 @@
     <assets provenance="">5.2E9</assets>
     <revenue provenance="http://dbpedia.org/resource/Weir_Group">2000000.0</revenue>
     <founded provenance="">1871-01-01T00:00:00.000+00:53:28</founded>
-    <keypeople/>
-  </company>
-  <company>
-    <id>http://dbpedia.org/resource/Kasikornbank+http://www.forbes.com/companies/kasikornbank/</id>
-    <name provenance="http://dbpedia.org/resource/Kasikornbank">Kasikornbank</name>
-    <country provenance="http://dbpedia.org/resource/Kasikornbank+http://www.forbes.com/companies/kasikornbank/">Thailand</country>
-    <city provenance="http://dbpedia.org/resource/Kasikornbank">Bangkok</city>
-    <industry provenance=""/>
-    <assets provenance="">6.97E10</assets>
-    <revenue provenance="http://dbpedia.org/resource/Kasikornbank">203.84</revenue>
-    <founded provenance="">1945-01-01T00:00:00.000+01:00</founded>
     <keypeople/>
   </company>
   <company>
@@ -2961,7 +2998,7 @@
   <company>
     <id>fullcontact_673+http://www.forbes.com/companies/sika/</id>
     <name provenance="fullcontact_673">Sika</name>
-    <country provenance="http://www.forbes.com/companies/sika/+fullcontact_673">Switzerland</country>
+    <country provenance="fullcontact_673+http://www.forbes.com/companies/sika/">Switzerland</country>
     <city provenance="fullcontact_673">Baar</city>
     <industry provenance=""/>
     <assets provenance="">5.3E9</assets>
@@ -2972,23 +3009,12 @@
   <company>
     <id>fullcontact_826+http://www.forbes.com/companies/wolseley/</id>
     <name provenance="http://www.forbes.com/companies/wolseley/">Wolseley</name>
-    <country provenance="http://www.forbes.com/companies/wolseley/+fullcontact_826">Switzerland</country>
+    <country provenance="fullcontact_826+http://www.forbes.com/companies/wolseley/">Switzerland</country>
     <city provenance="fullcontact_826">Grafenauweg 10</city>
     <industry provenance=""/>
     <assets provenance="">1.09E10</assets>
     <revenue provenance="http://www.forbes.com/companies/wolseley/">2.1E10</revenue>
     <founded provenance="">1887-01-01T00:00:00.000+00:53:28</founded>
-    <keypeople/>
-  </company>
-  <company>
-    <id>fullcontact_1959+fullcontact_544+http://dbpedia.org/resource/Nitto_Denko+http://www.forbes.com/companies/nitto-denko/</id>
-    <name provenance="fullcontact_1959">NITTO DENKO</name>
-    <country provenance="fullcontact_1959+fullcontact_544">United States</country>
-    <city provenance="fullcontact_1959">New Brunswick</city>
-    <industry provenance=""/>
-    <assets provenance="">7.6E9</assets>
-    <revenue provenance="http://www.forbes.com/companies/nitto-denko/">7.5E9</revenue>
-    <founded provenance="">1918-01-01T00:00:00.000+01:00</founded>
     <keypeople/>
   </company>
   <company>
@@ -3000,6 +3026,17 @@
     <assets provenance="">3.02E10</assets>
     <revenue provenance="http://dbpedia.org/resource/Alcatel-Lucent">1.4446E10</revenue>
     <founded provenance="">2006-01-01T00:00:00.000+01:00</founded>
+    <keypeople/>
+  </company>
+  <company>
+    <id>fullcontact_1959+fullcontact_544+http://dbpedia.org/resource/Nitto_Denko+http://www.forbes.com/companies/nitto-denko/</id>
+    <name provenance="fullcontact_1959">NITTO DENKO</name>
+    <country provenance="fullcontact_1959+fullcontact_544">United States</country>
+    <city provenance="fullcontact_1959">New Brunswick</city>
+    <industry provenance=""/>
+    <assets provenance="">7.6E9</assets>
+    <revenue provenance="http://www.forbes.com/companies/nitto-denko/">7.5E9</revenue>
+    <founded provenance="">1918-01-01T00:00:00.000+01:00</founded>
     <keypeople/>
   </company>
   <company>
@@ -3026,7 +3063,7 @@
   <company>
     <id>fullcontact_249+http://www.forbes.com/companies/danske-bank/</id>
     <name provenance="http://www.forbes.com/companies/danske-bank/">Danske Bank</name>
-    <country provenance="http://www.forbes.com/companies/danske-bank/+fullcontact_249">Denmark</country>
+    <country provenance="fullcontact_249+http://www.forbes.com/companies/danske-bank/">Denmark</country>
     <city provenance="fullcontact_249">Copenhagen</city>
     <industry provenance=""/>
     <assets provenance="">5.96E11</assets>
@@ -3047,7 +3084,7 @@
   <company>
     <id>http://dbpedia.org/resource/China_Merchants_Property+http://www.forbes.com/companies/china-merchants-property/</id>
     <name provenance="http://www.forbes.com/companies/china-merchants-property/">China Merchants Property</name>
-    <country provenance="http://www.forbes.com/companies/china-merchants-property/+http://dbpedia.org/resource/China_Merchants_Property">China</country>
+    <country provenance="http://dbpedia.org/resource/China_Merchants_Property+http://www.forbes.com/companies/china-merchants-property/">China</country>
     <city provenance="http://dbpedia.org/resource/China_Merchants_Property">GuangdongShenzhen</city>
     <industry provenance=""/>
     <assets provenance="">2.21E10</assets>
@@ -3080,7 +3117,7 @@
   <company>
     <id>http://dbpedia.org/resource/Almarai+http://www.forbes.com/companies/almarai/</id>
     <name provenance="http://www.forbes.com/companies/almarai/">Almarai</name>
-    <country provenance="http://www.forbes.com/companies/almarai/+http://dbpedia.org/resource/Almarai">Saudi Arabia</country>
+    <country provenance="http://dbpedia.org/resource/Almarai+http://www.forbes.com/companies/almarai/">Saudi Arabia</country>
     <city provenance="http://dbpedia.org/resource/Almarai">Riyadh</city>
     <industry provenance=""/>
     <assets provenance="">6.2E9</assets>
@@ -3111,6 +3148,27 @@
     <keypeople/>
   </company>
   <company>
+    <id>fullcontact_700+http://www.forbes.com/companies/starwood-property-trust/</id>
+    <name provenance="fullcontact_700">STARWOOD PROPERTY TRUST, INC.</name>
+    <country provenance="http://www.forbes.com/companies/starwood-property-trust/">United States of America</country>
+    <city provenance=""/>
+    <industry provenance=""/>
+    <assets provenance="">1.041E11</assets>
+    <revenue provenance="http://www.forbes.com/companies/starwood-property-trust/">6.0E8</revenue>
+    <keypeople/>
+  </company>
+  <company>
+    <id>fullcontact_697+http://www.forbes.com/companies/stanley-black-decker/</id>
+    <name provenance="fullcontact_697">Stanley Black &amp; Decker, Inc.</name>
+    <country provenance="fullcontact_697">United States</country>
+    <city provenance="fullcontact_697">New Britain</city>
+    <industry provenance=""/>
+    <assets provenance="">1.65E10</assets>
+    <revenue provenance="http://www.forbes.com/companies/stanley-black-decker/">1.1E10</revenue>
+    <founded provenance="">1843-01-01T00:00:00.000+00:53:28</founded>
+    <keypeople/>
+  </company>
+  <company>
     <id>fullcontact_258+http://www.forbes.com/companies/deutsche-post/</id>
     <name provenance="fullcontact_258">Deutsche Post</name>
     <country provenance=""/>
@@ -3131,25 +3189,25 @@
     <keypeople/>
   </company>
   <company>
-    <id>http://dbpedia.org/resource/H&amp;M+http://www.forbes.com/companies/hm/</id>
-    <name provenance="http://www.forbes.com/companies/hm/">H&amp;M</name>
-    <country provenance="http://dbpedia.org/resource/H&amp;M+http://www.forbes.com/companies/hm/">Sweden</country>
-    <city provenance="http://dbpedia.org/resource/H&amp;M">Stockholm</city>
-    <industry provenance=""/>
-    <assets provenance="">1.03E10</assets>
-    <revenue provenance="http://dbpedia.org/resource/H&amp;M">1.41E11</revenue>
-    <founded provenance="">1947-01-01T00:00:00.000+01:00</founded>
-    <keypeople/>
-  </company>
-  <company>
     <id>http://dbpedia.org/resource/China_Life_Insurance_Company+http://www.forbes.com/companies/china-life-insurance/</id>
     <name provenance="http://dbpedia.org/resource/China_Life_Insurance_Company">China Life Insurance Company</name>
-    <country provenance="http://dbpedia.org/resource/China_Life_Insurance_Company+http://www.forbes.com/companies/china-life-insurance/">China</country>
+    <country provenance="http://www.forbes.com/companies/china-life-insurance/+http://dbpedia.org/resource/China_Life_Insurance_Company">China</country>
     <city provenance="http://dbpedia.org/resource/China_Life_Insurance_Company">Beijing</city>
     <industry provenance=""/>
     <assets provenance="">3.272E11</assets>
     <revenue provenance="http://www.forbes.com/companies/china-life-insurance/">6.84E10</revenue>
     <founded provenance="">2003-01-01T00:00:00.000+01:00</founded>
+    <keypeople/>
+  </company>
+  <company>
+    <id>http://dbpedia.org/resource/H&amp;M+http://www.forbes.com/companies/hm/</id>
+    <name provenance="http://www.forbes.com/companies/hm/">H&amp;M</name>
+    <country provenance="http://www.forbes.com/companies/hm/+http://dbpedia.org/resource/H&amp;M">Sweden</country>
+    <city provenance="http://dbpedia.org/resource/H&amp;M">Stockholm</city>
+    <industry provenance=""/>
+    <assets provenance="">1.03E10</assets>
+    <revenue provenance="http://dbpedia.org/resource/H&amp;M">1.41E11</revenue>
+    <founded provenance="">1947-01-01T00:00:00.000+01:00</founded>
     <keypeople/>
   </company>
   <company>
@@ -3165,7 +3223,7 @@
   <company>
     <id>fullcontact_804+http://www.forbes.com/companies/vopak/</id>
     <name provenance="http://www.forbes.com/companies/vopak/">Vopak</name>
-    <country provenance="fullcontact_804+http://www.forbes.com/companies/vopak/">Netherlands</country>
+    <country provenance="http://www.forbes.com/companies/vopak/+fullcontact_804">Netherlands</country>
     <city provenance="fullcontact_804">3016 CK Rotterdam</city>
     <industry provenance=""/>
     <assets provenance="">6.6E9</assets>
@@ -3175,7 +3233,7 @@
   <company>
     <id>http://dbpedia.org/resource/Cameco+http://www.forbes.com/companies/cameco/</id>
     <name provenance="http://dbpedia.org/resource/Cameco">Cameco</name>
-    <country provenance="http://www.forbes.com/companies/cameco/+http://dbpedia.org/resource/Cameco">Canada</country>
+    <country provenance="http://dbpedia.org/resource/Cameco+http://www.forbes.com/companies/cameco/">Canada</country>
     <city provenance="http://dbpedia.org/resource/Cameco">SaskatchewanSaskatoon</city>
     <industry provenance=""/>
     <assets provenance="">7.6E9</assets>
@@ -3202,6 +3260,16 @@
     <assets provenance="">3.32E10</assets>
     <revenue provenance="http://www.forbes.com/companies/taqa/">7.0E9</revenue>
     <founded provenance="">2005-01-01T00:00:00.000+01:00</founded>
+    <keypeople/>
+  </company>
+  <company>
+    <id>fullcontact_618+http://www.forbes.com/companies/raymond-james-financial/</id>
+    <name provenance="fullcontact_618">Raymond James Financial, Inc.</name>
+    <country provenance="fullcontact_618">United States</country>
+    <city provenance="fullcontact_618">Oakland</city>
+    <industry provenance=""/>
+    <assets provenance="">2.19E10</assets>
+    <revenue provenance="http://www.forbes.com/companies/raymond-james-financial/">4.6E9</revenue>
     <keypeople/>
   </company>
   <company>
@@ -3360,7 +3428,7 @@
   <company>
     <id>fullcontact_240+http://www.forbes.com/companies/crh/</id>
     <name provenance="fullcontact_240">CRH</name>
-    <country provenance="http://www.forbes.com/companies/crh/+fullcontact_240">Ireland</country>
+    <country provenance="fullcontact_240+http://www.forbes.com/companies/crh/">Ireland</country>
     <city provenance="fullcontact_240">Dublin 22</city>
     <industry provenance=""/>
     <assets provenance="">2.82E10</assets>
@@ -3412,17 +3480,6 @@
     <keypeople/>
   </company>
   <company>
-    <id>http://dbpedia.org/resource/NEC+http://www.forbes.com/companies/nec/</id>
-    <name provenance="http://www.forbes.com/companies/nec/">NEC</name>
-    <country provenance="http://www.forbes.com/companies/nec/+http://dbpedia.org/resource/NEC">Japan</country>
-    <city provenance="http://dbpedia.org/resource/NEC">Minato, Tokyo</city>
-    <industry provenance=""/>
-    <assets provenance="">2.42E10</assets>
-    <revenue provenance="http://www.forbes.com/companies/nec/">3.06E10</revenue>
-    <founded provenance="">1899-01-01T00:00:00.000+01:00</founded>
-    <keypeople/>
-  </company>
-  <company>
     <id>http://dbpedia.org/resource/Bank_of_Beijing+http://www.forbes.com/companies/bank-of-beijing/</id>
     <name provenance="http://dbpedia.org/resource/Bank_of_Beijing">Bank of Beijing</name>
     <country provenance="http://www.forbes.com/companies/bank-of-beijing/+http://dbpedia.org/resource/Bank_of_Beijing">China</country>
@@ -3431,6 +3488,17 @@
     <assets provenance="">1.972E11</assets>
     <revenue provenance="http://www.forbes.com/companies/bank-of-beijing/">9.8E9</revenue>
     <founded provenance="">1996-01-01T00:00:00.000+01:00</founded>
+    <keypeople/>
+  </company>
+  <company>
+    <id>http://dbpedia.org/resource/NEC+http://www.forbes.com/companies/nec/</id>
+    <name provenance="http://www.forbes.com/companies/nec/">NEC</name>
+    <country provenance="http://dbpedia.org/resource/NEC+http://www.forbes.com/companies/nec/">Japan</country>
+    <city provenance="http://dbpedia.org/resource/NEC">Minato, Tokyo</city>
+    <industry provenance=""/>
+    <assets provenance="">2.42E10</assets>
+    <revenue provenance="http://www.forbes.com/companies/nec/">3.06E10</revenue>
+    <founded provenance="">1899-01-01T00:00:00.000+01:00</founded>
     <keypeople/>
   </company>
   <company>
@@ -3447,7 +3515,7 @@
   <company>
     <id>fullcontact_107+http://www.forbes.com/companies/arkema/</id>
     <name provenance="http://www.forbes.com/companies/arkema/">Arkema</name>
-    <country provenance="http://www.forbes.com/companies/arkema/+fullcontact_107">France</country>
+    <country provenance="fullcontact_107+http://www.forbes.com/companies/arkema/">France</country>
     <city provenance="fullcontact_107">Colombes</city>
     <industry provenance=""/>
     <assets provenance="">7.5E9</assets>
@@ -3480,7 +3548,7 @@
   <company>
     <id>fullcontact_353+http://www.forbes.com/companies/givaudan/</id>
     <name provenance="http://www.forbes.com/companies/givaudan/">Givaudan</name>
-    <country provenance="fullcontact_353+http://www.forbes.com/companies/givaudan/">Switzerland</country>
+    <country provenance="http://www.forbes.com/companies/givaudan/+fullcontact_353">Switzerland</country>
     <city provenance="fullcontact_353">Vernier</city>
     <industry provenance=""/>
     <assets provenance="">7.0E9</assets>
@@ -3523,7 +3591,7 @@
   <company>
     <id>fullcontact_687+http://dbpedia.org/resource/Sodexo+http://www.forbes.com/companies/sodexo/</id>
     <name provenance="fullcontact_687">Sodexo</name>
-    <country provenance="http://www.forbes.com/companies/sodexo/+http://dbpedia.org/resource/Sodexo">France</country>
+    <country provenance="http://dbpedia.org/resource/Sodexo+http://www.forbes.com/companies/sodexo/">France</country>
     <city provenance="http://dbpedia.org/resource/Sodexo">Issy-les-Moulineaux</city>
     <industry provenance=""/>
     <assets provenance="">1.114E11</assets>
@@ -3534,7 +3602,7 @@
   <company>
     <id>fullcontact_71+http://www.forbes.com/companies/alfa-laval/</id>
     <name provenance="fullcontact_71">Alfa Laval</name>
-    <country provenance="http://www.forbes.com/companies/alfa-laval/+fullcontact_71">Sweden</country>
+    <country provenance="fullcontact_71+http://www.forbes.com/companies/alfa-laval/">Sweden</country>
     <city provenance="fullcontact_71">Lund</city>
     <industry provenance=""/>
     <assets provenance="">5.4E9</assets>
@@ -3566,7 +3634,7 @@
   <company>
     <id>http://dbpedia.org/resource/Gree_Electric+http://www.forbes.com/companies/gree-electric-appliances/</id>
     <name provenance="http://www.forbes.com/companies/gree-electric-appliances/">Gree Electric Appliances</name>
-    <country provenance="http://www.forbes.com/companies/gree-electric-appliances/+http://dbpedia.org/resource/Gree_Electric">China</country>
+    <country provenance="http://dbpedia.org/resource/Gree_Electric+http://www.forbes.com/companies/gree-electric-appliances/">China</country>
     <city provenance="http://dbpedia.org/resource/Gree_Electric">ZhuhaiGuangdong</city>
     <industry provenance=""/>
     <assets provenance="">2.12E10</assets>
@@ -3598,12 +3666,23 @@
   <company>
     <id>fullcontact_574+http://dbpedia.org/resource/Parker_Hannifin+http://www.forbes.com/companies/parker-hannifin/</id>
     <name provenance="fullcontact_574">Parker Hannifin</name>
-    <country provenance="http://dbpedia.org/resource/Parker_Hannifin+fullcontact_574">United States</country>
+    <country provenance="fullcontact_574+http://dbpedia.org/resource/Parker_Hannifin">United States</country>
     <city provenance="fullcontact_574">Marion</city>
     <industry provenance=""/>
     <assets provenance="">1.29E10</assets>
     <revenue provenance="http://dbpedia.org/resource/Parker_Hannifin">1.3E10</revenue>
     <founded provenance="">1918-01-01T00:00:00.000+01:00</founded>
+    <keypeople/>
+  </company>
+  <company>
+    <id>fullcontact_210+http://www.forbes.com/companies/chipotle-mexican-grill/</id>
+    <name provenance="fullcontact_210">Chipotle Mexican Grill, Inc.</name>
+    <country provenance="fullcontact_210">United States</country>
+    <city provenance="fullcontact_210">Dayton</city>
+    <industry provenance=""/>
+    <assets provenance="">2.1E9</assets>
+    <revenue provenance="http://www.forbes.com/companies/chipotle-mexican-grill/">3.2E9</revenue>
+    <founded provenance="">1993-01-01T00:00:00.000+01:00</founded>
     <keypeople/>
   </company>
   <company>
@@ -3653,7 +3732,7 @@
   <company>
     <id>http://dbpedia.org/resource/Siam_Cement+http://www.forbes.com/companies/siam-cement/</id>
     <name provenance="http://www.forbes.com/companies/siam-cement/">Siam Cement</name>
-    <country provenance="http://dbpedia.org/resource/Siam_Cement+http://www.forbes.com/companies/siam-cement/">Thailand</country>
+    <country provenance="http://www.forbes.com/companies/siam-cement/+http://dbpedia.org/resource/Siam_Cement">Thailand</country>
     <city provenance="http://dbpedia.org/resource/Siam_Cement">BangkokBang Sue District</city>
     <industry provenance=""/>
     <assets provenance="">1.34E10</assets>
@@ -3696,7 +3775,7 @@
   <company>
     <id>fullcontact_491+fullcontact_887+http://www.forbes.com/companies/mastercard/</id>
     <name provenance="fullcontact_491">MasterCard</name>
-    <country provenance="fullcontact_491+fullcontact_887">United States</country>
+    <country provenance="fullcontact_887+fullcontact_491">United States</country>
     <city provenance="fullcontact_491">Purchase</city>
     <industry provenance=""/>
     <assets provenance="">1.42E10</assets>
@@ -3707,7 +3786,7 @@
   <company>
     <id>fullcontact_839+http://www.forbes.com/companies/zain/</id>
     <name provenance="fullcontact_839">Zain</name>
-    <country provenance="http://www.forbes.com/companies/zain/+fullcontact_839">Kuwait</country>
+    <country provenance="fullcontact_839+http://www.forbes.com/companies/zain/">Kuwait</country>
     <city provenance="fullcontact_839">Kuwait</city>
     <industry provenance=""/>
     <assets provenance="">1.1E10</assets>
@@ -3740,7 +3819,7 @@
   <company>
     <id>http://dbpedia.org/resource/Woodside_Petroleum+http://www.forbes.com/companies/woodside-petroleum/</id>
     <name provenance="http://www.forbes.com/companies/woodside-petroleum/">Woodside Petroleum</name>
-    <country provenance="http://www.forbes.com/companies/woodside-petroleum/+http://dbpedia.org/resource/Woodside_Petroleum">Australia</country>
+    <country provenance="http://dbpedia.org/resource/Woodside_Petroleum+http://www.forbes.com/companies/woodside-petroleum/">Australia</country>
     <city provenance="http://dbpedia.org/resource/Woodside_Petroleum">PerthWestern AustraliaWoodside Plaza</city>
     <industry provenance=""/>
     <assets provenance="">2.38E10</assets>
@@ -3751,7 +3830,7 @@
   <company>
     <id>fullcontact_1197+fullcontact_172+http://dbpedia.org/resource/Brookfield_Asset_Management+http://www.forbes.com/companies/brookfield-asset-management/</id>
     <name provenance="fullcontact_1197">Brookfield Asset Management</name>
-    <country provenance="http://www.forbes.com/companies/brookfield-asset-management/+http://dbpedia.org/resource/Brookfield_Asset_Management+fullcontact_172+fullcontact_1197">Canada</country>
+    <country provenance="fullcontact_172+http://dbpedia.org/resource/Brookfield_Asset_Management+fullcontact_1197+http://www.forbes.com/companies/brookfield-asset-management/">Canada</country>
     <city provenance="fullcontact_1197">Toronto</city>
     <industry provenance=""/>
     <assets provenance="">1.127E11</assets>
@@ -3784,7 +3863,7 @@
   <company>
     <id>http://dbpedia.org/resource/Pembina_Pipeline+http://www.forbes.com/companies/pembina-pipeline/</id>
     <name provenance="http://dbpedia.org/resource/Pembina_Pipeline">Pembina Pipeline</name>
-    <country provenance="http://dbpedia.org/resource/Pembina_Pipeline+http://www.forbes.com/companies/pembina-pipeline/">Canada</country>
+    <country provenance="http://www.forbes.com/companies/pembina-pipeline/+http://dbpedia.org/resource/Pembina_Pipeline">Canada</country>
     <city provenance="http://dbpedia.org/resource/Pembina_Pipeline">Calgary</city>
     <industry provenance=""/>
     <assets provenance="">8.6E9</assets>
@@ -3815,6 +3894,16 @@
     <keypeople/>
   </company>
   <company>
+    <id>fullcontact_105+http://www.forbes.com/companies/arca-continental/</id>
+    <name provenance="fullcontact_105">Arca Continental</name>
+    <country provenance="http://www.forbes.com/companies/arca-continental/+fullcontact_105">Mexico</country>
+    <city provenance="fullcontact_105">Monterrey</city>
+    <industry provenance=""/>
+    <assets provenance="">5.1E9</assets>
+    <revenue provenance="http://www.forbes.com/companies/arca-continental/">4.7E9</revenue>
+    <keypeople/>
+  </company>
+  <company>
     <id>fullcontact_139+http://www.forbes.com/companies/bayer/</id>
     <name provenance="http://www.forbes.com/companies/bayer/">Bayer</name>
     <country provenance="fullcontact_139">Germany</country>
@@ -3823,16 +3912,6 @@
     <assets provenance="">7.07E10</assets>
     <revenue provenance="http://www.forbes.com/companies/bayer/">5.33E10</revenue>
     <founded provenance="">1863-01-01T00:00:00.000+00:53:28</founded>
-    <keypeople/>
-  </company>
-  <company>
-    <id>fullcontact_105+http://www.forbes.com/companies/arca-continental/</id>
-    <name provenance="fullcontact_105">Arca Continental</name>
-    <country provenance="fullcontact_105+http://www.forbes.com/companies/arca-continental/">Mexico</country>
-    <city provenance="fullcontact_105">Monterrey</city>
-    <industry provenance=""/>
-    <assets provenance="">5.1E9</assets>
-    <revenue provenance="http://www.forbes.com/companies/arca-continental/">4.7E9</revenue>
     <keypeople/>
   </company>
   <company>
@@ -3860,7 +3939,7 @@
   <company>
     <id>http://dbpedia.org/resource/Bank_of_Yokohama+http://www.forbes.com/companies/bank-of-yokohama/</id>
     <name provenance="http://www.forbes.com/companies/bank-of-yokohama/">Bank of Yokohama</name>
-    <country provenance="http://dbpedia.org/resource/Bank_of_Yokohama+http://www.forbes.com/companies/bank-of-yokohama/">Japan</country>
+    <country provenance="http://www.forbes.com/companies/bank-of-yokohama/+http://dbpedia.org/resource/Bank_of_Yokohama">Japan</country>
     <city provenance="http://dbpedia.org/resource/Bank_of_Yokohama">Yokohama</city>
     <industry provenance=""/>
     <assets provenance="">1.284E11</assets>
@@ -3871,23 +3950,12 @@
   <company>
     <id>http://dbpedia.org/resource/George_Weston_Limited+http://www.forbes.com/companies/george-weston/</id>
     <name provenance="http://dbpedia.org/resource/George_Weston_Limited">George Weston Limited</name>
-    <country provenance="http://www.forbes.com/companies/george-weston/+http://dbpedia.org/resource/George_Weston_Limited">Canada</country>
+    <country provenance="http://dbpedia.org/resource/George_Weston_Limited+http://www.forbes.com/companies/george-weston/">Canada</country>
     <city provenance="http://dbpedia.org/resource/George_Weston_Limited">Toronto</city>
     <industry provenance=""/>
     <assets provenance="">2.32E10</assets>
     <revenue provenance="http://dbpedia.org/resource/George_Weston_Limited">3.2742E10</revenue>
     <founded provenance="">1882-01-01T00:00:00.000+00:53:28</founded>
-    <keypeople/>
-  </company>
-  <company>
-    <id>http://dbpedia.org/resource/Metro_Inc.+http://www.forbes.com/companies/metro-inc/</id>
-    <name provenance="http://dbpedia.org/resource/Metro_Inc.">Metro Inc.</name>
-    <country provenance="http://dbpedia.org/resource/Metro_Inc.+http://www.forbes.com/companies/metro-inc/">Canada</country>
-    <city provenance="http://dbpedia.org/resource/Metro_Inc.">QuebecMontreal</city>
-    <industry provenance=""/>
-    <assets provenance="">4.9E9</assets>
-    <revenue provenance="http://dbpedia.org/resource/Metro_Inc.">1.134E10</revenue>
-    <founded provenance="">1947-01-01T00:00:00.000+01:00</founded>
     <keypeople/>
   </company>
   <company>
@@ -3899,6 +3967,17 @@
     <assets provenance="">4.8E9</assets>
     <revenue provenance="http://www.forbes.com/companies/hyundai-glovis/">1.17E10</revenue>
     <founded provenance="">2001-01-01T00:00:00.000+01:00</founded>
+    <keypeople/>
+  </company>
+  <company>
+    <id>http://dbpedia.org/resource/Metro_Inc.+http://www.forbes.com/companies/metro-inc/</id>
+    <name provenance="http://dbpedia.org/resource/Metro_Inc.">Metro Inc.</name>
+    <country provenance="http://www.forbes.com/companies/metro-inc/+http://dbpedia.org/resource/Metro_Inc.">Canada</country>
+    <city provenance="http://dbpedia.org/resource/Metro_Inc.">QuebecMontreal</city>
+    <industry provenance=""/>
+    <assets provenance="">4.9E9</assets>
+    <revenue provenance="http://dbpedia.org/resource/Metro_Inc.">1.134E10</revenue>
+    <founded provenance="">1947-01-01T00:00:00.000+01:00</founded>
     <keypeople/>
   </company>
   <company>
@@ -3933,17 +4012,6 @@
     <keypeople/>
   </company>
   <company>
-    <id>http://dbpedia.org/resource/Pakistan_State_Oil+http://www.forbes.com/companies/pakistan-state-oil/</id>
-    <name provenance="http://www.forbes.com/companies/pakistan-state-oil/">Pakistan State Oil</name>
-    <country provenance="http://dbpedia.org/resource/Pakistan_State_Oil">Pakistan</country>
-    <city provenance="http://dbpedia.org/resource/Pakistan_State_Oil">Karachi</city>
-    <industry provenance=""/>
-    <assets provenance="">3.3E9</assets>
-    <revenue provenance="http://dbpedia.org/resource/Pakistan_State_Oil">5.98E9</revenue>
-    <founded provenance="">1976-01-01T00:00:00.000+01:00</founded>
-    <keypeople/>
-  </company>
-  <company>
     <id>http://dbpedia.org/resource/Cabot_Oil_&amp;_Gas+http://www.forbes.com/companies/cabot-oil-gas/</id>
     <name provenance="http://dbpedia.org/resource/Cabot_Oil_&amp;_Gas">Cabot Oil &amp; Gas</name>
     <country provenance="http://dbpedia.org/resource/Cabot_Oil_&amp;_Gas">United States</country>
@@ -3955,9 +4023,30 @@
     <keypeople/>
   </company>
   <company>
+    <id>http://dbpedia.org/resource/Pakistan_State_Oil+http://www.forbes.com/companies/pakistan-state-oil/</id>
+    <name provenance="http://www.forbes.com/companies/pakistan-state-oil/">Pakistan State Oil</name>
+    <country provenance="http://dbpedia.org/resource/Pakistan_State_Oil">Pakistan</country>
+    <city provenance="http://dbpedia.org/resource/Pakistan_State_Oil">Karachi</city>
+    <industry provenance=""/>
+    <assets provenance="">3.3E9</assets>
+    <revenue provenance="http://dbpedia.org/resource/Pakistan_State_Oil">5.98E9</revenue>
+    <founded provenance="">1976-01-01T00:00:00.000+01:00</founded>
+    <keypeople/>
+  </company>
+  <company>
+    <id>fullcontact_123+http://www.forbes.com/companies/avis-budget-group/</id>
+    <name provenance="fullcontact_123">Avis Budget Group, Inc.</name>
+    <country provenance="http://www.forbes.com/companies/avis-budget-group/">United States of America</country>
+    <city provenance=""/>
+    <industry provenance=""/>
+    <assets provenance="">1.63E10</assets>
+    <revenue provenance="http://www.forbes.com/companies/avis-budget-group/">7.9E9</revenue>
+    <keypeople/>
+  </company>
+  <company>
     <id>fullcontact_789+http://www.forbes.com/companies/verbund/</id>
     <name provenance="fullcontact_789">Verbund</name>
-    <country provenance="fullcontact_789+http://www.forbes.com/companies/verbund/">Austria</country>
+    <country provenance="http://www.forbes.com/companies/verbund/+fullcontact_789">Austria</country>
     <city provenance="fullcontact_789">Wien</city>
     <industry provenance=""/>
     <assets provenance="">1.76E10</assets>
@@ -4009,17 +4098,6 @@
     <keypeople/>
   </company>
   <company>
-    <id>fullcontact_670+http://www.forbes.com/companies/siemens/</id>
-    <name provenance="http://www.forbes.com/companies/siemens/">Siemens</name>
-    <country provenance="fullcontact_670">Germany</country>
-    <city provenance="fullcontact_670">Munich</city>
-    <industry provenance=""/>
-    <assets provenance="">1.401E11</assets>
-    <revenue provenance="http://www.forbes.com/companies/siemens/">9.97E10</revenue>
-    <founded provenance="">1847-01-01T00:00:00.000+00:53:28</founded>
-    <keypeople/>
-  </company>
-  <company>
     <id>fullcontact_242+http://www.forbes.com/companies/csr/</id>
     <name provenance="http://www.forbes.com/companies/csr/">CSR</name>
     <country provenance="http://www.forbes.com/companies/csr/">China</country>
@@ -4033,11 +4111,22 @@
   <company>
     <id>fullcontact_505+http://www.forbes.com/companies/metcash/</id>
     <name provenance="http://www.forbes.com/companies/metcash/">Metcash</name>
-    <country provenance="http://www.forbes.com/companies/metcash/+fullcontact_505">Australia</country>
+    <country provenance="fullcontact_505+http://www.forbes.com/companies/metcash/">Australia</country>
     <city provenance="fullcontact_505">Sydney</city>
     <industry provenance=""/>
     <assets provenance="">4.2E9</assets>
     <revenue provenance="http://www.forbes.com/companies/metcash/">1.31E10</revenue>
+    <keypeople/>
+  </company>
+  <company>
+    <id>fullcontact_670+http://www.forbes.com/companies/siemens/</id>
+    <name provenance="http://www.forbes.com/companies/siemens/">Siemens</name>
+    <country provenance="fullcontact_670">Germany</country>
+    <city provenance="fullcontact_670">Munich</city>
+    <industry provenance=""/>
+    <assets provenance="">1.401E11</assets>
+    <revenue provenance="http://www.forbes.com/companies/siemens/">9.97E10</revenue>
+    <founded provenance="">1847-01-01T00:00:00.000+00:53:28</founded>
     <keypeople/>
   </company>
   <company>
@@ -4054,7 +4143,7 @@
   <company>
     <id>http://dbpedia.org/resource/Petrobras+http://www.forbes.com/companies/petrobras/</id>
     <name provenance="http://www.forbes.com/companies/petrobras/">Petrobras</name>
-    <country provenance="http://www.forbes.com/companies/petrobras/+http://dbpedia.org/resource/Petrobras">Brazil</country>
+    <country provenance="http://dbpedia.org/resource/Petrobras+http://www.forbes.com/companies/petrobras/">Brazil</country>
     <city provenance="http://dbpedia.org/resource/Petrobras">Rio de Janeiro</city>
     <industry provenance=""/>
     <assets provenance="">3.192E11</assets>
@@ -4076,7 +4165,7 @@
   <company>
     <id>fullcontact_784+http://www.forbes.com/companies/vallourec/</id>
     <name provenance="fullcontact_784">Vallourec</name>
-    <country provenance="http://www.forbes.com/companies/vallourec/+fullcontact_784">France</country>
+    <country provenance="fullcontact_784+http://www.forbes.com/companies/vallourec/">France</country>
     <city provenance="fullcontact_784">Boulogne-Billancourt</city>
     <industry provenance=""/>
     <assets provenance="">1.28E10</assets>
@@ -4086,7 +4175,7 @@
   <company>
     <id>fullcontact_1723+fullcontact_205+http://dbpedia.org/resource/CenturyLink+http://www.forbes.com/companies/centurylink/</id>
     <name provenance="http://www.forbes.com/companies/centurylink/">CenturyLink</name>
-    <country provenance="http://dbpedia.org/resource/CenturyLink+fullcontact_205+fullcontact_1723">United States</country>
+    <country provenance="http://dbpedia.org/resource/CenturyLink+fullcontact_1723+fullcontact_205">United States</country>
     <city provenance="fullcontact_1723">Monroe</city>
     <industry provenance=""/>
     <assets provenance="">5.18E10</assets>
@@ -4097,7 +4186,7 @@
   <company>
     <id>fullcontact_1881+http://dbpedia.org/resource/Noble_Energy+http://www.forbes.com/companies/noble-energy/</id>
     <name provenance="http://www.forbes.com/companies/noble-energy/">Noble Energy</name>
-    <country provenance="fullcontact_1881+http://dbpedia.org/resource/Noble_Energy">United States</country>
+    <country provenance="http://dbpedia.org/resource/Noble_Energy+fullcontact_1881">United States</country>
     <city provenance="fullcontact_1881">Houston</city>
     <industry provenance=""/>
     <assets provenance="">1.96E10</assets>
@@ -4108,7 +4197,7 @@
   <company>
     <id>fullcontact_1007+http://www.forbes.com/companies/origin-energy/</id>
     <name provenance="http://www.forbes.com/companies/origin-energy/">Origin Energy</name>
-    <country provenance="http://www.forbes.com/companies/origin-energy/+fullcontact_1007">Australia</country>
+    <country provenance="fullcontact_1007+http://www.forbes.com/companies/origin-energy/">Australia</country>
     <city provenance="fullcontact_1007">Sydney</city>
     <industry provenance=""/>
     <assets provenance="">2.72E10</assets>
@@ -4130,7 +4219,7 @@
   <company>
     <id>fullcontact_56+http://www.forbes.com/companies/aegon/</id>
     <name provenance="fullcontact_56">Aegon</name>
-    <country provenance="http://www.forbes.com/companies/aegon/+fullcontact_56">Netherlands</country>
+    <country provenance="fullcontact_56+http://www.forbes.com/companies/aegon/">Netherlands</country>
     <city provenance="fullcontact_56">The Hague</city>
     <industry provenance=""/>
     <assets provenance="">4.73E11</assets>
@@ -4147,6 +4236,17 @@
     <assets provenance="">1.96E10</assets>
     <revenue provenance="http://www.forbes.com/companies/ecolab/">1.33E10</revenue>
     <founded provenance="">1923-01-01T00:00:00.000+01:00</founded>
+    <keypeople/>
+  </company>
+  <company>
+    <id>fullcontact_239+http://www.forbes.com/companies/crescent-point-energy/</id>
+    <name provenance="fullcontact_239">Crescent Point Energy Corp.</name>
+    <country provenance="http://www.forbes.com/companies/crescent-point-energy/+fullcontact_239">Canada</country>
+    <city provenance="fullcontact_239">Calgary</city>
+    <industry provenance=""/>
+    <assets provenance="">1.23E10</assets>
+    <revenue provenance="http://www.forbes.com/companies/crescent-point-energy/">2.8E9</revenue>
+    <founded provenance="">2001-01-01T00:00:00.000+01:00</founded>
     <keypeople/>
   </company>
   <company>
@@ -4194,17 +4294,6 @@
     <keypeople/>
   </company>
   <company>
-    <id>http://dbpedia.org/resource/Inditex+http://www.forbes.com/companies/inditex/</id>
-    <name provenance="http://www.forbes.com/companies/inditex/">Inditex</name>
-    <country provenance="http://dbpedia.org/resource/Inditex+http://www.forbes.com/companies/inditex/">Spain</country>
-    <city provenance="http://dbpedia.org/resource/Inditex">Arteixo</city>
-    <industry provenance=""/>
-    <assets provenance="">1.86E10</assets>
-    <revenue provenance="http://dbpedia.org/resource/Inditex">1.379E10</revenue>
-    <founded provenance="">1985-01-01T00:00:00.000+01:00</founded>
-    <keypeople/>
-  </company>
-  <company>
     <id>http://dbpedia.org/resource/CITIC_Securities+http://www.forbes.com/companies/citic-securities/</id>
     <name provenance="http://www.forbes.com/companies/citic-securities/">Citic Securities</name>
     <country provenance="http://dbpedia.org/resource/CITIC_Securities+http://www.forbes.com/companies/citic-securities/">China</country>
@@ -4216,9 +4305,20 @@
     <keypeople/>
   </company>
   <company>
+    <id>http://dbpedia.org/resource/Inditex+http://www.forbes.com/companies/inditex/</id>
+    <name provenance="http://www.forbes.com/companies/inditex/">Inditex</name>
+    <country provenance="http://www.forbes.com/companies/inditex/+http://dbpedia.org/resource/Inditex">Spain</country>
+    <city provenance="http://dbpedia.org/resource/Inditex">Arteixo</city>
+    <industry provenance=""/>
+    <assets provenance="">1.86E10</assets>
+    <revenue provenance="http://dbpedia.org/resource/Inditex">1.379E10</revenue>
+    <founded provenance="">1985-01-01T00:00:00.000+01:00</founded>
+    <keypeople/>
+  </company>
+  <company>
     <id>http://dbpedia.org/resource/CPFL_Energia+http://www.forbes.com/companies/cpfl-energia/</id>
     <name provenance="http://dbpedia.org/resource/CPFL_Energia">CPFL Energia</name>
-    <country provenance="http://dbpedia.org/resource/CPFL_Energia+http://www.forbes.com/companies/cpfl-energia/">Brazil</country>
+    <country provenance="http://www.forbes.com/companies/cpfl-energia/+http://dbpedia.org/resource/CPFL_Energia">Brazil</country>
     <city provenance="http://dbpedia.org/resource/CPFL_Energia">Campinas</city>
     <industry provenance=""/>
     <assets provenance="">1.32E10</assets>
@@ -4239,7 +4339,7 @@
   <company>
     <id>fullcontact_625+fullcontact_971+http://dbpedia.org/resource/Richemont+http://www.forbes.com/companies/richemont/</id>
     <name provenance="http://dbpedia.org/resource/Richemont">Richemont</name>
-    <country provenance="http://dbpedia.org/resource/Richemont+http://www.forbes.com/companies/richemont/">Switzerland</country>
+    <country provenance="http://www.forbes.com/companies/richemont/+http://dbpedia.org/resource/Richemont">Switzerland</country>
     <city provenance="http://dbpedia.org/resource/Richemont">Bellevue, Switzerland</city>
     <industry provenance=""/>
     <assets provenance="">2.11E10</assets>
@@ -4260,7 +4360,7 @@
   <company>
     <id>fullcontact_7+http://dbpedia.org/resource/PPG_Industries+http://www.forbes.com/companies/ppg-industries/</id>
     <name provenance="http://dbpedia.org/resource/PPG_Industries">PPG Industries</name>
-    <country provenance="fullcontact_7+http://dbpedia.org/resource/PPG_Industries">United States</country>
+    <country provenance="http://dbpedia.org/resource/PPG_Industries+fullcontact_7">United States</country>
     <city provenance="fullcontact_7">Pittsburgh</city>
     <industry provenance=""/>
     <assets provenance="">1.59E10</assets>
@@ -4302,7 +4402,7 @@
   <company>
     <id>fullcontact_132+http://www.forbes.com/companies/bankinter/</id>
     <name provenance="http://www.forbes.com/companies/bankinter/">Bankinter</name>
-    <country provenance="fullcontact_132+http://www.forbes.com/companies/bankinter/">Spain</country>
+    <country provenance="http://www.forbes.com/companies/bankinter/+fullcontact_132">Spain</country>
     <city provenance="fullcontact_132">Madrid</city>
     <industry provenance=""/>
     <assets provenance="">7.6E10</assets>
@@ -4343,17 +4443,6 @@
     <keypeople/>
   </company>
   <company>
-    <id>http://dbpedia.org/resource/Kubota+http://www.forbes.com/companies/kubota/</id>
-    <name provenance="http://www.forbes.com/companies/kubota/">Kubota</name>
-    <country provenance="http://www.forbes.com/companies/kubota/+http://dbpedia.org/resource/Kubota">Japan</country>
-    <city provenance="http://dbpedia.org/resource/Kubota">Osaka</city>
-    <industry provenance=""/>
-    <assets provenance="">1.99E10</assets>
-    <revenue provenance="http://dbpedia.org/resource/Kubota">12.0</revenue>
-    <founded provenance="">1890-01-01T00:00:00.000+00:53:28</founded>
-    <keypeople/>
-  </company>
-  <company>
     <id>fullcontact_1+http://dbpedia.org/resource/BBMG+http://www.forbes.com/companies/bbmg/</id>
     <name provenance="http://dbpedia.org/resource/BBMG">BBMG</name>
     <country provenance="http://dbpedia.org/resource/BBMG+http://www.forbes.com/companies/bbmg/">China</country>
@@ -4362,6 +4451,17 @@
     <assets provenance="">1.63E10</assets>
     <revenue provenance="http://www.forbes.com/companies/bbmg/">7.0E9</revenue>
     <founded provenance="">1996-01-01T00:00:00.000+01:00</founded>
+    <keypeople/>
+  </company>
+  <company>
+    <id>http://dbpedia.org/resource/Kubota+http://www.forbes.com/companies/kubota/</id>
+    <name provenance="http://www.forbes.com/companies/kubota/">Kubota</name>
+    <country provenance="http://www.forbes.com/companies/kubota/+http://dbpedia.org/resource/Kubota">Japan</country>
+    <city provenance="http://dbpedia.org/resource/Kubota">Osaka</city>
+    <industry provenance=""/>
+    <assets provenance="">1.99E10</assets>
+    <revenue provenance="http://dbpedia.org/resource/Kubota">12.0</revenue>
+    <founded provenance="">1890-01-01T00:00:00.000+00:53:28</founded>
     <keypeople/>
   </company>
   <company>
@@ -4378,22 +4478,11 @@
   <company>
     <id>fullcontact_732+http://dbpedia.org/resource/Tenaris+http://www.forbes.com/companies/tenaris/</id>
     <name provenance="http://dbpedia.org/resource/Tenaris">Tenaris</name>
-    <country provenance="http://www.forbes.com/companies/tenaris/+http://dbpedia.org/resource/Tenaris">Luxembourg</country>
+    <country provenance="http://dbpedia.org/resource/Tenaris+http://www.forbes.com/companies/tenaris/">Luxembourg</country>
     <city provenance="fullcontact_732">Houston</city>
     <industry provenance=""/>
     <assets provenance="">1.59E10</assets>
     <revenue provenance="http://dbpedia.org/resource/Tenaris">1.08E10</revenue>
-    <founded provenance="">2002-01-01T00:00:00.000+01:00</founded>
-    <keypeople/>
-  </company>
-  <company>
-    <id>http://dbpedia.org/resource/Sumitomo_Mitsui_Financial_Group+http://www.forbes.com/companies/sumitomo-mitsui-financial/</id>
-    <name provenance="http://dbpedia.org/resource/Sumitomo_Mitsui_Financial_Group">Sumitomo Mitsui Financial Group</name>
-    <country provenance="http://www.forbes.com/companies/sumitomo-mitsui-financial/+http://dbpedia.org/resource/Sumitomo_Mitsui_Financial_Group">Japan</country>
-    <city provenance="http://dbpedia.org/resource/Sumitomo_Mitsui_Financial_Group">Chiyoda, Tokyo</city>
-    <industry provenance=""/>
-    <assets provenance="">1.4947E12</assets>
-    <revenue provenance="http://www.forbes.com/companies/sumitomo-mitsui-financial/">4.62E10</revenue>
     <founded provenance="">2002-01-01T00:00:00.000+01:00</founded>
     <keypeople/>
   </company>
@@ -4406,6 +4495,17 @@
     <assets provenance="">1.11E10</assets>
     <revenue provenance="http://www.forbes.com/companies/china-merchants-holdings/">1.3E9</revenue>
     <founded provenance="">1992-01-01T00:00:00.000+01:00</founded>
+    <keypeople/>
+  </company>
+  <company>
+    <id>http://dbpedia.org/resource/Sumitomo_Mitsui_Financial_Group+http://www.forbes.com/companies/sumitomo-mitsui-financial/</id>
+    <name provenance="http://dbpedia.org/resource/Sumitomo_Mitsui_Financial_Group">Sumitomo Mitsui Financial Group</name>
+    <country provenance="http://dbpedia.org/resource/Sumitomo_Mitsui_Financial_Group+http://www.forbes.com/companies/sumitomo-mitsui-financial/">Japan</country>
+    <city provenance="http://dbpedia.org/resource/Sumitomo_Mitsui_Financial_Group">Chiyoda, Tokyo</city>
+    <industry provenance=""/>
+    <assets provenance="">1.4947E12</assets>
+    <revenue provenance="http://www.forbes.com/companies/sumitomo-mitsui-financial/">4.62E10</revenue>
+    <founded provenance="">2002-01-01T00:00:00.000+01:00</founded>
     <keypeople/>
   </company>
   <company>
@@ -4452,17 +4552,6 @@
     <keypeople/>
   </company>
   <company>
-    <id>http://dbpedia.org/resource/Westfield_Group+http://www.forbes.com/companies/westfield-group/</id>
-    <name provenance="http://dbpedia.org/resource/Westfield_Group">Westfield Group</name>
-    <country provenance="http://www.forbes.com/companies/westfield-group/+http://dbpedia.org/resource/Westfield_Group">Australia</country>
-    <city provenance="http://dbpedia.org/resource/Westfield_Group">Castlereagh Street, SydneySydney</city>
-    <industry provenance=""/>
-    <assets provenance="">3.12E10</assets>
-    <revenue provenance="http://dbpedia.org/resource/Westfield_Group">4.05</revenue>
-    <founded provenance="">1960-01-01T00:00:00.000+01:00</founded>
-    <keypeople/>
-  </company>
-  <company>
     <id>http://dbpedia.org/resource/Travis_Perkins+http://www.forbes.com/companies/travis-perkins/</id>
     <name provenance="http://dbpedia.org/resource/Travis_Perkins">Travis Perkins</name>
     <country provenance="http://dbpedia.org/resource/Travis_Perkins">United Kingdom</country>
@@ -4471,6 +4560,17 @@
     <assets provenance="">7.4E9</assets>
     <revenue provenance="http://dbpedia.org/resource/Travis_Perkins">5000000.0</revenue>
     <founded provenance="">1988-01-01T00:00:00.000+01:00</founded>
+    <keypeople/>
+  </company>
+  <company>
+    <id>http://dbpedia.org/resource/Westfield_Group+http://www.forbes.com/companies/westfield-group/</id>
+    <name provenance="http://dbpedia.org/resource/Westfield_Group">Westfield Group</name>
+    <country provenance="http://dbpedia.org/resource/Westfield_Group+http://www.forbes.com/companies/westfield-group/">Australia</country>
+    <city provenance="http://dbpedia.org/resource/Westfield_Group">Castlereagh Street, SydneySydney</city>
+    <industry provenance=""/>
+    <assets provenance="">3.12E10</assets>
+    <revenue provenance="http://dbpedia.org/resource/Westfield_Group">4.05</revenue>
+    <founded provenance="">1960-01-01T00:00:00.000+01:00</founded>
     <keypeople/>
   </company>
   <company>
@@ -4594,6 +4694,17 @@
     <keypeople/>
   </company>
   <company>
+    <id>fullcontact_96+http://www.forbes.com/companies/andritz/</id>
+    <name provenance="fullcontact_96">Andritz</name>
+    <country provenance="fullcontact_96+http://www.forbes.com/companies/andritz/">Austria</country>
+    <city provenance="fullcontact_96">Graz</city>
+    <industry provenance=""/>
+    <assets provenance="">7.7E9</assets>
+    <revenue provenance="http://www.forbes.com/companies/andritz/">7.6E9</revenue>
+    <founded provenance="">1852-01-01T00:00:00.000+00:53:28</founded>
+    <keypeople/>
+  </company>
+  <company>
     <id>fullcontact_702+http://www.forbes.com/companies/steinhoff-international/</id>
     <name provenance="http://www.forbes.com/companies/steinhoff-international/">Steinhoff International</name>
     <country provenance="fullcontact_702+http://www.forbes.com/companies/steinhoff-international/">South Africa</country>
@@ -4602,17 +4713,6 @@
     <assets provenance="">1.85E10</assets>
     <revenue provenance="http://www.forbes.com/companies/steinhoff-international/">1.3E10</revenue>
     <founded provenance="">1964-01-01T00:00:00.000+01:00</founded>
-    <keypeople/>
-  </company>
-  <company>
-    <id>fullcontact_96+http://www.forbes.com/companies/andritz/</id>
-    <name provenance="fullcontact_96">Andritz</name>
-    <country provenance="http://www.forbes.com/companies/andritz/+fullcontact_96">Austria</country>
-    <city provenance="fullcontact_96">Graz</city>
-    <industry provenance=""/>
-    <assets provenance="">7.7E9</assets>
-    <revenue provenance="http://www.forbes.com/companies/andritz/">7.6E9</revenue>
-    <founded provenance="">1852-01-01T00:00:00.000+00:53:28</founded>
     <keypeople/>
   </company>
   <company>
@@ -4628,7 +4728,7 @@
   <company>
     <id>fullcontact_833+fullcontact_847+http://www.forbes.com/companies/xerox/</id>
     <name provenance="http://www.forbes.com/companies/xerox/">Xerox</name>
-    <country provenance="fullcontact_847+fullcontact_833">United States</country>
+    <country provenance="fullcontact_833+fullcontact_847">United States</country>
     <city provenance="fullcontact_847">Norwalk</city>
     <industry provenance=""/>
     <assets provenance="">2.9E10</assets>
@@ -4693,7 +4793,7 @@
   <company>
     <id>fullcontact_401+fullcontact_865+http://www.forbes.com/companies/hugo-boss/</id>
     <name provenance="fullcontact_401">HUGO BOSS</name>
-    <country provenance="fullcontact_865+fullcontact_401">Germany</country>
+    <country provenance="fullcontact_401+fullcontact_865">Germany</country>
     <city provenance="fullcontact_401">Metzingen</city>
     <industry provenance=""/>
     <assets provenance="">2.1E9</assets>
@@ -4703,7 +4803,7 @@
   <company>
     <id>http://dbpedia.org/resource/Akbank+http://www.forbes.com/companies/akbank/</id>
     <name provenance="http://www.forbes.com/companies/akbank/">Akbank</name>
-    <country provenance="http://dbpedia.org/resource/Akbank+http://www.forbes.com/companies/akbank/">Turkey</country>
+    <country provenance="http://www.forbes.com/companies/akbank/+http://dbpedia.org/resource/Akbank">Turkey</country>
     <city provenance="http://dbpedia.org/resource/Akbank">Istanbul</city>
     <industry provenance=""/>
     <assets provenance="">9.04E10</assets>
@@ -4712,14 +4812,13 @@
     <keypeople/>
   </company>
   <company>
-    <id>fullcontact_447+fullcontact_917+http://www.forbes.com/companies/juniper-networks/</id>
-    <name provenance="fullcontact_917">Juniper Networks</name>
-    <country provenance="fullcontact_917+fullcontact_447">United States</country>
-    <city provenance="fullcontact_917">Sunnyvale</city>
+    <id>fullcontact_198+http://www.forbes.com/companies/cathay-pacific/</id>
+    <name provenance="fullcontact_198">Cathay Pacific Airways Ltd.</name>
+    <country provenance="fullcontact_198+http://www.forbes.com/companies/cathay-pacific/">Hong Kong</country>
+    <city provenance="fullcontact_198">Chek Lap Kok</city>
     <industry provenance=""/>
-    <assets provenance="">1.03E10</assets>
-    <revenue provenance="http://www.forbes.com/companies/juniper-networks/">4.7E9</revenue>
-    <founded provenance="">1996-01-01T00:00:00.000+01:00</founded>
+    <assets provenance="">2.21E10</assets>
+    <revenue provenance="http://www.forbes.com/companies/cathay-pacific/">1.3E10</revenue>
     <keypeople/>
   </company>
   <company>
@@ -4731,6 +4830,17 @@
     <assets provenance="">2.13E10</assets>
     <revenue provenance="http://www.forbes.com/companies/humana/">4.13E10</revenue>
     <founded provenance="">1961-01-01T00:00:00.000+01:00</founded>
+    <keypeople/>
+  </company>
+  <company>
+    <id>fullcontact_447+fullcontact_917+http://www.forbes.com/companies/juniper-networks/</id>
+    <name provenance="fullcontact_917">Juniper Networks</name>
+    <country provenance="fullcontact_447+fullcontact_917">United States</country>
+    <city provenance="fullcontact_917">Sunnyvale</city>
+    <industry provenance=""/>
+    <assets provenance="">1.03E10</assets>
+    <revenue provenance="http://www.forbes.com/companies/juniper-networks/">4.7E9</revenue>
+    <founded provenance="">1996-01-01T00:00:00.000+01:00</founded>
     <keypeople/>
   </company>
   <company>
@@ -4809,6 +4919,17 @@
     <keypeople/>
   </company>
   <company>
+    <id>fullcontact_1708+fullcontact_97+http://dbpedia.org/resource/Anglo_American_plc+http://www.forbes.com/companies/anglo-american/</id>
+    <name provenance="http://dbpedia.org/resource/Anglo_American_plc">Anglo American plc</name>
+    <country provenance="fullcontact_1708+http://dbpedia.org/resource/Anglo_American_plc+fullcontact_97">United Kingdom</country>
+    <city provenance="http://dbpedia.org/resource/Anglo_American_plc">London</city>
+    <industry provenance=""/>
+    <assets provenance="">7.12E10</assets>
+    <revenue provenance="http://dbpedia.org/resource/Anglo_American_plc">2.9342E10</revenue>
+    <founded provenance="">1999-01-01T00:00:00.000+01:00</founded>
+    <keypeople/>
+  </company>
+  <company>
     <id>http://dbpedia.org/resource/China_State_Construction_Engineering+http://www.forbes.com/companies/china-state-construction/</id>
     <name provenance="http://dbpedia.org/resource/China_State_Construction_Engineering">China State Construction Engineering</name>
     <country provenance="http://dbpedia.org/resource/China_State_Construction_Engineering+http://www.forbes.com/companies/china-state-construction/">China</country>
@@ -4817,17 +4938,6 @@
     <assets provenance="">1.234E11</assets>
     <revenue provenance="http://www.forbes.com/companies/china-state-construction/">8.81E10</revenue>
     <founded provenance="">1957-01-01T00:00:00.000+01:00</founded>
-    <keypeople/>
-  </company>
-  <company>
-    <id>fullcontact_1708+fullcontact_97+http://dbpedia.org/resource/Anglo_American_plc+http://www.forbes.com/companies/anglo-american/</id>
-    <name provenance="http://dbpedia.org/resource/Anglo_American_plc">Anglo American plc</name>
-    <country provenance="fullcontact_1708+fullcontact_97+http://dbpedia.org/resource/Anglo_American_plc">United Kingdom</country>
-    <city provenance="http://dbpedia.org/resource/Anglo_American_plc">London</city>
-    <industry provenance=""/>
-    <assets provenance="">7.12E10</assets>
-    <revenue provenance="http://dbpedia.org/resource/Anglo_American_plc">2.9342E10</revenue>
-    <founded provenance="">1999-01-01T00:00:00.000+01:00</founded>
     <keypeople/>
   </company>
   <company>
@@ -4952,7 +5062,7 @@
   <company>
     <id>fullcontact_116+http://www.forbes.com/companies/atlas-copco/</id>
     <name provenance="fullcontact_116">Atlas Copco</name>
-    <country provenance="fullcontact_116+http://www.forbes.com/companies/atlas-copco/">Sweden</country>
+    <country provenance="http://www.forbes.com/companies/atlas-copco/+fullcontact_116">Sweden</country>
     <city provenance="fullcontact_116">Stockholm</city>
     <industry provenance=""/>
     <assets provenance="">1.37E10</assets>
@@ -4963,7 +5073,7 @@
   <company>
     <id>http://dbpedia.org/resource/Coal_India+http://www.forbes.com/companies/coal-india/</id>
     <name provenance="http://dbpedia.org/resource/Coal_India">Coal India</name>
-    <country provenance="http://dbpedia.org/resource/Coal_India+http://www.forbes.com/companies/coal-india/">India</country>
+    <country provenance="http://www.forbes.com/companies/coal-india/+http://dbpedia.org/resource/Coal_India">India</country>
     <city provenance="http://dbpedia.org/resource/Coal_India">Kolkata</city>
     <industry provenance=""/>
     <assets provenance="">1.84E10</assets>
@@ -5004,6 +5114,16 @@
     <keypeople/>
   </company>
   <company>
+    <id>fullcontact_645+http://www.forbes.com/companies/sanofi/</id>
+    <name provenance="http://www.forbes.com/companies/sanofi/">Sanofi</name>
+    <country provenance="http://www.forbes.com/companies/sanofi/">France</country>
+    <city provenance=""/>
+    <industry provenance=""/>
+    <assets provenance="">1.324E11</assets>
+    <revenue provenance="http://www.forbes.com/companies/sanofi/">4.37E10</revenue>
+    <keypeople/>
+  </company>
+  <company>
     <id>fullcontact_761+http://www.forbes.com/companies/twitter/</id>
     <name provenance="http://www.forbes.com/companies/twitter/">Twitter</name>
     <country provenance="fullcontact_761">United States</country>
@@ -5012,16 +5132,6 @@
     <assets provenance="">3.4E9</assets>
     <revenue provenance="http://www.forbes.com/companies/twitter/">7.0E8</revenue>
     <founded provenance="">2005-01-01T00:00:00.000+01:00</founded>
-    <keypeople/>
-  </company>
-  <company>
-    <id>fullcontact_645+http://www.forbes.com/companies/sanofi/</id>
-    <name provenance="http://www.forbes.com/companies/sanofi/">Sanofi</name>
-    <country provenance="http://www.forbes.com/companies/sanofi/">France</country>
-    <city provenance=""/>
-    <industry provenance=""/>
-    <assets provenance="">1.324E11</assets>
-    <revenue provenance="http://www.forbes.com/companies/sanofi/">4.37E10</revenue>
     <keypeople/>
   </company>
   <company>
@@ -5036,17 +5146,6 @@
     <keypeople/>
   </company>
   <company>
-    <id>fullcontact_760+http://www.forbes.com/companies/turkish-airlines/</id>
-    <name provenance="fullcontact_760">Turkish Airlines</name>
-    <country provenance="fullcontact_760+http://www.forbes.com/companies/turkish-airlines/">Turkey</country>
-    <city provenance="fullcontact_760">Istanbul</city>
-    <industry provenance=""/>
-    <assets provenance="">1.18E10</assets>
-    <revenue provenance="http://www.forbes.com/companies/turkish-airlines/">9.9E9</revenue>
-    <founded provenance="">1933-01-01T00:00:00.000+01:00</founded>
-    <keypeople/>
-  </company>
-  <company>
     <id>fullcontact_644+http://www.forbes.com/companies/sanlam/</id>
     <name provenance="http://www.forbes.com/companies/sanlam/">Sanlam</name>
     <country provenance="http://www.forbes.com/companies/sanlam/+fullcontact_644">South Africa</country>
@@ -5058,6 +5157,17 @@
     <keypeople/>
   </company>
   <company>
+    <id>fullcontact_760+http://www.forbes.com/companies/turkish-airlines/</id>
+    <name provenance="fullcontact_760">Turkish Airlines</name>
+    <country provenance="fullcontact_760+http://www.forbes.com/companies/turkish-airlines/">Turkey</country>
+    <city provenance="fullcontact_760">Istanbul</city>
+    <industry provenance=""/>
+    <assets provenance="">1.18E10</assets>
+    <revenue provenance="http://www.forbes.com/companies/turkish-airlines/">9.9E9</revenue>
+    <founded provenance="">1933-01-01T00:00:00.000+01:00</founded>
+    <keypeople/>
+  </company>
+  <company>
     <id>fullcontact_342+http://www.forbes.com/companies/gazprom/</id>
     <name provenance="http://www.forbes.com/companies/gazprom/">Gazprom</name>
     <country provenance="http://www.forbes.com/companies/gazprom/">Russian Federation</country>
@@ -5066,6 +5176,17 @@
     <assets provenance="">3.972E11</assets>
     <revenue provenance="http://www.forbes.com/companies/gazprom/">1.646E11</revenue>
     <founded provenance="">1989-01-01T00:00:00.000+01:00</founded>
+    <keypeople/>
+  </company>
+  <company>
+    <id>fullcontact_1589+http://dbpedia.org/resource/Mitsubishi_UFJ_Financial_Group+http://www.forbes.com/companies/mitsubishi-ufj-financial/</id>
+    <name provenance="http://dbpedia.org/resource/Mitsubishi_UFJ_Financial_Group">Mitsubishi UFJ Financial Group</name>
+    <country provenance="http://www.forbes.com/companies/mitsubishi-ufj-financial/+http://dbpedia.org/resource/Mitsubishi_UFJ_Financial_Group">Japan</country>
+    <city provenance="http://dbpedia.org/resource/Mitsubishi_UFJ_Financial_Group">Chiyoda, Tokyo</city>
+    <industry provenance=""/>
+    <assets provenance="">2.4589E12</assets>
+    <revenue provenance="http://www.forbes.com/companies/mitsubishi-ufj-financial/">4.86E10</revenue>
+    <founded provenance="">2005-01-01T00:00:00.000+01:00</founded>
     <keypeople/>
   </company>
   <company>
@@ -5093,7 +5214,7 @@
   <company>
     <id>fullcontact_609+http://www.forbes.com/companies/publicis-groupe/</id>
     <name provenance="fullcontact_609">Publicis Groupe</name>
-    <country provenance="fullcontact_609+http://www.forbes.com/companies/publicis-groupe/">France</country>
+    <country provenance="http://www.forbes.com/companies/publicis-groupe/+fullcontact_609">France</country>
     <city provenance="fullcontact_609">Paris</city>
     <industry provenance=""/>
     <assets provenance="">2.36E10</assets>
@@ -5104,7 +5225,7 @@
   <company>
     <id>fullcontact_1342+http://dbpedia.org/resource/Lukoil+http://www.forbes.com/companies/lukoil/</id>
     <name provenance="fullcontact_1342">LUKOIL</name>
-    <country provenance="http://dbpedia.org/resource/Lukoil+fullcontact_1342">Russia</country>
+    <country provenance="fullcontact_1342+http://dbpedia.org/resource/Lukoil">Russia</country>
     <city provenance="fullcontact_1342">Moscow</city>
     <industry provenance=""/>
     <assets provenance="">1.094E11</assets>
@@ -5126,7 +5247,7 @@
   <company>
     <id>http://dbpedia.org/resource/Vivendi+http://www.forbes.com/companies/vivendi/</id>
     <name provenance="http://dbpedia.org/resource/Vivendi">Vivendi</name>
-    <country provenance="http://dbpedia.org/resource/Vivendi+http://www.forbes.com/companies/vivendi/">France</country>
+    <country provenance="http://www.forbes.com/companies/vivendi/+http://dbpedia.org/resource/Vivendi">France</country>
     <city provenance="http://dbpedia.org/resource/Vivendi">Paris</city>
     <industry provenance=""/>
     <assets provenance="">6.78E10</assets>
@@ -5158,7 +5279,7 @@
   <company>
     <id>fullcontact_638+http://www.forbes.com/companies/saint-gobain/</id>
     <name provenance="http://www.forbes.com/companies/saint-gobain/">Saint-Gobain</name>
-    <country provenance="http://www.forbes.com/companies/saint-gobain/+fullcontact_638">France</country>
+    <country provenance="fullcontact_638+http://www.forbes.com/companies/saint-gobain/">France</country>
     <city provenance="fullcontact_638">Courbevoie</city>
     <industry provenance=""/>
     <assets provenance="">6.3E10</assets>
@@ -5191,7 +5312,7 @@
   <company>
     <id>http://dbpedia.org/resource/Intact_Financial+http://www.forbes.com/companies/intact-financial/</id>
     <name provenance="http://www.forbes.com/companies/intact-financial/">Intact Financial</name>
-    <country provenance="http://www.forbes.com/companies/intact-financial/+http://dbpedia.org/resource/Intact_Financial">Canada</country>
+    <country provenance="http://dbpedia.org/resource/Intact_Financial+http://www.forbes.com/companies/intact-financial/">Canada</country>
     <city provenance="http://dbpedia.org/resource/Intact_Financial">Toronto</city>
     <industry provenance=""/>
     <assets provenance="">1.81E10</assets>
@@ -5219,6 +5340,16 @@
     <assets provenance="">1.186E11</assets>
     <revenue provenance="http://www.forbes.com/companies/china-pacific-insurance/">3.32E10</revenue>
     <founded provenance="">1991-01-01T00:00:00.000+01:00</founded>
+    <keypeople/>
+  </company>
+  <company>
+    <id>fullcontact_676+http://www.forbes.com/companies/simon-property-group/</id>
+    <name provenance="fullcontact_676">Simon Property Group, Inc.</name>
+    <country provenance="fullcontact_676">United States</country>
+    <city provenance="fullcontact_676">Indianapolis</city>
+    <industry provenance=""/>
+    <assets provenance="">3.33E10</assets>
+    <revenue provenance="http://www.forbes.com/companies/simon-property-group/">5.2E9</revenue>
     <keypeople/>
   </company>
   <company>
@@ -5277,7 +5408,7 @@
   <company>
     <id>fullcontact_80+http://dbpedia.org/resource/Alpha_Bank+http://www.forbes.com/companies/alpha-bank/</id>
     <name provenance="http://www.forbes.com/companies/alpha-bank/">Alpha Bank</name>
-    <country provenance="fullcontact_80+http://dbpedia.org/resource/Alpha_Bank+http://www.forbes.com/companies/alpha-bank/">Greece</country>
+    <country provenance="http://www.forbes.com/companies/alpha-bank/+http://dbpedia.org/resource/Alpha_Bank+fullcontact_80">Greece</country>
     <city provenance="fullcontact_80">ATHENS</city>
     <industry provenance=""/>
     <assets provenance="">9.93E10</assets>
@@ -5319,16 +5450,6 @@
     <keypeople/>
   </company>
   <company>
-    <id>fullcontact_457+http://www.forbes.com/companies/kinnevik/</id>
-    <name provenance="http://www.forbes.com/companies/kinnevik/">Kinnevik</name>
-    <country provenance="http://www.forbes.com/companies/kinnevik/">Sweden</country>
-    <city provenance=""/>
-    <industry provenance=""/>
-    <assets provenance="">1.05E10</assets>
-    <revenue provenance="http://www.forbes.com/companies/kinnevik/">2.0E8</revenue>
-    <keypeople/>
-  </company>
-  <company>
     <id>fullcontact_295+http://www.forbes.com/companies/entergy/</id>
     <name provenance="http://www.forbes.com/companies/entergy/">Entergy</name>
     <country provenance="fullcontact_295">United States</country>
@@ -5340,9 +5461,19 @@
     <keypeople/>
   </company>
   <company>
+    <id>fullcontact_457+http://www.forbes.com/companies/kinnevik/</id>
+    <name provenance="http://www.forbes.com/companies/kinnevik/">Kinnevik</name>
+    <country provenance="http://www.forbes.com/companies/kinnevik/">Sweden</country>
+    <city provenance=""/>
+    <industry provenance=""/>
+    <assets provenance="">1.05E10</assets>
+    <revenue provenance="http://www.forbes.com/companies/kinnevik/">2.0E8</revenue>
+    <keypeople/>
+  </company>
+  <company>
     <id>http://dbpedia.org/resource/Meiji_Holdings+http://www.forbes.com/companies/meiji-holdings/</id>
     <name provenance="http://www.forbes.com/companies/meiji-holdings/">Meiji Holdings</name>
-    <country provenance="http://www.forbes.com/companies/meiji-holdings/+http://dbpedia.org/resource/Meiji_Holdings">Japan</country>
+    <country provenance="http://dbpedia.org/resource/Meiji_Holdings+http://www.forbes.com/companies/meiji-holdings/">Japan</country>
     <city provenance="http://dbpedia.org/resource/Meiji_Holdings">Chū�?, Tokyo</city>
     <industry provenance=""/>
     <assets provenance="">7.8E9</assets>
@@ -5353,7 +5484,7 @@
   <company>
     <id>http://dbpedia.org/resource/Hebei_Iron_and_Steel+http://www.forbes.com/companies/hebei-iron-steel/</id>
     <name provenance="http://dbpedia.org/resource/Hebei_Iron_and_Steel">Hebei Iron and Steel</name>
-    <country provenance="http://dbpedia.org/resource/Hebei_Iron_and_Steel+http://www.forbes.com/companies/hebei-iron-steel/">China</country>
+    <country provenance="http://www.forbes.com/companies/hebei-iron-steel/+http://dbpedia.org/resource/Hebei_Iron_and_Steel">China</country>
     <city provenance="http://dbpedia.org/resource/Hebei_Iron_and_Steel">HebeiShijiazhuang</city>
     <industry provenance=""/>
     <assets provenance="">2.61E10</assets>
@@ -5372,16 +5503,6 @@
     <keypeople/>
   </company>
   <company>
-    <id>fullcontact_221+http://www.forbes.com/companies/cnp-assurances/</id>
-    <name provenance="http://www.forbes.com/companies/cnp-assurances/">CNP Assurances</name>
-    <country provenance="http://www.forbes.com/companies/cnp-assurances/+fullcontact_221">France</country>
-    <city provenance="fullcontact_221">Paris</city>
-    <industry provenance=""/>
-    <assets provenance="">4.551E11</assets>
-    <revenue provenance="http://www.forbes.com/companies/cnp-assurances/">3.62E10</revenue>
-    <keypeople/>
-  </company>
-  <company>
     <id>fullcontact_125+http://www.forbes.com/companies/avnet/</id>
     <name provenance="http://www.forbes.com/companies/avnet/">Avnet</name>
     <country provenance="fullcontact_125">United States</country>
@@ -5393,9 +5514,19 @@
     <keypeople/>
   </company>
   <company>
+    <id>fullcontact_221+http://www.forbes.com/companies/cnp-assurances/</id>
+    <name provenance="http://www.forbes.com/companies/cnp-assurances/">CNP Assurances</name>
+    <country provenance="http://www.forbes.com/companies/cnp-assurances/+fullcontact_221">France</country>
+    <city provenance="fullcontact_221">Paris</city>
+    <industry provenance=""/>
+    <assets provenance="">4.551E11</assets>
+    <revenue provenance="http://www.forbes.com/companies/cnp-assurances/">3.62E10</revenue>
+    <keypeople/>
+  </company>
+  <company>
     <id>fullcontact_251+http://www.forbes.com/companies/dassault-aviation/</id>
     <name provenance="fullcontact_251">Dassault Aviation</name>
-    <country provenance="fullcontact_251+http://www.forbes.com/companies/dassault-aviation/">France</country>
+    <country provenance="http://www.forbes.com/companies/dassault-aviation/+fullcontact_251">France</country>
     <city provenance="fullcontact_251">Saint-cloud</city>
     <industry provenance=""/>
     <assets provenance="">1.39E10</assets>
@@ -5405,7 +5536,7 @@
   <company>
     <id>fullcontact_224+http://dbpedia.org/resource/Coloplast+http://www.forbes.com/companies/coloplast/</id>
     <name provenance="fullcontact_224">Coloplast</name>
-    <country provenance="http://dbpedia.org/resource/Coloplast+http://www.forbes.com/companies/coloplast/+fullcontact_224">Denmark</country>
+    <country provenance="fullcontact_224+http://dbpedia.org/resource/Coloplast+http://www.forbes.com/companies/coloplast/">Denmark</country>
     <city provenance="fullcontact_224">Humlebæk</city>
     <industry provenance=""/>
     <assets provenance="">9.218E9</assets>
@@ -5480,7 +5611,7 @@
   <company>
     <id>http://dbpedia.org/resource/Alinma_Bank+http://www.forbes.com/companies/alinma-bank/</id>
     <name provenance="http://www.forbes.com/companies/alinma-bank/">Alinma Bank</name>
-    <country provenance="http://dbpedia.org/resource/Alinma_Bank+http://www.forbes.com/companies/alinma-bank/">Saudi Arabia</country>
+    <country provenance="http://www.forbes.com/companies/alinma-bank/+http://dbpedia.org/resource/Alinma_Bank">Saudi Arabia</country>
     <city provenance="http://dbpedia.org/resource/Alinma_Bank">Riyadh</city>
     <industry provenance=""/>
     <assets provenance="">1.68E10</assets>
@@ -5502,7 +5633,7 @@
   <company>
     <id>fullcontact_117+fullcontact_1625+http://www.forbes.com/companies/att/</id>
     <name provenance="http://www.forbes.com/companies/att/">AT&amp;T</name>
-    <country provenance="fullcontact_117+fullcontact_1625">United States</country>
+    <country provenance="fullcontact_1625+fullcontact_117">United States</country>
     <city provenance="fullcontact_1625">Dallas</city>
     <industry provenance=""/>
     <assets provenance="">2.778E11</assets>
@@ -5523,7 +5654,7 @@
   <company>
     <id>http://dbpedia.org/resource/CGI_Group+http://www.forbes.com/companies/cgi-group/</id>
     <name provenance="http://dbpedia.org/resource/CGI_Group">CGI Group</name>
-    <country provenance="http://dbpedia.org/resource/CGI_Group+http://www.forbes.com/companies/cgi-group/">Canada</country>
+    <country provenance="http://www.forbes.com/companies/cgi-group/+http://dbpedia.org/resource/CGI_Group">Canada</country>
     <city provenance="http://dbpedia.org/resource/CGI_Group">E-Commerce PlaceQuebecMontreal</city>
     <industry provenance=""/>
     <assets provenance="">1.35E10</assets>
@@ -5534,12 +5665,23 @@
   <company>
     <id>fullcontact_218+http://dbpedia.org/resource/Clariant+http://www.forbes.com/companies/clariant/</id>
     <name provenance="http://www.forbes.com/companies/clariant/">Clariant</name>
-    <country provenance="fullcontact_218+http://dbpedia.org/resource/Clariant+http://www.forbes.com/companies/clariant/">Switzerland</country>
+    <country provenance="http://dbpedia.org/resource/Clariant+http://www.forbes.com/companies/clariant/+fullcontact_218">Switzerland</country>
     <city provenance="http://dbpedia.org/resource/Clariant">Muttenz</city>
     <industry provenance=""/>
     <assets provenance="">9.2E9</assets>
     <revenue provenance="http://www.forbes.com/companies/clariant/">6.6E9</revenue>
     <founded provenance="">1995-01-01T00:00:00.000+01:00</founded>
+    <keypeople/>
+  </company>
+  <company>
+    <id>fullcontact_779+http://www.forbes.com/companies/united-parcel-service/</id>
+    <name provenance="fullcontact_779">United Parcel Service, Inc.</name>
+    <country provenance="fullcontact_779">United States</country>
+    <city provenance="fullcontact_779">Atlanta</city>
+    <industry provenance=""/>
+    <assets provenance="">3.62E10</assets>
+    <revenue provenance="http://www.forbes.com/companies/united-parcel-service/">5.55E10</revenue>
+    <founded provenance="">1907-01-01T00:00:00.000+01:00</founded>
     <keypeople/>
   </company>
   <company>
@@ -5588,7 +5730,7 @@
   <company>
     <id>fullcontact_364+http://www.forbes.com/companies/grupo-aval/</id>
     <name provenance="fullcontact_364">Grupo Aval</name>
-    <country provenance="fullcontact_364+http://www.forbes.com/companies/grupo-aval/">Colombia</country>
+    <country provenance="http://www.forbes.com/companies/grupo-aval/+fullcontact_364">Colombia</country>
     <city provenance="fullcontact_364">null</city>
     <industry provenance=""/>
     <assets provenance="">7.2E10</assets>
@@ -5620,7 +5762,7 @@
   <company>
     <id>fullcontact_631+http://dbpedia.org/resource/Rosneft+http://www.forbes.com/companies/rosneft/</id>
     <name provenance="fullcontact_631">Rosneft</name>
-    <country provenance="http://dbpedia.org/resource/Rosneft+fullcontact_631">Russia</country>
+    <country provenance="fullcontact_631+http://dbpedia.org/resource/Rosneft">Russia</country>
     <city provenance="fullcontact_631">null</city>
     <industry provenance=""/>
     <assets provenance="">2.294E11</assets>
@@ -5674,7 +5816,7 @@
   <company>
     <id>http://dbpedia.org/resource/Siam_Commercial_Bank+http://www.forbes.com/companies/siam-commercial-bank/</id>
     <name provenance="http://www.forbes.com/companies/siam-commercial-bank/">Siam Commercial Bank</name>
-    <country provenance="http://www.forbes.com/companies/siam-commercial-bank/+http://dbpedia.org/resource/Siam_Commercial_Bank">Thailand</country>
+    <country provenance="http://dbpedia.org/resource/Siam_Commercial_Bank+http://www.forbes.com/companies/siam-commercial-bank/">Thailand</country>
     <city provenance="http://dbpedia.org/resource/Siam_Commercial_Bank">Bangkok</city>
     <industry provenance=""/>
     <assets provenance="">7.71E10</assets>
@@ -5718,7 +5860,7 @@
   <company>
     <id>fullcontact_81+http://www.forbes.com/companies/alstom/</id>
     <name provenance="fullcontact_81">Alstom</name>
-    <country provenance="http://www.forbes.com/companies/alstom/+fullcontact_81">France</country>
+    <country provenance="fullcontact_81+http://www.forbes.com/companies/alstom/">France</country>
     <city provenance="fullcontact_81">Saint-Ouen</city>
     <industry provenance=""/>
     <assets provenance="">4.12E10</assets>
@@ -5727,9 +5869,19 @@
     <keypeople/>
   </company>
   <company>
+    <id>fullcontact_157+http://www.forbes.com/companies/bristol-myers-squibb/</id>
+    <name provenance="fullcontact_157">Bristol-Myers Squibb Company</name>
+    <country provenance="fullcontact_157">United States</country>
+    <city provenance="fullcontact_157">New York</city>
+    <industry provenance=""/>
+    <assets provenance="">3.86E10</assets>
+    <revenue provenance="http://www.forbes.com/companies/bristol-myers-squibb/">1.64E10</revenue>
+    <keypeople/>
+  </company>
+  <company>
     <id>fullcontact_495+http://www.forbes.com/companies/maybank/</id>
     <name provenance="fullcontact_495">Maybank</name>
-    <country provenance="fullcontact_495+http://www.forbes.com/companies/maybank/">Malaysia</country>
+    <country provenance="http://www.forbes.com/companies/maybank/+fullcontact_495">Malaysia</country>
     <city provenance="fullcontact_495">Kuala Lumpur</city>
     <industry provenance=""/>
     <assets provenance="">1.711E11</assets>
@@ -5750,12 +5902,22 @@
   <company>
     <id>http://dbpedia.org/resource/Bank_of_Ningbo+http://www.forbes.com/companies/bank-of-ningbo/</id>
     <name provenance="http://www.forbes.com/companies/bank-of-ningbo/">Bank of Ningbo</name>
-    <country provenance="http://dbpedia.org/resource/Bank_of_Ningbo+http://www.forbes.com/companies/bank-of-ningbo/">China</country>
+    <country provenance="http://www.forbes.com/companies/bank-of-ningbo/+http://dbpedia.org/resource/Bank_of_Ningbo">China</country>
     <city provenance="http://dbpedia.org/resource/Bank_of_Ningbo">ZhejiangNingbo</city>
     <industry provenance=""/>
     <assets provenance="">7.39E10</assets>
     <revenue provenance="http://www.forbes.com/companies/bank-of-ningbo/">3.9E9</revenue>
     <founded provenance="">1997-01-01T00:00:00.000+01:00</founded>
+    <keypeople/>
+  </company>
+  <company>
+    <id>fullcontact_92+http://www.forbes.com/companies/affiliated-managers-group/</id>
+    <name provenance="fullcontact_92">Affiliated Managers Group, Inc.</name>
+    <country provenance="fullcontact_92">United States</country>
+    <city provenance="fullcontact_92">Las Vegas</city>
+    <industry provenance=""/>
+    <assets provenance="">6.3E9</assets>
+    <revenue provenance="http://www.forbes.com/companies/affiliated-managers-group/">2.2E9</revenue>
     <keypeople/>
   </company>
   <company>
@@ -5772,7 +5934,7 @@
   <company>
     <id>fullcontact_327+http://dbpedia.org/resource/Fortum+http://www.forbes.com/companies/fortum/</id>
     <name provenance="http://dbpedia.org/resource/Fortum">Fortum</name>
-    <country provenance="http://www.forbes.com/companies/fortum/+fullcontact_327+http://dbpedia.org/resource/Fortum">Finland</country>
+    <country provenance="http://www.forbes.com/companies/fortum/+http://dbpedia.org/resource/Fortum+fullcontact_327">Finland</country>
     <city provenance="http://dbpedia.org/resource/Fortum">Espoo</city>
     <industry provenance=""/>
     <assets provenance="">3.36E10</assets>
@@ -5799,17 +5961,6 @@
     <industry provenance=""/>
     <assets provenance="">8.4E10</assets>
     <revenue provenance="http://www.forbes.com/companies/bank-of-india/">6.6E9</revenue>
-    <keypeople/>
-  </company>
-  <company>
-    <id>http://dbpedia.org/resource/Mitsubishi_UFJ_Financial_Group+http://www.forbes.com/companies/mitsubishi-ufj-financial/</id>
-    <name provenance="http://dbpedia.org/resource/Mitsubishi_UFJ_Financial_Group">Mitsubishi UFJ Financial Group</name>
-    <country provenance="http://www.forbes.com/companies/mitsubishi-ufj-financial/+http://dbpedia.org/resource/Mitsubishi_UFJ_Financial_Group">Japan</country>
-    <city provenance="http://dbpedia.org/resource/Mitsubishi_UFJ_Financial_Group">Chiyoda, Tokyo</city>
-    <industry provenance=""/>
-    <assets provenance="">2.4589E12</assets>
-    <revenue provenance="http://www.forbes.com/companies/mitsubishi-ufj-financial/">4.86E10</revenue>
-    <founded provenance="">2005-01-01T00:00:00.000+01:00</founded>
     <keypeople/>
   </company>
   <company>

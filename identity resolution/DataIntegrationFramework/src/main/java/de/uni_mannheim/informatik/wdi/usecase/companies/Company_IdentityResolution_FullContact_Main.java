@@ -22,6 +22,7 @@ import de.uni_mannheim.informatik.wdi.identityresolution.LinearCombinationMatchi
 import de.uni_mannheim.informatik.wdi.identityresolution.MatchingEngine;
 import de.uni_mannheim.informatik.wdi.identityresolution.MatchingEvaluator;
 import de.uni_mannheim.informatik.wdi.identityresolution.blocking.Blocker;
+import de.uni_mannheim.informatik.wdi.identityresolution.blocking.BlockingKeyGenerator;
 import de.uni_mannheim.informatik.wdi.identityresolution.blocking.NoBlocker;
 import de.uni_mannheim.informatik.wdi.identityresolution.blocking.SortedNeighbourhoodBlocker;
 import de.uni_mannheim.informatik.wdi.model.DataSet;
@@ -60,7 +61,9 @@ public class Company_IdentityResolution_FullContact_Main {
 		LinearCombinationMatchingRule<Company> matchingRule = new LinearCombinationMatchingRule<Company>(0.75);
 		matchingRule.addComparator(new CompanyNameComparatorJaccard(), 1.0);
 
-		Blocker<Company> blocker = new NoBlocker<Company>();
+		BlockingKeyGenerator<Company> blockingKeyGenerator = new CompanyBlockingKeyByFirstCharGenerator();
+
+		Blocker<Company> blocker = new SortedNeighbourhoodBlocker<>(blockingKeyGenerator, 1000);
 
 		// Initialize Matching Engine
 		MatchingEngine<Company> engine = new MatchingEngine<Company>(matchingRule, blocker);
