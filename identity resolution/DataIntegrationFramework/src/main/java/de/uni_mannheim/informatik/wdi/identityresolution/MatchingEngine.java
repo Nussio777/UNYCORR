@@ -218,15 +218,16 @@ public class MatchingEngine<RecordType extends Matchable> {
 			RecordType record2 = dataset2.getRecord(correspondence.getSecond());
 
 			// we don't know which id is from which data set
-			if (record1 == null && record2 == null) {
+			if (record1 == null || record2 == null) {
 				// so if we didn't find anything, we probably had it wrong ...
 				record1 = dataset2.getRecord(correspondence.getFirst());
 				record2 = dataset1.getRecord(correspondence.getSecond());
-			}
+			} else {
 
-			DefaultRecord features = rule.generateFeatures(record1, record2);
-			features.setValue("label", "1");
-			result.addRecord(features);
+				DefaultRecord features = rule.generateFeatures(record1, record2);
+				features.setValue("label", "1");
+				result.addRecord(features);
+			}
 
 			// increment and report status
 			progress.incrementProgress();
@@ -239,15 +240,16 @@ public class MatchingEngine<RecordType extends Matchable> {
 			RecordType record2 = dataset2.getRecord(correspondence.getSecond());
 
 			// we don't know which id is from which data set
-			if (record1 == null && record2 == null) {
+			if (record1 == null || record2 == null) {
 				// so if we didn't find anything, we probably had it wrong ...
 				record1 = dataset2.getRecord(correspondence.getFirst());
 				record2 = dataset1.getRecord(correspondence.getSecond());
-			}
+			} else {
 
-			DefaultRecord features = rule.generateFeatures(record1, record2);
-			features.setValue("label", "0");
-			result.addRecord(features);
+				DefaultRecord features = rule.generateFeatures(record1, record2);
+				features.setValue("label", "0");
+				result.addRecord(features);
+			}
 
 			// increment and report status
 			progress.incrementProgress();
