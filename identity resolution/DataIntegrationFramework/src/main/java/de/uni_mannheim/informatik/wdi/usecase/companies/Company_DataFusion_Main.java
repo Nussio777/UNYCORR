@@ -89,7 +89,7 @@ public class Company_DataFusion_Main {
                                */
 		strategy.addAttributeFuser("founded", new FoundedFuserNewest(), new FoundedEvaluationRule());
 		strategy.addAttributeFuser("country", new CountryFuserVoting(), new CountryEvaluationRule());
-		strategy.addAttributeFuser("city", new CityFuserVoting(), new CityEvaluationRule());
+		strategy.addAttributeFuser("city", new CityFuserShortestString(), new CityEvaluationRule());
 		// create the fusion engine
 
 		// create the fusion engine
